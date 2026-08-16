@@ -1,0 +1,903 @@
+{
+  "SourceStationID": "7",
+  "DestinationStationID": "14",
+  "Route": "Bangalore-COIMBATORE",
+  "JourneyDate": "2026-08-22",
+  "ServiceID": "912",
+  "SeatLayoutID": "Electric Bus-AC seater45(2+2)",
+  "upperTotalRows": "0",
+  "upperTotalColumns": "0",
+  "lowerTotalRows": "5",
+  "lowerTotalColumns": "11",
+  "lowerDividerRow": "3",
+  "upperDividerRow": "",
+  "maxNumberOfSeats": 6,
+  "tentativeSeats": "~~~~5^P^^0^op",
+  "TotalSeatList": {
+    "lowerdeck_seat_nos": [
+      "1, 1, 1, SS, Y, M, 839, 0, 41.95, 0.00, 0, 0,h,839",
+      "8, 1, 2, SS, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "9, 1, 3, SS, Y, M, 959, 0, 47.95, 0.00, 0, 0,h,959",
+      "16, 1, 4, SS, Y, M, 959, 0, 47.95, 0.00, 0, 0,h,959",
+      "17, 1, 5, SS, Y, M, 959, 0, 47.95, 0.00, 0, 0,h,959",
+      "24, 1, 6, SS, Y, M, 959, 0, 47.95, 0.00, 0, 0,h,959",
+      "25, 1, 7, SS, Y, M, 959, 0, 47.95, 0.00, 0, 0,h,959",
+      "32, 1, 8, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "33, 1, 9, SS, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "40, 1, 10, SS, N, M, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "41, 1, 11, SS, Y, M, 839, 0, 41.95, 0.00, 0, 0,h,839",
+      "2, 2, 1, SS, N, M, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "7, 2, 2, SS, Y, F, 719, 0, 35.95, 0.00, 0, 0,h,719",
+      "10, 2, 3, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "15, 2, 4, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "18, 2, 5, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "23, 2, 6, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "26, 2, 7, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "31, 2, 8, SS, Y, M, 839, 0, 41.95, 0.00, 0, 0,h,839",
+      "34, 2, 9, SS, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "39, 2, 10, SS, Y, M, 799, 0, 39.95, 0.00, 0, 0,h,799",
+      "42, 2, 11, SS, Y, M, 799, 0, 39.95, 0.00, 0, 0,h,799",
+      "43, 3, 11, SS, Y, M, 799, 0, 39.95, 0.00, 0, 0,h,799",
+      "3, 4, 1, SS, Y, M, 839, 0, 41.95, 0.00, 0, 0,h,839",
+      "6, 4, 2, SS, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "11, 4, 3, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "14, 4, 4, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "19, 4, 5, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "22, 4, 6, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "27, 4, 7, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "30, 4, 8, SS, Y, M, 839, 0, 41.95, 0.00, 0, 0,h,839",
+      "35, 4, 9, SS, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "38, 4, 10, SS, Y, M, 799, 0, 39.95, 0.00, 0, 0,h,799",
+      "44, 4, 11, SS, Y, M, 799, 0, 39.95, 0.00, 0, 0,h,799",
+      "4, 5, 1, SS, Y, M, 839, 0, 41.95, 0.00, 0, 0,h,839",
+      "5, 5, 2, SS, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "12, 5, 3, SS, Y, M, 959, 0, 47.95, 0.00, 0, 0,h,959",
+      "13, 5, 4, SS, N, M, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "20, 5, 5, SS, Y, M, 959, 0, 47.95, 0.00, 0, 0,h,959",
+      "21, 5, 6, SS, Y, M, 959, 0, 47.95, 0.00, 0, 0,h,959",
+      "28, 5, 7, SS, Y, M, 959, 0, 47.95, 0.00, 0, 0,h,959",
+      "29, 5, 8, SS, Y, M, 879, 0, 43.95, 0.00, 0, 0,h,879",
+      "36, 5, 9, SS, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "37, 5, 10, SS, Y, M, 839, 0, 41.95, 0.00, 0, 0,h,839",
+      "45, 5, 11, SS, Y, M, 839, 0, 41.95, 0.00, 0, 0,h,839"
+    ],
+    "upperdeck_seat_nos": []
+  },
+  "seatLayoutUniqueId": "~~~~5^P^^0^op^ASSURED",
+  "isAcSeat": null,
+  "titles": [
+    "Seat Number",
+    "Row ID",
+    "Column ID",
+    "Seat Type",
+    "Availability",
+    "Is Ladies Seat",
+    "Seat Fare",
+    "Seat ID",
+    "GST Amount",
+    "Service Charge",
+    "Toll Fee",
+    "Service Fee",
+    "Child Fare",
+    "Child Service Fee Percentage",
+    "seat_flip",
+    "price_filter"
+  ],
+  "seatLayoutMessage": "",
+  "boardingPoints": [
+    {
+      "placeName": "Peenya Industry Metro Station",
+      "placeTime": "05:15 AM",
+      "placeId": "2655",
+      "landMark": "Pillar No 431, Peenya Industry Metro Station-7075511729",
+      "placeTimeTwfFormat": "05:15",
+      "dt": "2026-08-22 05:15",
+      "latlong": "13.035961, 77.52617"
+    },
+    {
+      "placeName": "Peenya Metro Station",
+      "placeTime": "05:20 AM",
+      "placeId": "2656",
+      "landMark": "Pillar No 404, Peenya Metro Station-7075511729",
+      "placeTimeTwfFormat": "05:20",
+      "dt": "2026-08-22 05:20",
+      "latlong": "13.033254, 77.53268"
+    },
+    {
+      "placeName": "Goraguntepalya Metro Station",
+      "placeTime": "05:25 AM",
+      "placeId": "2657",
+      "landMark": "Pillar No 373, Goraguntepalya Metro Station-7075511729",
+      "placeTimeTwfFormat": "05:25",
+      "dt": "2026-08-22 05:25",
+      "latlong": "13.02812, 77.54162"
+    },
+    {
+      "placeName": "Yeshwawnthpur Metro Station",
+      "placeTime": "05:30 AM",
+      "placeId": "2658",
+      "landMark": "PIllar No 337, Yeswawntapura Metro Station-7075511729",
+      "placeTimeTwfFormat": "05:30",
+      "dt": "2026-08-22 05:30",
+      "latlong": "13.02289, 77.5507"
+    },
+    {
+      "placeName": "Rajaji Nagar Metro Station",
+      "placeTime": "05:35 AM",
+      "placeId": "2659",
+      "landMark": "Pillar No 243, Rajaji Nagar Metro Station-7075511729",
+      "placeTimeTwfFormat": "05:35",
+      "dt": "2026-08-22 05:35",
+      "latlong": "12.9995, 77.54997"
+    },
+    {
+      "placeName": "Anand Rao Circle",
+      "placeTime": "05:50 AM",
+      "placeId": "28",
+      "landMark": "SRE Travels (Kalpana Tourist)-7075511729",
+      "placeTimeTwfFormat": "05:50",
+      "dt": "2026-08-22 05:50",
+      "latlong": "12.98016, 77.57502"
+    },
+    {
+      "placeName": "Majestic Bus Station",
+      "placeTime": "06:00 AM",
+      "placeId": "59",
+      "landMark": "Sri Krishna Tours & Travels,19 Hotel Mayura Cmplx, Tank Bund Rd, Subash Nagar, Opp Majestic Bus Stand-7075511729",
+      "placeTimeTwfFormat": "06:00",
+      "dt": "2026-08-22 06:00",
+      "latlong": "12.97633, 77.57499"
+    },
+    {
+      "placeName": "Shanthi Nagar(C)",
+      "placeTime": "06:20 AM",
+      "placeId": "1408",
+      "landMark": "Infront of SRS Logistics-7075511729",
+      "placeTimeTwfFormat": "06:20",
+      "dt": "2026-08-22 06:20",
+      "latlong": "12.953287, 77.592994"
+    },
+    {
+      "placeName": "St.Johns Hospital",
+      "placeTime": "06:30 AM",
+      "placeId": "768",
+      "landMark": "Infront of HP Petroleum Pump-7075511729",
+      "placeTimeTwfFormat": "06:30",
+      "dt": "2026-08-22 06:30",
+      "latlong": "12.930013, 77.614929"
+    },
+    {
+      "placeName": "Madiwala",
+      "placeTime": "06:50 AM",
+      "placeId": "769",
+      "landMark": "Near Happiest Mind Technologies-7075511729",
+      "placeTimeTwfFormat": "06:50",
+      "dt": "2026-08-22 06:50",
+      "latlong": "12.920413, 77.620846"
+    },
+    {
+      "placeName": "Silk Board (Flyover End)",
+      "placeTime": "06:55 AM",
+      "placeId": "770",
+      "landMark": "Flyover End, opp to Metro Station-7075511729",
+      "placeTimeTwfFormat": "06:55",
+      "dt": "2026-08-22 06:55",
+      "latlong": "12.912719, 77.625612"
+    },
+    {
+      "placeName": "Electronic City",
+      "placeTime": "07:05 AM",
+      "placeId": "771",
+      "landMark": "Toll Gate Bus Stand-7075511729",
+      "placeTimeTwfFormat": "07:05",
+      "dt": "2026-08-22 07:05",
+      "latlong": "12.841437, 77.675899"
+    },
+    {
+      "placeName": "Bommasandra",
+      "placeTime": "07:20 AM",
+      "placeId": "772",
+      "landMark": "Opp Party Mall Building, Near Indian Oil Petroleum Pump-7075511729",
+      "placeTimeTwfFormat": "07:20",
+      "dt": "2026-08-22 07:20",
+      "latlong": "12.807855, 77.698125"
+    },
+    {
+      "placeName": "Attibele Toll Plaza",
+      "placeTime": "07:50 AM",
+      "placeId": "773",
+      "landMark": "Near Toll Gate-7075511729",
+      "placeTimeTwfFormat": "07:50",
+      "dt": "2026-08-22 07:50",
+      "latlong": "12.77694, 77.777342"
+    }
+  ],
+  "minAge": "12",
+  "insuranceText": "Insure Your Trips at just",
+  "api": "2291",
+  "gblTravelPartnerKey": "7",
+  "amenities": [
+    {
+      "title": "AC",
+      "aminity_id": "4",
+      "seqNo": 7,
+      "load_from_server": 0,
+      "image": "https://static.abhibus.com/img/app/AC.png"
+    },
+    {
+      "title": "Charging Point",
+      "aminity_id": "6",
+      "seqNo": 8,
+      "load_from_server": 0,
+      "image": "https://static.abhibus.com/img/app/Charging_Point.png"
+    },
+    {
+      "title": "Water Bottle",
+      "aminity_id": "1",
+      "seqNo": 11,
+      "load_from_server": 0,
+      "image": "https://static.abhibus.com/img/app/Water_Bottle.png"
+    },
+    {
+      "title": "CCTV",
+      "aminity_id": "7",
+      "seqNo": 12,
+      "load_from_server": 0,
+      "image": "https://static.abhibus.com/img/app/CCTV.png"
+    },
+    {
+      "title": "Snacks",
+      "aminity_id": "5",
+      "seqNo": 13,
+      "load_from_server": 0,
+      "image": "https://static.abhibus.com/img/app/Snacks.png"
+    },
+    {
+      "title": "Emergency Exit",
+      "aminity_id": "8",
+      "seqNo": 14,
+      "load_from_server": 0,
+      "image": "https://static.abhibus.com/img/app/Emergency_Exit.png"
+    },
+    {
+      "title": "Reading Light",
+      "aminity_id": "14",
+      "seqNo": 15,
+      "load_from_server": 0,
+      "image": "https://static.abhibus.com/img/app/Reading_Light.png"
+    },
+    {
+      "title": "First Aid Box",
+      "aminity_id": "16",
+      "seqNo": 16,
+      "load_from_server": 0,
+      "image": "https://static.abhibus.com/img/app/First_Aid_Box.png"
+    },
+    {
+      "title": "Hammer",
+      "aminity_id": "10",
+      "seqNo": 19,
+      "load_from_server": 0,
+      "image": "https://static.abhibus.com/img/app/Hammer.png"
+    },
+    {
+      "title": "Fire Extinguisher",
+      "aminity_id": "13",
+      "seqNo": 22,
+      "load_from_server": 0,
+      "image": "https://static.abhibus.com/img/app/Fire_Extinguisher.png"
+    },
+    {
+      "title": "GPS Tracking",
+      "aminity_id": "15",
+      "seqNo": 23,
+      "load_from_server": 0,
+      "image": "https://static.abhibus.com/img/app/GPS_Tracking.png"
+    }
+  ],
+  "busStartDate": "1~&~0=+43.95& +879.00=+43.95& +839.00=+41.95& +959.00=+47.95& +799.00=+39.95& +719.00=+35.95",
+  "faresList": [
+    "719",
+    "799",
+    "839",
+    "879",
+    "959"
+  ],
+  "serviceNo": "BNG-CBE-AC-SE-0515",
+  "isToShowSeatTypes": "1",
+  "droppingPoints": [
+    {
+      "placeName": "Karumathampatti",
+      "placeTime": "02:05 PM",
+      "placeId": "1925",
+      "placeTimeTwfFormat": "14:05",
+      "dt": "2026-08-22 14:05",
+      "landMark": "After Kaniyur Toll Plaza-7075511729",
+      "latlong": "11.0948, 77.1511"
+    },
+    {
+      "placeName": "Sitra",
+      "placeTime": "02:25 PM",
+      "placeId": "1926",
+      "placeTimeTwfFormat": "14:25",
+      "dt": "2026-08-22 14:25",
+      "landMark": "Beside Sitra Bus Stop-7075511729",
+      "latlong": "11.0377, 77.0373"
+    },
+    {
+      "placeName": "Hopes",
+      "placeTime": "02:30 PM",
+      "placeId": "1927",
+      "placeTimeTwfFormat": "14:30",
+      "dt": "2026-08-22 14:30",
+      "landMark": "Hopes College Bus Stop, After Railway Bridge-7075511729",
+      "latlong": "11.026, 77.019"
+    },
+    {
+      "placeName": "Peelamedu",
+      "placeTime": "02:40 PM",
+      "placeId": "1928",
+      "placeTimeTwfFormat": "14:40",
+      "dt": "2026-08-22 14:40",
+      "landMark": "Near PSG Tech Bus Stop, Before PSG Tech Bridge (Towards Gandhipuram)-7075511729",
+      "latlong": "11.0237, 77.0035"
+    },
+    {
+      "placeName": "Lakshmi Mill",
+      "placeTime": "02:50 PM",
+      "placeId": "1929",
+      "placeTimeTwfFormat": "14:50",
+      "dt": "2026-08-22 14:50",
+      "landMark": "Lakshmi Mill Bus Stop, Infront of Citibank-7075511729",
+      "latlong": "11.0132, 76.9858"
+    },
+    {
+      "placeName": "Gandhipuram",
+      "placeTime": "02:55 PM",
+      "placeId": "1930",
+      "placeTimeTwfFormat": "14:55",
+      "dt": "2026-08-22 14:55",
+      "landMark": "Infront of Gandhipuram City Bus Stand, Opp Aarvee Hotels-7075511729",
+      "latlong": "11.0167, 76.9696"
+    },
+    {
+      "placeName": "Omni Bus Stand",
+      "placeTime": "03:00 PM",
+      "placeId": "1931",
+      "placeTimeTwfFormat": "15:00",
+      "dt": "2026-08-22 15:00",
+      "landMark": "Next to Omni Bus Stand, Near Kavi Travels-7075511729",
+      "latlong": "11.0248, 76.9728"
+    }
+  ],
+  "fareListCount": {
+    "839": "8",
+    "959": "9",
+    "879": "12",
+    "719": "1",
+    "799": "5"
+  },
+  "sourceStateName": null,
+  "sourceStateCode": "",
+  "travelerAgentName": "Fresh Bus Electric",
+  "startTimeDateFormat": "2026-08-22 06:50",
+  "servicesKey": null,
+  "busTypeName": "Electric Bus-AC seater45(2+2)",
+  "cancellationsPolicy": [
+    {
+      "cc": "Rs. 611",
+      "rp": "85%",
+      "tl": "Rs 611 /- @ 85% refund",
+      "con": "Before 21-Aug 05:15"
+    },
+    {
+      "cc": "Rs. 575",
+      "rp": "80%",
+      "tl": "Rs 575 /- @ 80% refund",
+      "con": "Between 21-Aug 05:15 & 21-Aug 17:15"
+    },
+    {
+      "cc": "Rs. 360",
+      "rp": "50%",
+      "tl": "Rs 360 /- @ 50% refund",
+      "con": "Between 21-Aug 17:15 & 21-Aug 23:15"
+    },
+    {
+      "cc": "Rs. 0",
+      "rp": "0%",
+      "tl": "Rs 0 /- @ 0% refund",
+      "con": "After 21-Aug 23:15"
+    }
+  ],
+  "offerFaresList": [
+    {
+      "fare": "839",
+      "discountedFare": "839"
+    },
+    {
+      "fare": "0",
+      "discountedFare": "0"
+    },
+    {
+      "fare": "959",
+      "discountedFare": "959"
+    },
+    {
+      "fare": "879",
+      "discountedFare": "879"
+    },
+    {
+      "fare": "719",
+      "discountedFare": "719"
+    },
+    {
+      "fare": "799",
+      "discountedFare": "799"
+    }
+  ],
+  "isRTC": "0",
+  "seatInfoFormat": "1",
+  "amenitiesIDs": [
+    {
+      "aminity_id": "1",
+      "seqNo": 11
+    },
+    {
+      "aminity_id": "4",
+      "seqNo": 7
+    },
+    {
+      "aminity_id": "5",
+      "seqNo": 13
+    },
+    {
+      "aminity_id": "6",
+      "seqNo": 8
+    },
+    {
+      "aminity_id": "7",
+      "seqNo": 12
+    },
+    {
+      "aminity_id": "8",
+      "seqNo": 14
+    },
+    {
+      "aminity_id": "10",
+      "seqNo": 19
+    },
+    {
+      "aminity_id": "13",
+      "seqNo": 22
+    },
+    {
+      "aminity_id": "14",
+      "seqNo": 15
+    },
+    {
+      "aminity_id": "15",
+      "seqNo": 23
+    },
+    {
+      "aminity_id": "16",
+      "seqNo": 16
+    }
+  ],
+  "status": "success",
+  "message": "success",
+  "insuranceTypes": [
+    {
+      "insuranceID": "2",
+      "insuranceType": "ACKO",
+      "title": "Secure your Trip with Acko Travel Insurance",
+      "amount": 12,
+      "isPrimeInsurance": "0"
+    }
+  ],
+  "isElgibleForPrimeInsurance": "0",
+  "insuranceList": [
+    {
+      "insuranceID": "3",
+      "insuranceType": "GLOBAL_ASSURE",
+      "insurancePath": "",
+      "insuranceImg": "https://static.abhibus.com/tata_aig_new/tata_aig_new.webp",
+      "insuranceInfo": [
+        {
+          "name": "Baggage",
+          "detail": "Lost Upto ₹3,000/-",
+          "img": "ic_insurance_baggage.png",
+          "imgNew": "https://static.abhibus.com/Baggage/Baggage.svg"
+        },
+        {
+          "name": "Online Doctor Tele-consultation",
+          "detail": "Unlimited access.",
+          "img": "ic_insurance_doctor.png",
+          "imgNew": "https://static.abhibus.com/Onlinedoctor/Onlinedoctor.svg"
+        },
+        {
+          "name": "Lab, Diagnostics & Scans",
+          "detail": "Up to ₹3,000.",
+          "img": "ic_insurance_diagnostic.png",
+          "imgNew": "https://static.abhibus.com/diganosticrepor/diganosticrepor.svg"
+        },
+        {
+          "name": "Ambulance Assistance",
+          "detail": "Up to ₹3,000.",
+          "img": "ic_insurance_ambulance.png",
+          "imgNew": "https://static.abhibus.com/ambulance/ambulance.svg"
+        },
+        {
+          "name": "Personal Accident",
+          "detail": "Death & disability up to ₹5,00,000.",
+          "img": "ic_insurance_personal_accident.png",
+          "imgNew": "https://static.abhibus.com/Personalaccident/Personalaccident.svg"
+        },
+        {
+          "name": "Hospitalization",
+          "detail": "Up to ₹1,00,000.",
+          "img": "ic_insurance_hospitalExpenses.png",
+          "imgNew": "https://static.abhibus.com/Hospitalizationexpenses/Hospitalizationexpenses.svg"
+        },
+        {
+          "name": "Daily allowance",
+          "detail": "₹500 per day (for up to 10 days).",
+          "img": "ic_insurance_hospital.png",
+          "imgNew": "https://static.abhibus.com/dailyhospital/dailyhospital.svg"
+        }
+      ],
+      "insuranceText": "Secure your Trip with Global Assure Travel Insurance",
+      "insuranceNote": "Note: Insurance details will be sent to the email ID provided during booking. A separate policy will be issued for each passenger.",
+      "insuranceTitle": "Passenger will be covered for",
+      "amount": "12",
+      "seqList": "1",
+      "autoSelect": "0",
+      "isPrimeInsurance": "0",
+      "text": "Travel Protection Plan",
+      "subText": "Protect your trip at just ₹12 per person",
+      "tncLink": "https://www.abhibus.com/global-assured-insurance",
+      "insuranceIcon": "https://static.abhibus.com/tata_aig_global/tata_aig_global.webp"
+    }
+  ],
+  "gentsSeats": [
+    "1",
+    "41",
+    "39",
+    "42",
+    "43",
+    "14",
+    "44",
+    "45"
+  ],
+  "enableWhatsApp": "0",
+  "enableFreeCancellation": "0",
+  "restRoomSeats": [],
+  "applicableAbsCancellationFee": "15",
+  "applicableCancPolicyIndex": 0,
+  "applicableCancPolicyPercentage": "85",
+  "assuredPartnerInfo": {
+    "isEnable": "1",
+    "autoselect": "1",
+    "type": "P",
+    "isLoginRequired": "0",
+    "addTime": "360",
+    "calcOnBaseFare": "1",
+    "amount": "10.5",
+    "strikeoffAmount": "10.5",
+    "text": "Assured Benefits at",
+    "benefits": [
+      {
+        "title": "Refund if bus cancelled",
+        "basic": "",
+        "assured": "",
+        "basicTxt": "100%",
+        "assuredTxt": "150%"
+      },
+      {
+        "title": "Refund if bus delayed > 2hrs",
+        "basic": "0",
+        "assured": "1",
+        "basicTxt": "",
+        "assuredTxt": "100%"
+      },
+      {
+        "title": "Refund if bus quality issue",
+        "basic": "0",
+        "assured": "1",
+        "basicTxt": "",
+        "assuredTxt": ""
+      },
+      {
+        "title": "Refund on booking cancellation",
+        "basic": "",
+        "assured": "1",
+        "basicTxt": "Refund policy",
+        "assuredTxt": "100%"
+      },
+      {
+        "title": "Priority customer support",
+        "basic": "0",
+        "assured": "1",
+        "basicTxt": "",
+        "assuredTxt": ""
+      }
+    ],
+    "assuredSubTitles": [
+      "150% refund on Bus Cancellations*",
+      "100% refund on Bus Delays & Plan Changes"
+    ],
+    "expandTitle": "Secure your trip with Free Cancellation & instant refunds",
+    "collapsedTitle": "Trip secured with Abhi Assured",
+    "userCountTitle": "27 Lakh+ users secured their trip!",
+    "userCountMessage": "1 Lakh+ travellers got 100% refund with AbhiAssured",
+    "addBenefitWidgetTitle": "Get Free Cancellation & instant refunds.",
+    "benefitDetailTitle": "Pay no charges when ticket is cancelled",
+    "benefitDetailSubTitle": "Refund : Upto 150% on Total Fare",
+    "headerLogo": "https://static.abhibus.com/assured_lte_psngr/assured_lte_psngr.json",
+    "successMessage": "Congrats. Your choice will be automatically applied to your future bookings",
+    "preSelectedSuccessMsg": "This option is added as per your preference settings",
+    "addonBenefits": [
+      {
+        "imageUrl": "https://static.abhibus.com/zeroassured/zeroassured.webp",
+        "title": "Zero Cancellation charges",
+        "subtitle": "if cancelled by you",
+        "refundMultiplier": 1,
+        "amountLabel": "100% refund",
+        "defaultIcon": "ic_0blue"
+      },
+      {
+        "imageUrl": "https://static.abhibus.com/1.5xassured/1.5xassured.5xassured",
+        "title": "Travel Guarantee or 1.5x Refund",
+        "subtitle": "if cancelled by operator",
+        "refundMultiplier": 1.5,
+        "amountLabel": "1.5x Refund",
+        "defaultIcon": "ic_15blue"
+      },
+      {
+        "imageUrl": "https://static.abhibus.com/100percent/100percent.webp",
+        "title": "Money back \n Guarantee",
+        "subtitle": "for delays or quality issues",
+        "refundMultiplier": 1,
+        "amountLabel": "100% refund",
+        "defaultIcon": "ic_100blue"
+      }
+    ],
+    "selectionOptions": [
+      {
+        "key": "future",
+        "title": "Secure this & future bookings",
+        "subtitle": "You can opt out any time from preferences"
+      },
+      {
+        "key": "thisBooking",
+        "title": "Secure this booking only",
+        "subtitle": ""
+      },
+      {
+        "key": "noThanks",
+        "title": "No, I don't want this",
+        "subtitle": "Pay {amount} if you cancel or reschedule"
+      }
+    ],
+    "womanOffer": {
+      "title": "Women Exclusive",
+      "subTitle": "₹8L Travel Insurance included",
+      "offerText": "Free",
+      "benefits": [
+        {
+          "title": "Free Travel Insurance",
+          "subtitle": "Exclusive for Women",
+          "offer": "₹8 Lakhs"
+        }
+      ]
+    }
+  },
+  "enableTg": "0",
+  "freeCancellation": {
+    "title": "Free Cancellation",
+    "type": "P",
+    "addTime": 360,
+    "calcOnBaseFare": "1",
+    "amount": "8",
+    "description": "Get Full Refund upon cancellation before 6 hours of bus start time",
+    "autoselect": "1",
+    "text": "FREE CANCELLATION AT ",
+    "subText": "Cancel 6hrs before the Bus starting time & Get Full Refund. NO QUESTIONS ASKED!",
+    "benefits": [
+      {
+        "title": "Refund on cancellation",
+        "basic": "0",
+        "fc": "1",
+        "basicTxt": "",
+        "fcTxt": "100%"
+      },
+      {
+        "title": "Protection from cancellation charges",
+        "basic": "0",
+        "fc": "1",
+        "basicTxt": "",
+        "fcTxt": ""
+      },
+      {
+        "title": "Instant Refund",
+        "basic": "0",
+        "fc": "1",
+        "basicTxt": "",
+        "fcTxt": ""
+      },
+      {
+        "title": "Priority customer support",
+        "basic": "0",
+        "fc": "1",
+        "basicTxt": "",
+        "fcTxt": ""
+      }
+    ],
+    "termsLink": "https://www.abhibus.com/abhibusFreeCancellation?app=1",
+    "api_traveler_key": "2291_7",
+    "X-app-name": "nextgenweb",
+    "expandTitle": "Secure your trip with Free Cancellation & instant refunds",
+    "collapsedTitle": "Trip Secured with Free Cancellation",
+    "userCountTitle": "55 Lakh+ users secured their trip!",
+    "userCountMessage": "6 Lakh+ travellers got 100% refund with Free cancellation",
+    "addBenefitWidgetTitle": "Get Free cancellation & Instant refunds.",
+    "benefitDetailTitle": "Pay no charges when ticket is cancelled",
+    "benefitDetailSubTitle": "Refund : 100% refund on Total Fare",
+    "successMessage": "Congrats. Your choice will be automatically applied to your future bookings",
+    "preSelectedSuccessMsg": "This option is added as per your preference settings",
+    "headerLogo": "https://static.abhibus.com/fc_lte_psngr/fc_lte_psngr.json",
+    "addonBenefits": [
+      {
+        "imageUrl": "https://static.abhibus.com/zerofc/zerofc.webp",
+        "title": "Zero Cancellation charges",
+        "subtitle": "Cancel 6hrs before the Bus starting time & Get Full Refund",
+        "refundMultiplier": 1,
+        "amountLabel": "NO QUESTIONS ASKED!",
+        "defaultIcon": "ic_0green"
+      }
+    ],
+    "selectionOptions": [
+      {
+        "key": "future",
+        "title": "Secure this & future bookings",
+        "subtitle": "You can opt out any time from preferences"
+      },
+      {
+        "key": "thisBooking",
+        "title": "Secure this booking only",
+        "subtitle": ""
+      },
+      {
+        "key": "noThanks",
+        "title": "No, I don't want this",
+        "subtitle": "Pay {amount} if you cancel or reschedule"
+      }
+    ]
+  },
+  "infoOverlay": {
+    "infoTilte": "Seat Booking Tips",
+    "infoDesc": "Guidelines for getting assured seat",
+    "infoList": [
+      "Last row seats may not recline"
+    ]
+  },
+  "collapseTime": "5",
+  "expandSeatLegend": "0",
+  "exclusiveBenefits": {
+    "sectionTitle": "Included for Free",
+    "badgeText": "AbhiBus Exclusive",
+    "benefits": [
+      {
+        "type": "rsa",
+        "iconUrl": "https://static.abhibus.com/app/postaddon/ic_rsa_settings_blue.png\"",
+        "shortTitle": "Free Cab",
+        "shortSubtitle": "On bus breakdown",
+        "longTitle": "Free Cab to Destination",
+        "longSubtitle": "If the bus breaks down"
+      },
+      {
+        "type": "womenBooking",
+        "iconUrl": "https://static.abhibus.com/app/postaddon/umbrella_soft3d.png",
+        "shortTitle": "₹8 Lakhs Insurance",
+        "shortSubtitle": "Exclusive benefit",
+        "longTitle": "₹8 Lakhs Travel Insurance Included",
+        "longSubtitle": "Women-Exclusive Benefits"
+      }
+    ]
+  },
+  "overlayMessages": [
+    {
+      "designType": "1",
+      "messageType": "1",
+      "messageTitle": "",
+      "messageSubTitle": [
+        "Please choose Upperdeck seats as Lowerdeck seeats are already reserved"
+      ],
+      "bgColor": "#FCF3CF",
+      "textColor": "#000000",
+      "timer": "3"
+    },
+    {
+      "designType": "1",
+      "messageType": "3",
+      "messageTitle": "",
+      "messageSubTitle": [
+        "Seat -@s- is reserved for @g travellers"
+      ],
+      "bgColor": "#FCF3CF",
+      "textColor": "#000000",
+      "timer": "3"
+    },
+    {
+      "designType": "1",
+      "messageType": "5",
+      "messageTitle": "",
+      "messageSubTitle": [
+        "Please select another date to choose seats as seats are already reserved in this date"
+      ],
+      "bgColor": "#FCF3CF",
+      "textColor": "#000000",
+      "timer": "3"
+    },
+    {
+      "designType": "1",
+      "messageType": "2",
+      "messageTitle": "",
+      "messageSubTitle": [
+        "Last row seats may not recline"
+      ],
+      "bgColor": "#FCF3CF",
+      "textColor": "#000000",
+      "timer": "3"
+    },
+    {
+      "designType": "1",
+      "messageType": "6",
+      "messageTitle": "",
+      "messageSubTitle": [
+        "Sorry, Maximum @max seats allowed per passenger"
+      ],
+      "bgColor": "",
+      "textColor": "",
+      "timer": ""
+    }
+  ],
+  "calculationOnRTC": "0",
+  "isServiceTaxReq": "1",
+  "service_destination_id": "794",
+  "service_source_id": "7",
+  "enableBillingAddr": "0",
+  "singleLadySeats": [],
+  "maxNumberOfSeatsCatCard": 4,
+  "isReturnEnabled": "0",
+  "abhiCreditsEnabled": "1",
+  "autoSavePassengerDetails": "1",
+  "enable_fastfilmz": "1",
+  "fastfilmz": {
+    "title": "Purchase fast filmz Rs. 40.00 for this jounery",
+    "amount": "39",
+    "psgr_info_img": "https://static.abhibus.com/img/fastfilmz/ff-banner.jpg",
+    "popup_img": "https://static.abhibus.com/img/fastfilmz/landingpage.jpg",
+    "applink": "",
+    "message": "Book with abhibus and watch unlimited HD movies Rs.39/month on fastfilmz at anytime and anywhere"
+  },
+  "enablePsgrPsdkOffers": "1",
+  "psdkversion": "v10",
+  "ixpay": "1",
+  "haltEvents": [
+    "charged"
+  ],
+  "diasbleInclusiveApis": [
+    238,
+    4160
+  ],
+  "edgeDiscountInfo": {
+    "DiscountMsg": "Flash deal applied! You Saved  {discount} on this Journey",
+    "savedTxt": "Woohoo! You Saved {discount} on this journey",
+    "thanksInfo": {
+      "title": "Thanks for choosing ",
+      "subtilte": "we look forward to serving you again",
+      "savedtxt": "Saved on this journey",
+      "0": ""
+    }
+  }
+}

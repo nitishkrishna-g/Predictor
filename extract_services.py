@@ -3,9 +3,6 @@ import argparse
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 
-RAW_FILE = "services_discovery_raw.json"
-OUTPUT_FILE = "discovered_services.json"
-
 def get_normalized_operator(service):
     operator = str(service.get("travelerAgentName", "")).strip().lower()
     service_name = str(service.get("serviceName", "")).strip().lower()
@@ -41,12 +38,17 @@ def extract_service(service):
         "originDateTime": real_time
     }
 
-def run_discovery(page, from_city, from_id, to_city, to_id, journey_date):
+def run_discovery(page, from_city, from_id, to_city, to_id, journey_date, output_dir="."):
     SOURCE_CITY = from_city
     SOURCE_ID = from_id
     DEST_CITY = to_city
     DEST_ID = to_id
     JOURNEY_DATE = journey_date
+    
+    import os
+    os.makedirs(output_dir, exist_ok=True)
+    raw_file = os.path.join(output_dir, "discovery_raw.json")
+    output_file = os.path.join(output_dir, "discovered_services.json")
     
     SEARCH_URL = (
         f"https://www.abhibus.com/bus_search/"
@@ -113,12 +115,12 @@ def run_discovery(page, from_city, from_id, to_city, to_id, journey_date):
     if captured_data is None:
         print()
         print("=" * 70)
-        print("SERVICES API NOT CAPTURED")
+        print("SERVICES API NOT CAPTURED (TIMEOUT)")
         print("=" * 70)
         page.remove_listener("response", handle_response)
-        return
+        return {"status": "DISCOVERY_TIMEOUT", "output_file": None}
 
-    with open(RAW_FILE, "w", encoding="utf-8") as f:
+    with open(raw_file, "w", encoding="utf-8") as f:
         json.dump(captured_data, f, ensure_ascii=False, indent=2)
 
     services = captured_data.get("services", [])
@@ -164,7 +166,7 @@ def run_discovery(page, from_city, from_id, to_city, to_id, journey_date):
         "services": selected
     }
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print()
@@ -199,10 +201,15 @@ def run_discovery(page, from_city, from_id, to_city, to_id, journey_date):
     print("=" * 70)
     print("DISCOVERY COMPLETE")
     print("=" * 70)
-    print(f"RAW API : {RAW_FILE}")
-    print(f"OUTPUT  : {OUTPUT_FILE}")
+    print(f"RAW API : {raw_file}")
+    print(f"OUTPUT  : {output_file}")
 
     page.remove_listener("response", handle_response)
+    
+    if len(selected) == 0:
+        return {"status": "DISCOVERY_NO_TARGET_SERVICES", "output_file": output_file}
+    else:
+        return {"status": "DISCOVERY_SUCCESS", "output_file": output_file}
 
 if __name__ == "__main__":
     from playwright.sync_api import sync_playwright

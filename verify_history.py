@@ -78,10 +78,10 @@ def verify_database(db_path="abhibus.db", log_file=None):
     print("-" * 70)
     print(f"{'Service':<30} {'Min (Seat/Sleep)':<20} {'Max (Seat/Sleep)'}")
     for name, min_seat, max_seat, min_sleep, max_sleep in fares:
-        min_s = f"₹{min_seat:.0f}" if min_seat is not None else "N/A"
-        max_s = f"₹{max_seat:.0f}" if max_seat is not None else "N/A"
-        min_sl = f"₹{min_sleep:.0f}" if min_sleep is not None else "N/A"
-        max_sl = f"₹{max_sleep:.0f}" if max_sleep is not None else "N/A"
+        min_s = f"Rs.{min_seat:.0f}" if min_seat is not None else "N/A"
+        max_s = f"Rs.{max_seat:.0f}" if max_seat is not None else "N/A"
+        min_sl = f"Rs.{min_sleep:.0f}" if min_sleep is not None else "N/A"
+        max_sl = f"Rs.{max_sleep:.0f}" if max_sleep is not None else "N/A"
         safe_name = name if name else "Unknown Service"
         print(f"{safe_name:<30} {min_s}/{min_sl:<15} {max_s}/{max_sl}")
 
@@ -93,13 +93,46 @@ def verify_database(db_path="abhibus.db", log_file=None):
     # Check foreign keys
     fk_errors = conn.execute("PRAGMA foreign_key_check").fetchall()
     
-    print(f"Services : {'OK' if services_count > 0 else 'EMPTY'}")
-    print(f"Scrapes  : {'OK' if scrapes_count > 0 else 'EMPTY'}")
-    print(f"Seats    : {'OK' if seats_count > 0 else 'EMPTY'}")
-    print(f"Foreign references : {'OK' if len(fk_errors) == 0 else 'FAILED'}")
+    # Orphans
+    orphan_seats = conn.execute("SELECT COUNT(*) FROM seats WHERE scrape_id NOT IN (SELECT id FROM scrapes)").fetchone()[0]
+    orphan_scrapes = conn.execute("SELECT COUNT(*) FROM scrapes WHERE service_id NOT IN (SELECT id FROM services)").fetchone()[0]
+    
+    # Duplicates (same service, same scrape time)
+    duplicates = conn.execute("SELECT service_id, scraped_at, COUNT(*) FROM scrapes GROUP BY service_id, scraped_at HAVING COUNT(*) > 1").fetchall()
+    
+    # Zero seats in scrapes
+    zero_seats = conn.execute("SELECT COUNT(*) FROM scrapes WHERE total_seats = 0").fetchone()[0]
+    
+    # Invalid operators
+    valid_ops = ["freshbus", "zingbus", "zingbus plus", "neogo"]
+    invalid_ops = conn.execute(f"SELECT COUNT(*) FROM services WHERE LOWER(operator) NOT IN ({','.join(['?']*len(valid_ops))})", valid_ops).fetchone()[0]
+    
+    # Invalid routes
+    valid_routes = ["Bangalore-Coimbatore", "Coimbatore-Bangalore"]
+    invalid_routes = conn.execute(f"SELECT COUNT(*) FROM services WHERE route NOT IN ({','.join(['?']*len(valid_routes))})", valid_routes).fetchone()[0]
+    
+    # Negative fares
+    negative_fares = conn.execute("SELECT COUNT(*) FROM seats WHERE seat_fare < 0 OR discounted_fare < 0").fetchone()[0]
+    
+    # Invalid boolean flags
+    invalid_flags = conn.execute("SELECT COUNT(*) FROM seats WHERE available NOT IN (0, 1) OR ladies_seat NOT IN (0, 1)").fetchone()[0]
+    
+    print(f"Services            : {'OK' if services_count > 0 else 'EMPTY'}")
+    print(f"Scrapes             : {'OK' if scrapes_count > 0 else 'EMPTY'}")
+    print(f"Seats               : {'OK' if seats_count > 0 else 'EMPTY'}")
+    print(f"Foreign references  : {'OK' if len(fk_errors) == 0 else 'FAILED'}")
+    print(f"Orphan seats        : {'OK' if orphan_seats == 0 else orphan_seats}")
+    print(f"Orphan scrapes      : {'OK' if orphan_scrapes == 0 else orphan_scrapes}")
+    print(f"Duplicate snapshots : {'OK' if len(duplicates) == 0 else len(duplicates)}")
+    print(f"0-seat scrapes      : {'OK' if zero_seats == 0 else zero_seats}")
+    print(f"Invalid operators   : {'OK' if invalid_ops == 0 else invalid_ops}")
+    print(f"Invalid routes      : {'OK' if invalid_routes == 0 else invalid_routes}")
+    print(f"Negative fares      : {'OK' if negative_fares == 0 else negative_fares}")
+    print(f"Invalid bool flags  : {'OK' if invalid_flags == 0 else invalid_flags}")
     
     print()
-    if len(fk_errors) == 0 and services_count > 0:
+    all_ok = len(fk_errors) == 0 and services_count > 0 and orphan_seats == 0 and orphan_scrapes == 0 and len(duplicates) == 0 and invalid_ops == 0 and invalid_routes == 0 and negative_fares == 0 and invalid_flags == 0
+    if all_ok:
         print("STATUS: HEALTHY")
     else:
         print("STATUS: ISSUES FOUND")
@@ -111,7 +144,7 @@ def verify_database(db_path="abhibus.db", log_file=None):
         print(output.getvalue(), end="") # Also print to console
         
     conn.close()
-    return len(fk_errors) == 0 and services_count > 0
+    return all_ok
 
 if __name__ == "__main__":
     verify_database(DB)
