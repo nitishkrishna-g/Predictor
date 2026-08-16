@@ -17,15 +17,15 @@ CSV_LOG = "collector.log"
 
 ROUTES = [
     {
-        "name": "Coimbatore -> Bengaluru",
+        "name": "Coimbatore-Bangalore",
         "from_city": "Coimbatore",
         "from_id": "794",
-        "to_city": "Bengaluru",
+        "to_city": "Bangalore",
         "to_id": "7"
     },
     {
-        "name": "Bengaluru -> Coimbatore",
-        "from_city": "Bengaluru",
+        "name": "Bangalore-Coimbatore",
+        "from_city": "Bangalore",
         "from_id": "7",
         "to_city": "Coimbatore",
         "to_id": "794"
@@ -59,9 +59,14 @@ def cleanup_old_data():
             WHERE scraped_at < datetime('now', '-90 days')
         """).rowcount
         
+        services_del = conn.execute("""
+            DELETE FROM services
+            WHERE id NOT IN (SELECT DISTINCT service_id FROM scrapes)
+        """).rowcount
+        
         conn.commit()
-        deleted = seats_del + scrapes_del
-        print(f"Cleanup successful. Deleted {deleted} rows.")
+        deleted = seats_del + scrapes_del + services_del
+        print(f"Cleanup successful. Deleted {deleted} rows (Seats: {seats_del}, Scrapes: {scrapes_del}, Services: {services_del}).")
     except Exception as e:
         print(f"Cleanup error: {e}")
         conn.rollback()
@@ -86,51 +91,80 @@ def run_cycle(next_cycle_str="Unknown"):
     total_scraped = 0
     total_seats = 0
     
-    route_stats = {}
+    cycle_matrix = []
     
-    for route in ROUTES:
-        r_name = route["name"]
-        print(f"\n{r_name}")
-        route_stats[r_name] = {}
+    from playwright.sync_api import sync_playwright
+    
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        page = browser.new_page(viewport={"width": 1280, "height": 720})
+
+        for route in ROUTES:
+            r_name = route["name"]
+            print(f"\n{r_name}")
+            
+            for date_str in target_dates:
+                date_stats = {}
+                try:
+                    run_discovery(page, route["from_city"], route["from_id"], route["to_city"], route["to_id"], date_str)
+                    success = scrape_seats(browser, "discovered_services.json", "seat_scrape_results.json")
+                    if success:
+                        with open("discovered_services.json", "r", encoding="utf-8") as f:
+                            disc_data = json.load(f)
+                        
+                        for service in disc_data.get("services", []):
+                            op = service.get("travelerAgentName", "Unknown").lower()
+                            if op not in date_stats:
+                                date_stats[op] = {"discovered": 0, "scraped": 0, "failed": 0, "seats": 0, "available_seats": 0}
+                            date_stats[op]["discovered"] += 1
+                            total_discovered += 1
+                            
+                        with open("seat_scrape_results.json", "r", encoding="utf-8") as f:
+                            res_data = json.load(f)
+                            
+                        for service_res in res_data.get("results", []):
+                            op = service_res.get("operator", "Unknown").lower()
+                            if op in date_stats:
+                                date_stats[op]["scraped"] += 1
+                                date_stats[op]["seats"] += service_res.get("totalSeats", 0)
+                                date_stats[op]["available_seats"] += service_res.get("availableSeats", 0)
+                            total_scraped += 1
+                            total_seats += service_res.get("totalSeats", 0)
+                        
+                        for op, stats in date_stats.items():
+                            stats["failed"] = stats["discovered"] - stats["scraped"]
+                            cycle_matrix.append({
+                                "route": r_name,
+                                "journey_date": date_str,
+                                "operator": op,
+                                "discovered": stats["discovered"],
+                                "scraped": stats["scraped"],
+                                "failed": stats["failed"],
+                                "seats": stats["seats"],
+                                "available_seats": stats["available_seats"],
+                                "timestamp": cycle_timestamp
+                            })
+
+                        import_results("seat_scrape_results.json", DB)
+                    
+                    # Sleep between date queries to prevent anti-bot blocking
+                    time.sleep(5)
+                except Exception as e:
+                    print(f"Error on {r_name} for {date_str}: {e}")
         
-        for date_str in target_dates:
-            try:
-                run_discovery(route["from_city"], route["from_id"], route["to_city"], route["to_id"], date_str)
-                success = scrape_seats("discovered_services.json", "seat_scrape_results.json")
-                if success:
-                    with open("discovered_services.json", "r", encoding="utf-8") as f:
-                        disc_data = json.load(f)
-                    
-                    for service in disc_data.get("services", []):
-                        op = service.get("travelerAgentName", "Unknown").lower()
-                        if op not in route_stats[r_name]:
-                            route_stats[r_name][op] = {"discovered": 0, "scraped": 0}
-                        route_stats[r_name][op]["discovered"] += 1
-                        total_discovered += 1
-                        
-                    with open("seat_scrape_results.json", "r", encoding="utf-8") as f:
-                        res_data = json.load(f)
-                        
-                    for service_res in res_data.get("results", []):
-                        op = service_res.get("operator", "Unknown").lower()
-                        if op in route_stats[r_name]:
-                            route_stats[r_name][op]["scraped"] += 1
-                        total_scraped += 1
-                        total_seats += len(service_res.get("seats", []))
-                    
-                    import_results("seat_scrape_results.json", DB)
-                
-                # Sleep between date queries to prevent anti-bot blocking
-                time.sleep(5)
-            except Exception as e:
-                print(f"Error on {r_name} for {date_str}: {e}")
-                
-        for op, counts in route_stats[r_name].items():
-            print(f"{op.title():<15} {counts['scraped']}/{counts['discovered']}")
+        browser.close()
             
     total_failed = total_discovered - total_scraped
     duration = time.time() - start_time
     
+    print("\n" + "="*85)
+    print("COLLECTION VERIFICATION MATRIX")
+    print(f"{'Route':<22} | {'Date':<10} | {'Operator':<15} | {'Disc':<4} | {'Scrp':<4} | {'Fail':<4} | {'Seats':<5} | {'Avail':<5}")
+    print("-" * 85)
+    for row in cycle_matrix:
+        print(f"{row['route']:<22} | {row['journey_date']:<10} | {row['operator'].title():<15} | {row['discovered']:<4} | {row['scraped']:<4} | {row['failed']:<4} | {row['seats']:<5} | {row['available_seats']:<5}")
+    print("="*85 + "\n")
+
     print("\n" + "="*60)
     print(f"Services discovered : {total_discovered}")
     print(f"Services collected  : {total_scraped}")

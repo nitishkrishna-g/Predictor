@@ -103,6 +103,16 @@ def get_or_create_service(conn, service):
 def import_service(conn, service):
     service_db_id = get_or_create_service(conn, service)
 
+    # Prevent duplicate snapshots
+    existing_scrape = conn.execute(
+        "SELECT id FROM scrapes WHERE service_id = ? AND scraped_at = ?",
+        (service_db_id, service["scrapedAt"])
+    ).fetchone()
+
+    if existing_scrape:
+        print(f"Skipping duplicate snapshot for service {service_db_id} at {service['scrapedAt']}")
+        return
+
     seats = service.get("seats", [])
 
     available_seats = [
@@ -112,12 +122,12 @@ def import_service(conn, service):
 
     available_seaters = [
         seat for seat in available_seats
-        if seat.get("seat_type") == "SS"
+        if seat.get("seat_type") == "SS" and not seat.get("ladies_seat")
     ]
 
     available_sleepers = [
         seat for seat in available_seats
-        if seat.get("seat_type") in ("LB", "UB")
+        if seat.get("seat_type") in ("LB", "UB") and not seat.get("ladies_seat")
     ]
 
     seater_fares = [

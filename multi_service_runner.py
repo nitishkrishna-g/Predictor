@@ -281,7 +281,7 @@ def scrape_service(page, service):
     return result
 
 
-def scrape_seats(input_file="discovered_services.json", output_file="seat_scrape_results.json"):
+def scrape_seats(browser, input_file="discovered_services.json", output_file="seat_scrape_results.json"):
     try:
         with open(
             input_file,
@@ -308,36 +308,28 @@ def scrape_seats(input_file="discovered_services.json", output_file="seat_scrape
 
     results = []
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=False
-        )
+    for service in services:
+        try:
+            # Use a FRESH page for each service to avoid listener cross-contamination
+            page = browser.new_page(
+                viewport={
+                    "width": 1280,
+                    "height": 720
+                }
+            )
+            result = scrape_service(
+                page,
+                service
+            )
+            page.close()
 
-        for service in services:
-            try:
-                # Use a FRESH page for each service to avoid listener cross-contamination
-                page = browser.new_page(
-                    viewport={
-                        "width": 1280,
-                        "height": 720
-                    }
-                )
-                result = scrape_service(
-                    page,
-                    service
-                )
-                page.close()
-
-                if result:
-                    results.append(result)
-                
-                # Prevent AbhiBus rate-limiting
-                import time
-                time.sleep(10)
-            except Exception as e:
-                print(f"Error scraping service {service.get('serviceKey', 'UNKNOWN')}: {e}")
-
-        browser.close()
+            if result:
+                results.append(result)
+            
+            # Prevent AbhiBus rate-limiting
+            time.sleep(10)
+        except Exception as e:
+            print(f"Error scraping service {service.get('serviceKey', 'UNKNOWN')}: {e}")
 
     output = {
         "scrapedAt": datetime.now().astimezone().isoformat(),
@@ -374,4 +366,8 @@ def scrape_seats(input_file="discovered_services.json", output_file="seat_scrape
 
 
 if __name__ == "__main__":
-    scrape_seats(INPUT_FILE, "seat_scrape_results.json")
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        scrape_seats(browser, INPUT_FILE, "seat_scrape_results.json")
+        browser.close()
