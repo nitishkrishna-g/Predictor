@@ -1,0 +1,16 @@
+[
+  {
+    "route": "Coimbatore-Bangalore",
+    "date": "2026-08-17",
+    "operator": "zingbus plus",
+    "departure": "21:30",
+    "seat_type": "sleeper"
+  },
+  {
+    "route": "Bangalore-Coimbatore",
+    "date": "2026-08-17",
+    "operator": "zingbus plus",
+    "departure": "21:00",
+    "seat_type": "seater"
+  }
+]

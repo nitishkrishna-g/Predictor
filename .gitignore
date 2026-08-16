@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite databases
+*.sqlite3
+*.db
+abhibus.db
+
+# Logs and databases
+*.log
+*.log.*
+collector.log
+collector_log.txt
+task-*.log
+
+# Temp data files
+multi_service_raw/
+discovered_services.json
+seat_scrape_results.json
+services_discovery_raw.json
+temp_check.py
+*.tmp
+*.temp
+
+# Mac OS
+.DS_Store

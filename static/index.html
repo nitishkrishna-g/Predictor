@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelBus | Premium Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-glow"></div>
+    <header class="navbar glass">
+        <div class="logo">
+            <span class="gradient-text">IntelBus</span>
+        </div>
+        <div class="nav-links">
+            <span class="active">AI Predictions</span>
+            <span>Live Routes</span>
+            <span>My Bookings</span>
+        </div>
+    </header>
+
+    <main class="app-container">
+        <!-- Step 1: Search Form -->
+        <section id="search-section" class="search-box glass slide-up">
+            <h2 style="margin-bottom: 1.5rem; font-weight: 700; font-size: 1.5rem;">Where are you traveling?</h2>
+            <div class="search-fields">
+                <div class="search-field" style="flex: 1;">
+                    <label>SELECT ROUTE</label>
+                    <div class="custom-select-wrapper">
+                        <select id="route-select" class="premium-select" onchange="searchBuses()">
+                            <option value="">Select a route...</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="search-field" style="flex: 2.5;">
+                    <label>JOURNEY DATE (ROLLING 7-DAY WINDOW)</label>
+                    <div id="calendar-tabs" class="calendar-container">
+                        <!-- Dates populated by JS -->
+                        <div class="cal-skeleton"></div>
+                        <div class="cal-skeleton"></div>
+                        <div class="cal-skeleton"></div>
+                        <div class="cal-skeleton"></div>
+                        <div class="cal-skeleton"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 2: Bus Results -->
+        <section id="results-section" style="display: none; margin-top: 2rem;" class="fade-in">
+            
+            <div class="controls-bar glass">
+                <div class="filters-section">
+                    <div class="filter-group">
+                        <span class="controls-label">OPERATOR</span>
+                        <div class="filter-options">
+                            <label class="custom-toggle">
+                                <input type="checkbox" class="op-filter" value="Fresh Bus" checked>
+                                <span class="toggle-pill">Fresh Bus</span>
+                            </label>
+                            <label class="custom-toggle">
+                                <input type="checkbox" class="op-filter" value="NueGo" checked>
+                                <span class="toggle-pill">NueGo</span>
+                            </label>
+                            <label class="custom-toggle">
+                                <input type="checkbox" class="op-filter" value="zingbus" checked>
+                                <span class="toggle-pill">zingbus</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-divider"></div>
+                    
+                    <div class="filter-group">
+                        <span class="controls-label">BUS TYPE</span>
+                        <div class="filter-options">
+                            <label class="custom-toggle">
+                                <input type="checkbox" class="type-filter" value="seater" checked>
+                                <span class="toggle-pill">Seater</span>
+                            </label>
+                            <label class="custom-toggle">
+                                <input type="checkbox" class="type-filter" value="sleeper" checked>
+                                <span class="toggle-pill">Sleeper</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sort-section">
+                    <span class="controls-label">SORT BY</span>
+                    <div class="custom-select-wrapper">
+                        <select id="sort-select" class="premium-select sort-dropdown" onchange="renderBuses()">
+                            <option value="time_early">Departure: Early to Late</option>
+                            <option value="time_late">Departure: Late to Early</option>
+                            <option value="price_low">Price: Low to High</option>
+                            <option value="price_high">Price: High to Low</option>
+                            <option value="seats_high">Availability: Most Seats</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bus-list" class="bus-list"></div>
+        </section>
+
+        <!-- Step 3: Seat Map Modal -->
+        <div id="seatmap-modal" class="modal fade-in" style="display: none;">
+            <div class="modal-content glass-heavy">
+                <div class="modal-header">
+                    <div id="seatmap-header" class="gradient-text" style="font-size: 1.5rem; font-weight: 800;">Loading...</div>
+                    <button class="close-btn" onclick="closeSeatMap()">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                </div>
+                
+                <div class="seatmap-layout">
+                    <!-- Left: The physical bus -->
+                    <div class="bus-side">
+                        <div class="legend glass-panel">
+                            <div class="legend-item"><div class="legend-box available"></div> Available</div>
+                            <div class="legend-item"><div class="legend-box sold"></div> Sold</div>
+                            <div class="legend-item"><div class="legend-box ladies"></div> Ladies</div>
+                            <div class="legend-item"><div class="legend-box selected"></div> Selected</div>
+                        </div>
+                        <div id="seatmap-grid" class="bus-container">Loading intelligent layout...</div>
+                    </div>
+                    
+                    <!-- Right: The intelligence panel -->
+                    <div class="intel-side">
+                        <div id="intelligence-panel" class="intel-panel glass-panel">
+                            <div class="intel-placeholder">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity: 0.5; margin-bottom: 1rem;"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                                <p>Select an available seat on the layout to view AI price predictions and recommendations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
