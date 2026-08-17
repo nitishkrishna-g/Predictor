@@ -2,7 +2,7 @@
   "SourceStationID": "1064",
   "DestinationStationID": "2318",
   "Route": "Coimbatore-Bangalore",
-  "JourneyDate": "2026-08-18",
+  "JourneyDate": "2026-08-20",
   "ServiceID": "15671567",
   "SeatLayoutID": "HYBRID (20 BERTH + 20 SEAT)- AC",
   "upperTotalRows": "5",
@@ -12,13 +12,13 @@
   "lowerDividerRow": "3",
   "upperDividerRow": "3",
   "maxNumberOfSeats": 6,
-  "tentativeSeats": "~~~~29.67^P^763~13.73~~678~12.20~~509~9.16~~837~15.07^0^op",
+  "tentativeSeats": "~~~~33.01^P^806~14.51~~700~12.60~~509~9.16~~954~17.17~~933~16.79^0^op",
   "TotalSeatList": {
     "lowerdeck_seat_nos": [
       "1, 1, 1, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
       "3, 1, 2, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "5, 1, 3, SS, N, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "7, 1, 4, SS, N, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
+      "5, 1, 3, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
+      "7, 1, 4, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
       "9, 1, 5, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
       "11, 1, 6, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
       "13, 1, 7, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
@@ -35,31 +35,31 @@
       "16, 2, 8, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
       "18, 2, 9, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
       "20, 2, 10, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "3L, 4, 1, LB, N, M, 837, 0, 151.00, 0.00, 0, 0,h,837",
-      "6L, 4, 3, LB, Y, M, 837, 0, 151.00, 0.00, 0, 0,h,837",
-      "9L, 4, 5, LB, N, M, 837, 0, 151.00, 0.00, 0, 0,h,837",
-      "12L, 4, 7, LB, Y, M, 837, 0, 151.00, 0.00, 0, 0,h,837",
-      "15L, 4, 9, LB, Y, M, 837, 0, 151.00, 0.00, 0, 0,h,837"
+      "3L, 4, 1, LB, N, M, 954, 0, 172.00, 0.00, 0, 0,h,954",
+      "6L, 4, 3, LB, Y, M, 954, 0, 172.00, 0.00, 0, 0,h,954",
+      "9L, 4, 5, LB, Y, M, 954, 0, 172.00, 0.00, 0, 0,h,954",
+      "12L, 4, 7, LB, Y, M, 954, 0, 172.00, 0.00, 0, 0,h,954",
+      "15L, 4, 9, LB, Y, M, 954, 0, 172.00, 0.00, 0, 0,h,954"
     ],
     "upperdeck_seat_nos": [
-      "1U, 1, 1, UB, Y, M, 763, 0, 137.00, 0.00, 0, 0,h,763",
-      "4U, 1, 3, UB, Y, M, 763, 0, 137.00, 0.00, 0, 0,h,763",
-      "7U, 1, 5, UB, Y, M, 763, 0, 137.00, 0.00, 0, 0,h,763",
-      "10U, 1, 7, UB, Y, M, 763, 0, 137.00, 0.00, 0, 0,h,763",
-      "13U, 1, 9, UB, Y, M, 678, 0, 122.00, 0.00, 0, 0,h,678",
-      "2U, 2, 1, UB, Y, M, 763, 0, 137.00, 0.00, 0, 0,h,763",
-      "5U, 2, 3, UB, Y, M, 763, 0, 137.00, 0.00, 0, 0,h,763",
-      "8U, 2, 5, UB, Y, M, 763, 0, 137.00, 0.00, 0, 0,h,763",
-      "11U, 2, 7, UB, Y, M, 763, 0, 137.00, 0.00, 0, 0,h,763",
-      "14U, 2, 9, UB, Y, M, 678, 0, 122.00, 0.00, 0, 0,h,678",
-      "3U, 5, 1, UB, Y, M, 837, 0, 151.00, 0.00, 0, 0,h,837",
-      "6U, 5, 3, UB, Y, M, 837, 0, 151.00, 0.00, 0, 0,h,837",
-      "9U, 5, 5, UB, N, M, 837, 0, 151.00, 0.00, 0, 0,h,837",
-      "12U, 5, 7, UB, Y, M, 837, 0, 151.00, 0.00, 0, 0,h,837",
-      "15U, 5, 9, UB, Y, M, 837, 0, 151.00, 0.00, 0, 0,h,837"
+      "1U, 1, 1, UB, Y, M, 806, 0, 145.00, 0.00, 0, 0,h,806",
+      "4U, 1, 3, UB, Y, M, 806, 0, 145.00, 0.00, 0, 0,h,806",
+      "7U, 1, 5, UB, Y, M, 806, 0, 145.00, 0.00, 0, 0,h,806",
+      "10U, 1, 7, UB, Y, M, 806, 0, 145.00, 0.00, 0, 0,h,806",
+      "13U, 1, 9, UB, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
+      "2U, 2, 1, UB, Y, M, 806, 0, 145.00, 0.00, 0, 0,h,806",
+      "5U, 2, 3, UB, Y, M, 806, 0, 145.00, 0.00, 0, 0,h,806",
+      "8U, 2, 5, UB, Y, M, 806, 0, 145.00, 0.00, 0, 0,h,806",
+      "11U, 2, 7, UB, Y, M, 806, 0, 145.00, 0.00, 0, 0,h,806",
+      "14U, 2, 9, UB, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
+      "3U, 5, 1, UB, Y, M, 933, 0, 168.00, 0.00, 0, 0,h,933",
+      "6U, 5, 3, UB, Y, M, 933, 0, 168.00, 0.00, 0, 0,h,933",
+      "9U, 5, 5, UB, Y, M, 933, 0, 168.00, 0.00, 0, 0,h,933",
+      "12U, 5, 7, UB, Y, M, 933, 0, 168.00, 0.00, 0, 0,h,933",
+      "15U, 5, 9, UB, Y, M, 933, 0, 168.00, 0.00, 0, 0,h,933"
     ]
   },
-  "seatLayoutUniqueId": "~~~~29.67^P^763~13.73~~678~12.20~~509~9.16~~837~15.07^0^op^ASSURED",
+  "seatLayoutUniqueId": "~~~~33.01^P^806~14.51~~700~12.60~~509~9.16~~954~17.17~~933~16.79^0^op^ASSURED",
   "isAcSeat": null,
   "titles": [
     "Seat Number",
@@ -87,7 +87,7 @@
       "placeId": "474",
       "landMark": "Near Indian Petrol Bunk, Saibaba Koil-18002679001",
       "placeTimeTwfFormat": "21:00",
-      "dt": "2026-08-18 21:00",
+      "dt": "2026-08-20 21:00",
       "latlong": null
     },
     {
@@ -96,7 +96,7 @@
       "placeId": "472",
       "landMark": "Mathibala Travels, Omni Bus Stand, Gandhipuram-18002679001",
       "placeTimeTwfFormat": "21:15",
-      "dt": "2026-08-18 21:15",
+      "dt": "2026-08-20 21:15",
       "latlong": null
     },
     {
@@ -105,7 +105,7 @@
       "placeId": "465",
       "landMark": "Near Adyar Ananda Bhavan - A2B Bharathiyar Rd, Siddhapudur-18002679001",
       "placeTimeTwfFormat": "21:25",
-      "dt": "2026-08-18 21:25",
+      "dt": "2026-08-20 21:25",
       "latlong": null
     },
     {
@@ -114,7 +114,7 @@
       "placeId": "470",
       "landMark": "Near Axis Bank, PN Palayam-18002679001",
       "placeTimeTwfFormat": "21:30",
-      "dt": "2026-08-18 21:30",
+      "dt": "2026-08-20 21:30",
       "latlong": null
     },
     {
@@ -123,7 +123,7 @@
       "placeId": "473",
       "landMark": "PSG Tech Bridge, Avinashi Rd, Peelamedu-18002679001",
       "placeTimeTwfFormat": "21:35",
-      "dt": "2026-08-18 21:35",
+      "dt": "2026-08-20 21:35",
       "latlong": null
     },
     {
@@ -132,7 +132,7 @@
       "placeId": "468",
       "landMark": "Near TIDEL Park Turning Board, Avinashi Rd, Peelamedu, Civil Aerodrome Post-18002679001",
       "placeTimeTwfFormat": "21:40",
-      "dt": "2026-08-18 21:40",
+      "dt": "2026-08-20 21:40",
       "latlong": null
     },
     {
@@ -141,7 +141,7 @@
       "placeId": "467",
       "landMark": "Passport Office Bus Stop, Indira Nagar, Civil Aerodrome-18002679001",
       "placeTimeTwfFormat": "21:45",
-      "dt": "2026-08-18 21:45",
+      "dt": "2026-08-20 21:45",
       "latlong": null
     },
     {
@@ -150,7 +150,7 @@
       "placeId": "471",
       "landMark": "Near Dindigul Thalappakatti, Avinashi Rd, NPS Nagar,-18002679001",
       "placeTimeTwfFormat": "21:55",
-      "dt": "2026-08-18 21:55",
+      "dt": "2026-08-20 21:55",
       "latlong": null
     },
     {
@@ -159,7 +159,7 @@
       "placeId": "469",
       "landMark": "Near Toll Gate-18002679001",
       "placeTimeTwfFormat": "22:05",
-      "dt": "2026-08-18 22:05",
+      "dt": "2026-08-20 22:05",
       "latlong": null
     }
   ],
@@ -186,11 +186,12 @@
   "busStartDate": null,
   "faresList": [
     "509",
-    "678",
-    "763",
-    "837"
+    "700",
+    "806",
+    "933",
+    "954"
   ],
-  "serviceNo": "1010#1064#2318#1567#1567#12780#18082026#9:25 PM#9:25 PM#2",
+  "serviceNo": "1010#1064#2318#1567#1567#12780#20082026#9:25 PM#9:25 PM#2",
   "isToShowSeatTypes": "1",
   "droppingPoints": [
     {
@@ -198,7 +199,7 @@
       "placeTime": "04:10 AM",
       "placeId": "394",
       "placeTimeTwfFormat": "04:10",
-      "dt": "2026-08-19 04:10",
+      "dt": "2026-08-21 04:10",
       "landMark": "",
       "latlong": ""
     },
@@ -207,7 +208,7 @@
       "placeTime": "04:20 AM",
       "placeId": "393",
       "placeTimeTwfFormat": "04:20",
-      "dt": "2026-08-19 04:20",
+      "dt": "2026-08-21 04:20",
       "landMark": "",
       "latlong": ""
     },
@@ -216,7 +217,7 @@
       "placeTime": "04:25 AM",
       "placeId": "400",
       "placeTimeTwfFormat": "04:25",
-      "dt": "2026-08-19 04:25",
+      "dt": "2026-08-21 04:25",
       "landMark": "",
       "latlong": ""
     },
@@ -225,7 +226,7 @@
       "placeTime": "04:35 AM",
       "placeId": "392",
       "placeTimeTwfFormat": "04:35",
-      "dt": "2026-08-19 04:35",
+      "dt": "2026-08-21 04:35",
       "landMark": "",
       "latlong": ""
     },
@@ -234,7 +235,7 @@
       "placeTime": "04:40 AM",
       "placeId": "391",
       "placeTimeTwfFormat": "04:40",
-      "dt": "2026-08-19 04:40",
+      "dt": "2026-08-21 04:40",
       "landMark": "",
       "latlong": ""
     },
@@ -243,7 +244,7 @@
       "placeTime": "04:55 AM",
       "placeId": "204",
       "placeTimeTwfFormat": "04:55",
-      "dt": "2026-08-19 04:55",
+      "dt": "2026-08-21 04:55",
       "landMark": "",
       "latlong": ""
     },
@@ -252,7 +253,7 @@
       "placeTime": "05:05 AM",
       "placeId": "779",
       "placeTimeTwfFormat": "05:05",
-      "dt": "2026-08-19 05:05",
+      "dt": "2026-08-21 05:05",
       "landMark": "",
       "latlong": ""
     },
@@ -261,7 +262,7 @@
       "placeTime": "05:10 AM",
       "placeId": "150",
       "placeTimeTwfFormat": "05:10",
-      "dt": "2026-08-19 05:10",
+      "dt": "2026-08-21 05:10",
       "landMark": "",
       "latlong": ""
     },
@@ -270,21 +271,22 @@
       "placeTime": "05:30 AM",
       "placeId": "148",
       "placeTimeTwfFormat": "05:30",
-      "dt": "2026-08-19 05:30",
+      "dt": "2026-08-21 05:30",
       "landMark": "",
       "latlong": ""
     }
   ],
   "fareListCount": {
-    "509": "17",
-    "837": "7",
-    "763": "8",
-    "678": "2"
+    "509": "19",
+    "954": "4",
+    "806": "8",
+    "700": "2",
+    "933": "5"
   },
   "sourceStateName": null,
   "sourceStateCode": "",
   "travelerAgentName": "NueGo",
-  "startTimeDateFormat": "2026-08-18 21:25",
+  "startTimeDateFormat": "2026-08-20 21:25",
   "servicesKey": null,
   "busTypeName": "HYBRID (20 BERTH + 20 SEAT)- AC",
   "cancellationsPolicy": [
@@ -292,25 +294,25 @@
       "cc": "Rs. 382",
       "rp": "75%",
       "tl": "Rs 382 /- @ 75% refund",
-      "con": "Before 18-Aug 09:00"
+      "con": "Before 20-Aug 09:00"
     },
     {
       "cc": "Rs. 255",
       "rp": "50%",
       "tl": "Rs 255 /- @ 50% refund",
-      "con": "Between 18-Aug 09:00 & 18-Aug 13:00"
+      "con": "Between 20-Aug 09:00 & 20-Aug 13:00"
     },
     {
       "cc": "Rs. 0",
       "rp": "0%",
       "tl": "Rs 0 /- @ 0% refund",
-      "con": "Between 18-Aug 13:00 & 18-Aug 20:59"
+      "con": "Between 20-Aug 13:00 & 20-Aug 20:59"
     },
     {
       "cc": "Rs. 0",
       "rp": "0%",
       "tl": "Rs 0 /- @ 0% refund",
-      "con": "After 18-Aug 13:00"
+      "con": "After 20-Aug 13:00"
     }
   ],
   "offerFaresList": [
@@ -319,16 +321,20 @@
       "discountedFare": "509"
     },
     {
-      "fare": "837",
-      "discountedFare": "837"
+      "fare": "954",
+      "discountedFare": "954"
     },
     {
-      "fare": "763",
-      "discountedFare": "763"
+      "fare": "806",
+      "discountedFare": "806"
     },
     {
-      "fare": "678",
-      "discountedFare": "678"
+      "fare": "700",
+      "discountedFare": "700"
+    },
+    {
+      "fare": "933",
+      "discountedFare": "933"
     }
   ],
   "isRTC": "0",
@@ -419,9 +425,7 @@
     }
   ],
   "gentsSeats": [
-    "1",
-    "6",
-    "8"
+    "1"
   ],
   "enableWhatsApp": "0",
   "enableFreeCancellation": "0",
@@ -436,8 +440,8 @@
     "isLoginRequired": "0",
     "addTime": "360",
     "calcOnBaseFare": "1",
-    "amount": "9.5",
-    "strikeoffAmount": "9.5",
+    "amount": "10.5",
+    "strikeoffAmount": "10.5",
     "text": "Assured Benefits at",
     "benefits": [
       {

@@ -48,11 +48,68 @@ body {
     font-weight: 700;
 }
 
-/* App Container */
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+.nav-links span {
+    cursor: pointer;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+.nav-links span:hover {
+    opacity: 1;
+}
+.nav-links span.active {
+    opacity: 1;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 4px;
+}
+
+/* Dashboard Styles */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.stat-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.stat-card h3 {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.stat-card .value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text);
+}
+.stat-card .status-indicator {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.status-RUNNING { background: #e8f5e9; color: #2e7d32; }
+.status-STALE { background: #ffebee; color: #c62828; }
+.status-ERROR { background: #ffebee; color: #c62828; }
+
+/* Booking Layout */
 .app-container {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
 }
 
 /* Search Section */

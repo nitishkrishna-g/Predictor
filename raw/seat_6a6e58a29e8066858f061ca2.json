@@ -12,7 +12,7 @@
   "lowerDividerRow": "3",
   "upperDividerRow": "3",
   "maxNumberOfSeats": 6,
-  "tentativeSeats": "320^^696ac60e0151267cbcd8c907~~~~4.95^P^^0^op",
+  "tentativeSeats": "397^^696ac60e0151267cbcd8c907~~~~4.95^P^^0^op",
   "TotalSeatList": {
     "lowerdeck_seat_nos": [
       "1, 1, 1, SS, N, M, 1210, 0, 59.90, 0.00, 0, 0,h,1058",
@@ -33,15 +33,15 @@
       "10, 2, 5, SS, N, M, 1533, 0, 75.88, 0.00, 0, 0,h,1341",
       "12, 2, 6, SS, N, F, 1714, 0, 84.84, 0.00, 0, 0,h,1499",
       "14, 2, 7, SS, N, M, 1332, 0, 65.93, 0.00, 0, 0,h,1165",
-      "16, 2, 8, SS, N, F, 1408, 0, 69.70, 0.00, 0, 0,h,1232",
-      "18, 2, 9, SS, Y, F, 320, 0, 15.84, 0.00, 0, 0,h,280",
+      "16, 2, 8, SS, Y, F, 384, 0, 19.01, 0.00, 0, 0,h,336",
+      "18, 2, 9, SS, Y, F, 397, 0, 19.65, 0.00, 0, 0,h,347",
       "20, 2, 10, SS, N, M, 1646, 0, 81.48, 0.00, 0, 0,h,1440",
       "22, 2, 11, SS, N, M, 1738, 0, 86.03, 0.00, 0, 0,h,1520",
       "LD1, 4, 3, LB, N, M, 1086, 0, 53.76, 0.00, 0, 0,h,950",
       "LD2, 4, 5, LB, N, M, 1671, 0, 82.71, 0.00, 0, 0,h,1462",
       "LD3, 4, 7, LB, N, F, 1580, 0, 78.21, 0.00, 0, 0,h,1382",
       "LD4, 4, 9, LB, N, M, 1084, 0, 53.66, 0.00, 0, 0,h,948",
-      "LD5, 4, 11, LB, Y, M, 906, 0, 44.85, 0.00, 0, 0,h,792"
+      "LD5, 4, 11, LB, Y, M, 811, 0, 40.14, 0.00, 0, 0,h,709"
     ],
     "upperdeck_seat_nos": [
       "UD1, 1, 1, UB, N, M, 1000, 0, 49.50, 0.00, 0, 0,h,875",
@@ -52,19 +52,19 @@
       "UD15, 1, 11, UB, N, M, 989, 0, 48.96, 0.00, 0, 0,h,865",
       "UD2, 2, 1, UB, N, M, 1201, 0, 59.45, 0.00, 0, 0,h,1050",
       "UD4, 2, 3, UB, N, M, 1473, 0, 72.91, 0.00, 0, 0,h,1288",
-      "UD7, 2, 5, UB, Y, F, 379, 0, 18.76, 0.00, 0, 0,h,331",
+      "UD7, 2, 5, UB, N, F, 1635, 0, 80.93, 0.00, 0, 0,h,1430",
       "UD10, 2, 7, UB, N, M, 1171, 0, 57.96, 0.00, 0, 0,h,1024",
-      "UD13, 2, 9, UB, Y, M, 379, 0, 18.76, 0.00, 0, 0,h,331",
+      "UD13, 2, 9, UB, Y, M, 439, 0, 21.73, 0.00, 0, 0,h,384",
       "UD16, 2, 11, UB, N, M, 1033, 0, 51.13, 0.00, 0, 0,h,903",
       "UD5, 4, 3, UB, N, F, 1381, 0, 68.36, 0.00, 0, 0,h,1208",
       "UD8, 4, 5, UB, N, M, 1038, 0, 51.38, 0.00, 0, 0,h,908",
       "UD11, 4, 7, UB, N, F, 1694, 0, 83.85, 0.00, 0, 0,h,1482",
       "UD14, 4, 9, UB, N, M, 1807, 0, 89.45, 0.00, 0, 0,h,1581",
-      "UD17, 4, 11, UB, Y, M, 715, 0, 35.39, 0.00, 0, 0,h,625"
+      "UD17, 4, 11, UB, Y, M, 687, 0, 34.01, 0.00, 0, 0,h,601"
     ]
   },
-  "seatLayoutUniqueId": "320^^696ac60e0151267cbcd8c907~~~~4.95^P^^0^op^ASSURED",
-  "isAcSeat": "320^^696ac60e0151267cbcd8c907",
+  "seatLayoutUniqueId": "397^^696ac60e0151267cbcd8c907~~~~4.95^P^^0^op^ASSURED",
+  "isAcSeat": "397^^696ac60e0151267cbcd8c907",
   "titles": [
     "Seat Number",
     "Row ID",
@@ -85,69 +85,6 @@
   ],
   "seatLayoutMessage": "",
   "boardingPoints": [
-    {
-      "placeName": "Indira Nagar",
-      "placeTime": "09:35 PM",
-      "placeId": "629f6a2819f02e28bf68ce93",
-      "landMark": "Infront of Indian Oil BunkIndira Nagar, 8287009889",
-      "placeTimeTwfFormat": "21:35",
-      "dt": "2026-08-17 21:35",
-      "latlong": "12.983037, 77.637704"
-    },
-    {
-      "placeName": "Baiyappanahalli",
-      "placeTime": "09:40 PM",
-      "placeId": "6423d9003dda1a3e5c7d14ff",
-      "landMark": "Baiyappanahalli, 8287009889",
-      "placeTimeTwfFormat": "21:40",
-      "dt": "2026-08-17 21:40",
-      "latlong": "12.989874620243, 77.654029856664"
-    },
-    {
-      "placeName": "Tin Factory",
-      "placeTime": "09:50 PM",
-      "placeId": "674ebd9fa797b49a58fa6ddc",
-      "landMark": "Infront of Bharat petrol bunk, Towards MarathahalliTin Factory1, 8287009889",
-      "placeTimeTwfFormat": "21:50",
-      "dt": "2026-08-17 21:50",
-      "latlong": "12.997883, 77.670698"
-    },
-    {
-      "placeName": "KR Puram Railway Station",
-      "placeTime": "10:00 PM",
-      "placeId": "67cd91c181ab9445b08a60d6",
-      "landMark": "Below the Hanging BridgeKR Puram Railway Station, 8287009889",
-      "placeTimeTwfFormat": "22:00",
-      "dt": "2026-08-17 22:00",
-      "latlong": "13.000404756244, 77.677059209618"
-    },
-    {
-      "placeName": "Marathahalli",
-      "placeTime": "10:15 PM",
-      "placeId": "674ebe4f3c3ca35d276d4fda",
-      "landMark": "In front of KalamandirMarathahalli, 8287009889",
-      "placeTimeTwfFormat": "22:15",
-      "dt": "2026-08-17 22:15",
-      "latlong": "12.959845236762, 77.701390254071"
-    },
-    {
-      "placeName": "Kadubeesanahalli",
-      "placeTime": "10:25 PM",
-      "placeId": "6423d9003dda1a3e5c7d150a",
-      "landMark": "New Horizon College bus stop, Towards silk boardKadubeesanahalli, 8287009889",
-      "placeTimeTwfFormat": "22:25",
-      "dt": "2026-08-17 22:25",
-      "latlong": "12.935267, 77.691145"
-    },
-    {
-      "placeName": "Bellandur",
-      "placeTime": "10:30 PM",
-      "placeId": "629f687819f02e28bf68ce1b",
-      "landMark": "Infront of Bellandur Ecospace, Outer Ring Rd, Adarsh Palm Retreat, BellandurBellandur, 8287009889",
-      "placeTimeTwfFormat": "22:30",
-      "dt": "2026-08-17 22:30",
-      "latlong": "12.928029, 77.681231"
-    },
     {
       "placeName": "HSR Layout",
       "placeTime": "10:45 PM",
@@ -281,10 +218,11 @@
   ],
   "busStartDate": null,
   "faresList": [
-    "280",
-    "331",
-    "625",
-    "792",
+    "336",
+    "347",
+    "384",
+    "601",
+    "709",
     "847",
     "854",
     "865",
@@ -304,7 +242,6 @@
     "1157",
     "1165",
     "1208",
-    "1232",
     "1235",
     "1288",
     "1324",
@@ -312,6 +249,7 @@
     "1379",
     "1382",
     "1386",
+    "1430",
     "1440",
     "1442",
     "1462",
@@ -402,10 +340,11 @@
     }
   ],
   "fareListCount": {
-    "280": "1",
-    "792": "1",
-    "331": "2",
-    "625": "1"
+    "336": "1",
+    "347": "1",
+    "709": "1",
+    "384": "1",
+    "601": "1"
   },
   "sourceStateName": null,
   "sourceStateCode": "",
@@ -415,27 +354,27 @@
   "busTypeName": "TATA A/C Semi-Sleeper/Sleeper (With Washroom) AC",
   "cancellationsPolicy": [
     {
-      "cc": "Rs. 224",
+      "cc": "Rs. 268",
       "rp": "70%",
-      "tl": "Rs 224 /- @ 70% refund",
+      "tl": "Rs 268 /- @ 70% refund",
       "con": "Before 14-Aug 21:00"
     },
     {
-      "cc": "Rs. 224",
+      "cc": "Rs. 268",
       "rp": "70%",
-      "tl": "Rs 224 /- @ 70% refund",
+      "tl": "Rs 268 /- @ 70% refund",
       "con": "Between 14-Aug 21:00 & 15-Aug 21:00"
     },
     {
-      "cc": "Rs. 160",
+      "cc": "Rs. 192",
       "rp": "50%",
-      "tl": "Rs 160 /- @ 50% refund",
+      "tl": "Rs 192 /- @ 50% refund",
       "con": "Between 15-Aug 21:00 & 16-Aug 21:00"
     },
     {
-      "cc": "Rs. 64",
+      "cc": "Rs. 76",
       "rp": "20%",
-      "tl": "Rs 64 /- @ 20% refund",
+      "tl": "Rs 76 /- @ 20% refund",
       "con": "Between 16-Aug 21:00 & 17-Aug 09:00"
     },
     {
@@ -519,12 +458,12 @@
       "discountedFare": "1165"
     },
     {
-      "fare": "1408",
-      "discountedFare": "1232"
+      "fare": "384",
+      "discountedFare": "336"
     },
     {
-      "fare": "320",
-      "discountedFare": "280"
+      "fare": "397",
+      "discountedFare": "347"
     },
     {
       "fare": "1646",
@@ -551,8 +490,8 @@
       "discountedFare": "948"
     },
     {
-      "fare": "906",
-      "discountedFare": "792"
+      "fare": "811",
+      "discountedFare": "709"
     },
     {
       "fare": "1000",
@@ -587,12 +526,16 @@
       "discountedFare": "1288"
     },
     {
-      "fare": "379",
-      "discountedFare": "331"
+      "fare": "1635",
+      "discountedFare": "1430"
     },
     {
       "fare": "1171",
       "discountedFare": "1024"
+    },
+    {
+      "fare": "439",
+      "discountedFare": "384"
     },
     {
       "fare": "1033",
@@ -615,8 +558,8 @@
       "discountedFare": "1581"
     },
     {
-      "fare": "715",
-      "discountedFare": "625"
+      "fare": "687",
+      "discountedFare": "601"
     }
   ],
   "isRTC": "0",

@@ -21878,25 +21878,25 @@
     },
     {
       "fares": {
-        "fare": 676,
-        "offerPrice": 608,
+        "fare": 687,
+        "offerPrice": 618,
         "fareList": [
-          818,
-          1341,
-          1450,
-          1559
+          676,
+          937,
+          1046,
+          1155
         ],
         "discounts": {
-          "coFund": 68
+          "coFund": 69
         },
         "appliedOffers": {
-          "101": 68
+          "101": 69
         },
         "featuredOffers": {
-          "4": 67
+          "4": 68
         },
         "featuredOffersGuest": {
-          "4": 67
+          "4": 68
         }
       },
       "timings": {
@@ -22034,14 +22034,14 @@
       "masterId": 370515,
       "originDateTime": "2026-08-24 23:00",
       "seatStats": {
-        "availableSeats": 38,
+        "availableSeats": 36,
         "singleBerthsCount": 8,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 23,
+        "windowSeatCount": 22,
         "femaleAvailableCount": 0,
-        "femaleBookedCount": 0,
+        "femaleBookedCount": 1,
         "seatsCapacity": 40,
-        "womenTravellerCount": 0,
+        "womenTravellerCount": 1,
         "womenRatingsAggregate": 1
       }
     },
@@ -34267,25 +34267,25 @@
     },
     {
       "fares": {
-        "fare": 556,
-        "offerPrice": 500,
+        "fare": 523,
+        "offerPrice": 471,
         "fareList": [
-          556,
-          1003,
-          1155,
-          1199
+          534,
+          1014,
+          1177,
+          1232
         ],
         "discounts": {
-          "coFund": 56
+          "coFund": 52
         },
         "appliedOffers": {
-          "101": 56
+          "101": 52
         },
         "featuredOffers": {
-          "4": 55
+          "4": 52
         },
         "featuredOffersGuest": {
-          "4": 55
+          "4": 52
         }
       },
       "timings": {
@@ -34425,10 +34425,10 @@
         "singleBerthsCount": 9,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 23,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 0,
+        "femaleAvailableCount": 1,
+        "femaleBookedCount": 1,
         "seatsCapacity": 40,
-        "womenTravellerCount": 0
+        "womenTravellerCount": 1
       }
     },
     {
@@ -35021,10 +35021,10 @@
     },
     {
       "fares": {
-        "fare": 2389,
-        "offerPrice": 2339,
+        "fare": 2429,
+        "offerPrice": 2379,
         "fareList": [
-          2389
+          2429
         ],
         "discounts": {
           "coFund": 50
@@ -35147,13 +35147,13 @@
       "masterId": 3962755,
       "originDateTime": "2026-08-24 20:00",
       "seatStats": {
-        "availableSeats": 21,
+        "availableSeats": 20,
         "singleBerthsCount": 0,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 0,
         "femaleAvailableCount": 0,
         "femaleBookedCount": 0,
-        "seatsCapacity": 21,
+        "seatsCapacity": 20,
         "womenTravellerCount": 0
       }
     },

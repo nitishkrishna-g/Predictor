@@ -9578,8 +9578,8 @@
     },
     {
       "fares": {
-        "fare": 822,
-        "offerPrice": 772,
+        "fare": 649,
+        "offerPrice": 599,
         "fareList": [
           832,
           872,
@@ -15234,10 +15234,10 @@
     },
     {
       "fares": {
-        "fare": 1910,
-        "offerPrice": 1860,
+        "fare": 1860,
+        "offerPrice": 1810,
         "fareList": [
-          1910
+          1860
         ],
         "discounts": {
           "coFund": 50

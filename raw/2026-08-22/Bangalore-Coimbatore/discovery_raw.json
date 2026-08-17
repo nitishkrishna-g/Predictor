@@ -4047,14 +4047,14 @@
       "masterId": 8685,
       "originDateTime": "2026-08-22 13:15",
       "seatStats": {
-        "availableSeats": 25,
+        "availableSeats": 23,
         "singleBerthsCount": 7,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 16,
+        "windowSeatCount": 15,
         "femaleAvailableCount": 0,
-        "femaleBookedCount": 7,
+        "femaleBookedCount": 8,
         "seatsCapacity": 36,
-        "womenTravellerCount": 7,
+        "womenTravellerCount": 8,
         "womenRatingsAggregate": 4.5
       }
     },
@@ -4820,8 +4820,8 @@
     },
     {
       "fares": {
-        "fare": 801,
-        "offerPrice": 651,
+        "fare": 838,
+        "offerPrice": 684,
         "fareList": [
           934,
           991,
@@ -4833,11 +4833,11 @@
         ],
         "discounts": {
           "coFund": 50,
-          "edgeOffer": 100,
+          "edgeOffer": 104,
           "offerType": 1
         },
         "appliedOffers": {
-          "1": 100,
+          "1": 104,
           "101": 50
         },
         "featuredOffers": {},
@@ -4989,7 +4989,7 @@
       "busNo": "",
       "rating": 4.5,
       "noOfRatings": 79,
-      "discountMsg": "Save min ₹100 with Flash Offer",
+      "discountMsg": "Save min ₹104 with Flash Offer",
       "serviceId": 4558677504,
       "masterId": 551434,
       "originDateTime": "2026-08-22 21:00",
@@ -20323,7 +20323,7 @@
       "masterId": 49142,
       "originDateTime": "2026-08-22 22:45",
       "seatStats": {
-        "availableSeats": 33,
+        "availableSeats": 31,
         "singleBerthsCount": 12,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 23,
@@ -38655,8 +38655,8 @@
     },
     {
       "fares": {
-        "fare": 2057,
-        "offerPrice": 2007,
+        "fare": 2064,
+        "offerPrice": 2014,
         "fareList": [
           2055,
           2874,
@@ -42731,8 +42731,8 @@
     },
     {
       "fares": {
-        "fare": 3314,
-        "offerPrice": 3264,
+        "fare": 3310,
+        "offerPrice": 3260,
         "fareList": [
           3357,
           4012,

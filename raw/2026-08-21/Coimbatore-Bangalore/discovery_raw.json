@@ -3062,11 +3062,11 @@
         "availableSeats": 21,
         "singleBerthsCount": 0,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 14,
+        "windowSeatCount": 10,
         "femaleAvailableCount": 0,
-        "femaleBookedCount": 4,
+        "femaleBookedCount": 9,
         "seatsCapacity": 39,
-        "womenTravellerCount": 4
+        "womenTravellerCount": 9
       }
     },
     {
@@ -4947,8 +4947,8 @@
     },
     {
       "fares": {
-        "fare": 519,
-        "offerPrice": 418,
+        "fare": 479,
+        "offerPrice": 384,
         "fareList": [
           499,
           529,
@@ -4956,19 +4956,19 @@
           599
         ],
         "discounts": {
-          "coFund": 50,
-          "edgeOffer": 51,
+          "coFund": 48,
+          "edgeOffer": 47,
           "offerType": 1
         },
         "appliedOffers": {
-          "1": 51,
-          "101": 50
+          "1": 47,
+          "101": 48
         },
         "featuredOffers": {
-          "4": 77
+          "4": 71
         },
         "featuredOffersGuest": {
-          "4": 77
+          "4": 71
         }
       },
       "timings": {
@@ -5017,8 +5017,8 @@
         "101": {
           "type": "F",
           "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
+          "maxDiscount": 48,
+          "discount": 48,
           "coupon": "RETURN500W",
           "loginRequired": "0",
           "hasEdgeOffers": true
@@ -5107,7 +5107,7 @@
       "busNo": "",
       "rating": 4.4,
       "noOfRatings": 128,
-      "discountMsg": "Save min ₹51 with Flash Offer",
+      "discountMsg": "Save min ₹47 with Flash Offer",
       "serviceId": 4492531082,
       "masterId": 503845,
       "originDateTime": "2026-08-21 21:30",
@@ -18932,23 +18932,23 @@
     },
     {
       "fares": {
-        "fare": 832,
-        "offerPrice": 678,
+        "fare": 795,
+        "offerPrice": 646,
         "fareList": [
-          832,
-          890,
-          947,
-          1314,
-          1810,
-          1868
+          795,
+          852,
+          910,
+          1251,
+          1724,
+          1781
         ],
         "discounts": {
           "coFund": 50,
-          "edgeOffer": 104,
+          "edgeOffer": 99,
           "offerType": 1
         },
         "appliedOffers": {
-          "1": 104,
+          "1": 99,
           "101": 50
         },
         "featuredOffers": {},
@@ -19100,7 +19100,7 @@
       "busNo": "",
       "rating": 4.4,
       "noOfRatings": 59,
-      "discountMsg": "Save min ₹104 with Flash Offer",
+      "discountMsg": "Save min ₹99 with Flash Offer",
       "serviceId": 4554531573,
       "masterId": 551436,
       "originDateTime": "2026-08-21 22:00",
@@ -19108,7 +19108,7 @@
         "availableSeats": 32,
         "singleBerthsCount": 9,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 24,
+        "windowSeatCount": 23,
         "femaleAvailableCount": 1,
         "femaleBookedCount": 4,
         "seatsCapacity": 44,
@@ -24104,8 +24104,8 @@
     },
     {
       "fares": {
-        "fare": 688,
-        "offerPrice": 638,
+        "fare": 675,
+        "offerPrice": 625,
         "fareList": [
           723,
           746,
@@ -24884,7 +24884,7 @@
       "masterId": 74653,
       "originDateTime": "2026-08-21 22:30",
       "seatStats": {
-        "availableSeats": 32,
+        "availableSeats": 29,
         "singleBerthsCount": 12,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 22,
@@ -30595,8 +30595,8 @@
     },
     {
       "fares": {
-        "fare": 458,
-        "offerPrice": 412,
+        "fare": 425,
+        "offerPrice": 382,
         "fareList": [
           458,
           719,
@@ -30605,16 +30605,16 @@
           1068
         ],
         "discounts": {
-          "coFund": 46
+          "coFund": 43
         },
         "appliedOffers": {
-          "101": 46
+          "101": 43
         },
         "featuredOffers": {
-          "4": 45
+          "4": 42
         },
         "featuredOffersGuest": {
-          "4": 45
+          "4": 42
         }
       },
       "timings": {
@@ -43057,8 +43057,8 @@
     },
     {
       "fares": {
-        "fare": 2379,
-        "offerPrice": 2329,
+        "fare": 2339,
+        "offerPrice": 2289,
         "fareList": [
           2459,
           2559,

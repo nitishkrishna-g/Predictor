@@ -1,13 +1,11 @@
 import sqlite3
 import statistics
-import csv
 from datetime import datetime
 
 DB = "abhibus.db"
 
 def get_time_bucket(htd):
-    if htd is None or htd < 0:
-        return "Unknown"
+    if htd is None or htd < 0: return "Unknown"
     if htd <= 2: return "0-2h"
     if htd <= 4: return "2-4h"
     if htd <= 8: return "4-8h"
@@ -18,243 +16,258 @@ def get_time_bucket(htd):
     if htd <= 72: return "48-72h"
     return "72h+"
 
-def build_dataset(db_path=DB, cutoff_time=None):
+def get_dataset_maturity(conn=None):
+    close_conn = False
+    if conn is None:
+        conn = sqlite3.connect(DB)
+        close_conn = True
+        
+    res = conn.execute("SELECT COUNT(DISTINCT date(scraped_at)) as days FROM scrapes").fetchone()
+    days = res[0] if res else 0
+    
+    if close_conn:
+        conn.close()
+    return days
+
+def get_seat_intelligence(route, journey_date, operator, seat_type, seat_number=None, db_path=DB, cutoff_time=None):
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     
-    where_clause = "WHERE st.discounted_fare IS NOT NULL AND st.discounted_fare > 0"
-    params = []
+    # 1. Get maturity
+    maturity_days = get_dataset_maturity(conn)
     
-    if cutoff_time:
-        where_clause += " AND sc.scraped_at <= ?"
-        params.append(cutoff_time)
+    # 2. Get current state of the exact target service & seat
+    # Determine direction/pattern for route matching
+    route_lower = route.lower()
+    blr_idx = min([route_lower.find(c) for c in ['bangalore','bengaluru'] if c in route_lower] or [9999])
+    cbe_idx = route_lower.find('coimbatore') if 'coimbatore' in route_lower else 9999
+    
+    if blr_idx < cbe_idx:
+        route_pattern = '%bangalore%coimbatore%'
+    else:
+        route_pattern = '%coimbatore%bangalore%'
         
-    query = f"""
-    SELECT 
-      sv.id as service_id,
-      sv.route, 
-      sv.journey_date, 
-      sv.operator, 
-      sv.departure,
-      sc.id as scrape_id,
-      sc.scraped_at, 
-      st.seat_type, 
-      st.seat_number, 
-      st.discounted_fare as fare, 
-      st.available,
-      st.ladies_seat
-    FROM seats st
-    JOIN scrapes sc ON st.scrape_id = sc.id
-    JOIN services sv ON sc.service_id = sv.id
-    {where_clause}
-    ORDER BY sv.id, st.seat_number, sc.scraped_at
-    """
+    op_pattern = f"%{operator}%"
     
-    rows = conn.execute(query, params).fetchall()
-    conn.close()
+    # Find the target service for the specific journey_date
+    target_sv = conn.execute("""
+        SELECT id, departure FROM services 
+        WHERE (LOWER(route) LIKE ? OR LOWER(route) LIKE ?) 
+        AND LOWER(operator) LIKE ? 
+        AND journey_date = ? LIMIT 1
+    """, (route_pattern, route_pattern.replace('bangalore', 'bengaluru'), op_pattern, journey_date)).fetchone()
     
-    dataset = []
-    
-    for r in rows:
-        scraped_at = None
-        departure = None
-        hours_to_departure = None
-        bucket = "Unknown"
-        
-        try:
-            scraped_at = datetime.fromisoformat(r["scraped_at"])
-        except:
-            pass
-            
-        try:
-            if r["departure"] and "Unknown" not in r["departure"]:
-                departure = datetime.strptime(r["departure"], "%Y-%m-%d %H:%M")
-        except:
-            pass
-            
-        if scraped_at and departure:
-            scraped_at_naive = scraped_at.replace(tzinfo=None)
-            diff = departure - scraped_at_naive
-            hours_to_departure = diff.total_seconds() / 3600.0
-            bucket = get_time_bucket(hours_to_departure)
-            
-        dataset.append({
-            "service_id": r["service_id"],
-            "route": r["route"],
-            "journey_date": r["journey_date"],
-            "operator": r["operator"],
-            "departure": r["departure"],
-            "scraped_at": r["scraped_at"],
-            "hours_to_departure": hours_to_departure,
-            "time_bucket": bucket,
-            "seat_type": r["seat_type"],
-            "seat_number": r["seat_number"],
-            "fare": r["fare"],
-            "available": bool(r["available"]),
-            "ladies_seat": bool(r["ladies_seat"])
-        })
-        
-    return dataset
-
-def export_csv(dataset, filename="historical_features.csv"):
-    if not dataset:
-        print("No data to export.")
-        return
-        
-    keys = dataset[0].keys()
-    with open(filename, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=keys)
-        writer.writeheader()
-        writer.writerows(dataset)
-    print(f"Exported {len(dataset)} records to {filename}")
-
-def get_seat_intelligence(route, journey_date, operator, seat_type, seat_number=None, db_path=DB, cutoff_time=None, dataset=None):
-    if dataset is None:
-        dataset = build_dataset(db_path, cutoff_time)
-    
-    # 1. Filter for specific operator and route type
-    service_obs = [
-        d for d in dataset 
-        if route.lower() in d["route"].lower() 
-        and operator.lower() in (d["operator"] or "").lower()
-    ]
-    
-    if not service_obs:
+    if not target_sv:
+        conn.close()
         return {"error": "Service not found in dataset."}
         
-    # We find the exact target service for the specific journey date to get current stats
-    target_service_obs = [d for d in service_obs if d["journey_date"] == journey_date]
-    if not target_service_obs:
-        return {"error": "Target journey date not found in dataset."}
-        
-    # 2. Filter by seat type/number
-    seat_obs_all = []
-    if seat_type.lower() == "seater":
-        seat_obs_all = [d for d in service_obs if d["seat_type"] == "SS"]
-    elif seat_type.lower() == "sleeper":
-        seat_obs_all = [d for d in service_obs if d["seat_type"] in ("LB", "UB")]
-    else:
-        seat_obs_all = [d for d in service_obs if d["seat_type"].lower() == seat_type.lower()]
-        
+    service_id = target_sv["id"]
+    departure_str = target_sv["departure"]
+    
+    # Current seat state
+    seat_filter = "st.seat_number = ?" if seat_number else "st.seat_type = ?"
+    seat_val = seat_number if seat_number else ("SS" if seat_type.lower() == "seater" else "LB") # roughly
+    
+    # If no seat number, we just want the cheapest available for that type
     if seat_number:
-        seat_obs_all = [d for d in seat_obs_all if d["seat_number"].lower() == seat_number.lower()]
+        current_state = conn.execute(f"""
+            SELECT sc.scraped_at, st.discounted_fare, st.seat_fare, st.available
+            FROM scrapes sc 
+            JOIN seats st ON sc.id = st.scrape_id
+            WHERE sc.service_id = ? AND st.seat_number = ?
+            ORDER BY sc.scraped_at DESC LIMIT 1
+        """, (service_id, seat_number)).fetchone()
+    else:
+        # Bus-level query (we can just look at scrapes)
+        current_state = conn.execute("""
+            SELECT scraped_at, cheapest_seater, cheapest_sleeper
+            FROM scrapes WHERE service_id = ? ORDER BY scraped_at DESC LIMIT 1
+        """, (service_id,)).fetchone()
         
-    if not seat_obs_all:
-        return {"error": "No data for this seat criteria."}
+    if not current_state:
+        conn.close()
+        return {"error": "Current seat/bus data not found."}
         
-    # The observations for the TARGET journey (for current state)
-    target_seat_obs = [d for d in seat_obs_all if d["journey_date"] == journey_date]
-    if not target_seat_obs:
-        return {"error": "No data for this seat on the target date."}
-        
-    # 3. Identify current state (latest scrape on the target date)
-    latest_scrape = max(d["scraped_at"] for d in target_seat_obs)
-    current_obs = [d for d in target_seat_obs if d["scraped_at"] == latest_scrape]
+    # Parse departure and htd
+    departure_dt = None
+    if departure_str and "Unknown" not in departure_str:
+        try:
+            departure_dt = datetime.strptime(departure_str, "%Y-%m-%d %H:%M")
+        except:
+            pass
+            
+    current_fare = None
+    available_now = False
+    scraped_at_str = current_state["scraped_at"]
     
-    available_now = [d for d in current_obs if d["available"]]
-    if not available_now:
-        return {"error": "All matching seats are sold out."}
+    if seat_number:
+        current_fare = current_state["discounted_fare"] or current_state["seat_fare"]
+        available_now = bool(current_state["available"])
+    else:
+        if seat_type.lower() == 'seater':
+            current_fare = current_state["cheapest_seater"]
+        else:
+            current_fare = current_state["cheapest_sleeper"]
+        available_now = current_fare is not None
         
-    current_fare = min([d["fare"] for d in available_now])
-    current_htd = current_obs[0]["hours_to_departure"]
-    current_bucket = current_obs[0]["time_bucket"]
+    if not available_now or current_fare is None:
+        conn.close()
+        return {"error": "Seat is sold out or unavailable."}
+        
+    current_htd = None
+    current_bucket = "Unknown"
+    scraped_at_dt = None
+    try:
+        scraped_at_dt = datetime.fromisoformat(scraped_at_str).replace(tzinfo=None)
+        if departure_dt:
+            diff = departure_dt - scraped_at_dt
+            current_htd = diff.total_seconds() / 3600.0
+            current_bucket = get_time_bucket(current_htd)
+    except:
+        pass
+
+    # 3. Targeted Historical Query for this exact route, operator, and seat configuration
+    if seat_number:
+        # Seat specific history
+        hist_query = """
+            SELECT sv.id as service_id, sc.scraped_at, sv.departure, st.discounted_fare, st.seat_fare, st.available
+            FROM services sv
+            JOIN scrapes sc ON sv.id = sc.service_id
+            JOIN seats st ON sc.id = st.scrape_id
+            WHERE (LOWER(sv.route) LIKE ? OR LOWER(sv.route) LIKE ?)
+            AND LOWER(sv.operator) LIKE ?
+            AND st.seat_number = ?
+            AND (st.discounted_fare > 0 OR st.seat_fare > 0)
+        """
+        hist_params = (route_pattern, route_pattern.replace('bangalore', 'bengaluru'), op_pattern, seat_number)
+    else:
+        # Bus-level generic seat-type history
+        hist_query = """
+            SELECT sv.id as service_id, sc.scraped_at, sv.departure, sc.cheapest_seater, sc.cheapest_sleeper
+            FROM services sv
+            JOIN scrapes sc ON sv.id = sc.service_id
+            WHERE (LOWER(sv.route) LIKE ? OR LOWER(sv.route) LIKE ?)
+            AND LOWER(sv.operator) LIKE ?
+        """
+        hist_params = (route_pattern, route_pattern.replace('bangalore', 'bengaluru'), op_pattern)
+        
+    hist_rows = conn.execute(hist_query, hist_params).fetchall()
     
-    # 4. Global Historical Fares for this specific service+seat config across ALL journey dates
-    fares_history = [d["fare"] for d in seat_obs_all if d["fare"] is not None]
+    # 4. Get journey history for the current specific service (for the chart)
+    chart_query = """
+        SELECT sc.scraped_at, st.discounted_fare, st.seat_fare
+        FROM scrapes sc JOIN seats st ON sc.id = st.scrape_id
+        WHERE sc.service_id = ? AND st.seat_number = ? AND st.available = 1
+        ORDER BY sc.scraped_at ASC
+    """
+    if seat_number:
+        chart_rows = conn.execute(chart_query, (service_id, seat_number)).fetchall()
+    else:
+        chart_rows = []
+        
+    conn.close()
+
+    # Process Historical Data
+    fares_history = []
+    journeys = {}
+    
+    for r in hist_rows:
+        fare = None
+        if seat_number:
+            fare = r["discounted_fare"] or r["seat_fare"]
+        else:
+            fare = r["cheapest_seater"] if seat_type.lower() == 'seater' else r["cheapest_sleeper"]
+            
+        if fare is None or fare <= 0: continue
+        
+        fares_history.append(fare)
+        
+        sid = r["service_id"]
+        dep_str = r["departure"]
+        scrap_str = r["scraped_at"]
+        
+        # calculate bucket
+        htd = None
+        bucket = "Unknown"
+        try:
+            scrap_dt = datetime.fromisoformat(scrap_str).replace(tzinfo=None)
+            if dep_str and "Unknown" not in dep_str:
+                dep_dt = datetime.strptime(dep_str, "%Y-%m-%d %H:%M")
+                diff = dep_dt - scrap_dt
+                htd = diff.total_seconds() / 3600.0
+                bucket = get_time_bucket(htd)
+        except:
+            pass
+            
+        if sid not in journeys:
+            journeys[sid] = []
+        journeys[sid].append({"fare": fare, "scraped_at": scrap_str, "time_bucket": bucket, "htd": htd})
+
+    if not fares_history:
+        return {"error": "Insufficient historical data for this seat."}
+
     hist_min = min(fares_history)
     hist_max = max(fares_history)
     hist_med = statistics.median(fares_history)
     
-    # 5. Forward-Looking Probability of Price Drop
-    # Group observations by unique journey (service_id)
-    journeys = {}
-    for obs in seat_obs_all:
-        sid = obs["service_id"]
-        if sid not in journeys:
-            journeys[sid] = []
-        journeys[sid].append(obs)
-        
     comparable_journeys = 0
     dropped_journeys = 0
     lowest_reached = []
     historical_best_buckets = {}
     
     for sid, obs_list in journeys.items():
-        # Find if this journey had observations in the current time bucket
         bucket_obs = [o for o in obs_list if o["time_bucket"] == current_bucket]
-        
         if bucket_obs:
-            # We have a comparable journey!
-            # Did the fare in this bucket resemble the current fare?
-            # Or we can just ask: "Given this time bucket, did the fare drop in the future?"
-            
             comparable_journeys += 1
-            
-            # Future observations are those with hours_to_departure < bucket start
-            # But just ordering by scraped_at is easier. We look at all observations *after* the first bucket observation
             first_bucket_obs_time = min(o["scraped_at"] for o in bucket_obs)
             future_obs = [o for o in obs_list if o["scraped_at"] > first_bucket_obs_time]
             
-            # The lowest fare reached in the future of this journey
             if future_obs:
                 min_future_fare = min(o["fare"] for o in future_obs)
                 lowest_reached.append(min_future_fare)
-                
-                # The minimum fare among the bucket observations (in case of multiple)
                 bucket_fare = max(o["fare"] for o in bucket_obs)
-                
                 if min_future_fare < bucket_fare:
                     dropped_journeys += 1
-            else:
-                # No future observations means no drop
-                pass
-                
-        # To find "historical low window", find when this specific journey reached its absolute minimum
+                    
+        # historical low window
         if obs_list:
             journey_min = min(o["fare"] for o in obs_list)
             min_obs = [o for o in obs_list if o["fare"] == journey_min]
-            # When did it hit this minimum?
             for m in min_obs:
                 b = m["time_bucket"]
                 if b != "Unknown":
                     historical_best_buckets[b] = historical_best_buckets.get(b, 0) + 1
                     
-    # Calculate probabilities
     prob_drop = (dropped_journeys / comparable_journeys * 100) if comparable_journeys > 0 else 0.0
+    expected_min = (sum(lowest_reached) / len(lowest_reached)) if lowest_reached else current_fare
     
-    # Calculate Expected Minimum
-    if lowest_reached:
-        expected_min = sum(lowest_reached) / len(lowest_reached)
-    else:
-        expected_min = current_fare
-        
-    # Calculate best historical low window
+    historical_low_window = "Unknown"
     if historical_best_buckets:
         best_bucket = max(historical_best_buckets, key=historical_best_buckets.get)
         historical_low_window = f"{best_bucket} before departure"
-    else:
-        historical_low_window = "Unknown"
-    
-    # Build current journey history for the chart
+        
     current_journey_history = []
-    scrape_times = sorted(list(set(d["scraped_at"] for d in target_seat_obs)))
-    for st in scrape_times:
-        obs = [d for d in target_seat_obs if d["scraped_at"] == st and d["available"]]
-        if obs:
-            min_f = min(d["fare"] for d in obs)
-            htd_val = obs[0]["hours_to_departure"]
-            current_journey_history.append({"htd": htd_val, "fare": min_f})
+    for r in chart_rows:
+        try:
+            f = r["discounted_fare"] or r["seat_fare"]
+            sdt = datetime.fromisoformat(r["scraped_at"]).replace(tzinfo=None)
+            htd_val = (departure_dt - sdt).total_seconds() / 3600.0 if departure_dt else None
+            if htd_val is not None:
+                current_journey_history.append({"htd": htd_val, "fare": f, "scraped_at": r["scraped_at"]})
+        except:
+            pass
             
-    # Build detailed seat list
-    available_seats_details = []
-    for d in available_now:
-        available_seats_details.append({
-            "seat_number": d["seat_number"],
-            "seat_type": d["seat_type"],
-            "fare": d["fare"]
-        })
-    available_seats_details.sort(key=lambda x: x["fare"])
+    # Confidence Level based on Maturity
+    confidence = "INSUFFICIENT DATA"
+    if maturity_days >= 60: confidence = "HIGH"
+    elif maturity_days >= 30: confidence = "MEDIUM"
+    elif maturity_days >= 7: confidence = "LOW"
+    else: confidence = "INSUFFICIENT DATA"
     
+    # We also consider comparable journeys as a secondary safety check
+    if comparable_journeys < 3 and confidence != "INSUFFICIENT DATA":
+        confidence = "LOW"
+
     return {
         "current_fare": current_fare,
         "historical_min": hist_min,
@@ -264,18 +277,9 @@ def get_seat_intelligence(route, journey_date, operator, seat_type, seat_number=
         "historical_low_window": historical_low_window,
         "probability_of_price_drop": prob_drop,
         "expected_minimum": expected_min,
-        "available_seats_count": len(available_now),
-        "total_matching_seats": len(current_obs),
-        "departure": current_obs[0]["departure"],
-        "operator": current_obs[0]["operator"],
+        "available_seats_count": 1 if seat_number else 99, # roughly
         "comparable_journeys": comparable_journeys,
-        "total_journeys_analyzed": len(journeys),
-        "total_snapshots": len(seat_obs_all),
         "current_journey_history": current_journey_history,
-        "available_seats_details": available_seats_details
+        "dataset_maturity_days": maturity_days,
+        "dataset_confidence": confidence
     }
-
-if __name__ == "__main__":
-    print("Building historical dataset...")
-    data = build_dataset()
-    export_csv(data)

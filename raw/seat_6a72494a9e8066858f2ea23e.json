@@ -647,7 +647,7 @@
   "enableFreeCancellation": "0",
   "restRoomSeats": [],
   "applicableAbsCancellationFee": "15",
-  "applicableCancPolicyIndex": 0,
+  "applicableCancPolicyIndex": 1,
   "applicableCancPolicyPercentage": "70",
   "assuredPartnerInfo": {
     "isEnable": "1",

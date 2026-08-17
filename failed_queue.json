@@ -1,1 +1,1 @@
-[]
+[{"serviceKey": "901", "serviceId": 4476570578, "operatorId": 120849, "travelerAgentName": "freshbus", "serviceName": "Bangalore to Coimbatore", "serviceNumber": "Service Number - BNG-CBE-AC-SE-1955", "busTypeName": "AC Seater Electric (2 + 2)", "busServiceTypeName": "AC Seater Electric (2 + 2)", "originDateTime": "2026-08-17 22:35", "_route_name": "Bangalore-Coimbatore", "_date_str": "2026-08-17", "_output_dir": "raw\\2026-08-17\\Bangalore-Coimbatore"}]

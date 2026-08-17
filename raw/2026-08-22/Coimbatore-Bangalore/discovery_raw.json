@@ -5548,11 +5548,11 @@
         "availableSeats": 45,
         "singleBerthsCount": 10,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 25,
+        "windowSeatCount": 27,
         "femaleAvailableCount": 0,
-        "femaleBookedCount": 1,
+        "femaleBookedCount": 0,
         "seatsCapacity": 48,
-        "womenTravellerCount": 1,
+        "womenTravellerCount": 0,
         "womenRatingsAggregate": 3
       }
     },
@@ -6076,14 +6076,14 @@
       "masterId": 3954139,
       "originDateTime": "2026-08-22 14:00",
       "seatStats": {
-        "availableSeats": 26,
+        "availableSeats": 24,
         "singleBerthsCount": 10,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 18,
+        "windowSeatCount": 17,
         "femaleAvailableCount": 0,
-        "femaleBookedCount": 5,
+        "femaleBookedCount": 6,
         "seatsCapacity": 36,
-        "womenTravellerCount": 5,
+        "womenTravellerCount": 6,
         "womenRatingsAggregate": 3.6
       }
     },
@@ -14740,8 +14740,8 @@
     },
     {
       "fares": {
-        "fare": 459,
-        "offerPrice": 413,
+        "fare": 470,
+        "offerPrice": 423,
         "fareList": [
           459,
           479,
@@ -14749,16 +14749,16 @@
           549
         ],
         "discounts": {
-          "coFund": 46
+          "coFund": 47
         },
         "appliedOffers": {
-          "101": 46
+          "101": 47
         },
         "featuredOffers": {
-          "4": 68
+          "4": 70
         },
         "featuredOffersGuest": {
-          "4": 68
+          "4": 70
         }
       },
       "timings": {
@@ -14801,8 +14801,8 @@
         "101": {
           "type": "F",
           "minTicketValue": 0,
-          "maxDiscount": 46,
-          "discount": 46,
+          "maxDiscount": 47,
+          "discount": 47,
           "coupon": "RETURN500W",
           "loginRequired": "0",
           "hasEdgeOffers": false
@@ -32219,8 +32219,8 @@
       },
       "tags": [
         {
-          "title": "6 Single Berths (LB-3, UB-3)",
-          "value": "6",
+          "title": "5 Single Berths (LB-2, UB-3)",
+          "value": "5",
           "type": "SingleBerths",
           "filterID": 19,
           "discountAmount": 0
@@ -32289,14 +32289,14 @@
       "masterId": 4043314,
       "originDateTime": "2026-08-22 10:00",
       "seatStats": {
-        "availableSeats": 19,
-        "singleBerthsCount": 6,
+        "availableSeats": 16,
+        "singleBerthsCount": 5,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 12,
+        "windowSeatCount": 10,
         "femaleAvailableCount": 0,
-        "femaleBookedCount": 4,
+        "femaleBookedCount": 6,
         "seatsCapacity": 48,
-        "womenTravellerCount": 4
+        "womenTravellerCount": 6
       }
     },
     {
@@ -34794,8 +34794,8 @@
     },
     {
       "fares": {
-        "fare": 980,
-        "offerPrice": 930,
+        "fare": 960,
+        "offerPrice": 910,
         "fareList": [
           1000,
           1060,
@@ -35589,8 +35589,8 @@
     },
     {
       "fares": {
-        "fare": 1931,
-        "offerPrice": 1881,
+        "fare": 1944,
+        "offerPrice": 1894,
         "fareList": [
           1933,
           2126,

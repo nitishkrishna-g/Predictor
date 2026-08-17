@@ -11,10 +11,11 @@ def get_recommendation(intel):
     cur_fare = intel["current_fare"]
     expected_min = intel["expected_minimum"]
     prob_drop = intel["probability_of_price_drop"]
-    avail = intel["available_seats_count"]
+    avail = intel.get("available_seats_count", 99)
     comp_journeys = intel.get("comparable_journeys", 0)
-    htd = intel["hours_to_departure"]
-    low_window = intel["historical_low_window"]
+    htd = intel.get("hours_to_departure", 0)
+    low_window = intel.get("historical_low_window", "Unknown")
+    confidence = intel.get("dataset_confidence", "INSUFFICIENT DATA")
     
     risk = get_availability_risk(avail)
     
@@ -28,19 +29,18 @@ def get_recommendation(intel):
         recommendation = "BOOK NOW"
         next_check = "N/A"
         
-    confidence = "HIGH"
-    if comp_journeys < 3:
-        confidence = "LOW"
-        if recommendation == "WAIT":
-            recommendation = "WAIT (Insufficient historical evidence)"
-    elif comp_journeys < 10:
-        confidence = "MEDIUM"
+    if confidence == "INSUFFICIENT DATA":
+        recommendation = "INSUFFICIENT DATA"
+        next_check = "N/A"
         
     # Construct Why Reason
-    why = f"Current fare is ₹{cur_fare}. "
-    if comp_journeys < 3:
-        why += "However, there is insufficient historical data to make a strong prediction. "
-    else:
+    why = f"Current fare is ₹{cur_fare:.0f}. "
+    if confidence == "INSUFFICIENT DATA":
+        why += "We need more days of historical data for this route to generate trustworthy predictions."
+    elif confidence == "LOW":
+        why += "Historical data is limited, prediction may be less reliable. "
+    
+    if confidence != "INSUFFICIENT DATA":
         if "BOOK" in recommendation:
             if risk in ["CRITICAL", "HIGH"]:
                 why += f"Only {avail} seats remain (Risk: {risk}). Secure your seat now before it sells out. "
@@ -51,8 +51,7 @@ def get_recommendation(intel):
             expected_savings = cur_fare - expected_min
             if expected_savings > 0:
                 why += f"Expected potential saving: ₹{expected_savings:.0f}. "
-    why += f"{avail} eligible seats remain."
-        
+    
     return recommendation, next_check, risk, confidence, why
 
 def advise(route, date, service_name, seat_type, seat_number=None):
@@ -69,40 +68,23 @@ def advise(route, date, service_name, seat_type, seat_number=None):
     low_window = intel["historical_low_window"]
     expected_min = intel["expected_minimum"]
     prob_drop = intel["probability_of_price_drop"]
-    avail = intel["available_seats_count"]
     
     recommendation, next_check, risk, confidence, why = get_recommendation(intel)
         
     print(f"{route}")
-    print(f"{intel['operator']}")
-    print(f"{intel['departure'].split(' ')[1]}")
     if seat_number:
         print(f"Seat {seat_number} ({seat_type.title()})")
     else:
         print(f"{seat_type.title()}")
     print()
     print(f"Current fare: ₹{cur_fare:.0f}")
-    print(f"Current availability: {avail}")
-    print()
     print(f"Time to departure: {htd:.1f}h")
-    print()
-    print(f"Historical median: ₹{hist_med:.0f}")
     print(f"Historical minimum: ₹{hist_min:.0f}")
-    print()
     print(f"Probability of fare drop: {prob_drop:.0f}%")
     print(f"Expected minimum: ₹{expected_min:.0f}")
-    print()
-    print(f"Historical best booking window:")
-    print(f"{low_window}")
-    print()
-    print(f"Availability risk:")
-    print(f"{risk}")
-    print()
-    print(f"Recommendation:")
-    print(f"{recommendation}")
-    print()
-    print(f"Next important check:")
-    print(f"{next_check}")
+    print(f"Recommendation: {recommendation}")
+    print(f"Confidence: {confidence}")
+    print(f"Reason: {why}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

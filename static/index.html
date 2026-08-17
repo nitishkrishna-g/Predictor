@@ -5,35 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IntelBus | Premium Booking</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header class="navbar">
         <div class="logo">IntelBus</div>
+        <div class="nav-links">
+            <span class="active" onclick="showTab('booking')">Booking</span>
+            <span onclick="showTab('dashboard')">System Health</span>
+        </div>
     </header>
 
     <main class="app-container">
-        <!-- Step 1: Search Form -->
-        <section class="search-section">
-            <h2>Where are you traveling?</h2>
-            <div class="search-grid">
-                <div class="input-group">
-                    <label>Route</label>
-                    <select id="route-select" onchange="searchBuses()">
-                        <option value="">Loading...</option>
-                    </select>
-                </div>
-            </div>
-            
-            <div id="date-tabs" class="date-tabs">
-                <!-- Dates populated by JS -->
+        <!-- Dashboard Tab -->
+        <section id="dashboard-tab" class="hidden">
+            <h2 style="margin-bottom: 2rem;">Collector Health Dashboard</h2>
+            <div class="dashboard-grid" id="dashboard-content">
+                Loading system status...
             </div>
         </section>
 
-        <!-- Step 2: Bus Results -->
-        <section id="results-section" class="hidden">
-            <div id="bus-list" class="bus-list">
-                <!-- Buses populated by JS -->
-            </div>
+        <!-- Booking Tab -->
+        <section id="booking-tab">
+            <!-- Step 1: Search Form -->
+            <section class="search-section">
+                <h2>Where are you traveling?</h2>
+                <div class="search-grid">
+                    <div class="input-group">
+                        <label>Route</label>
+                        <select id="route-select" onchange="searchBuses()">
+                            <option value="">Loading...</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div id="date-tabs" class="date-tabs">
+                    <!-- Dates populated by JS -->
+                </div>
+            </section>
+
+            <!-- Step 2: Bus Results -->
+            <section id="results-section" class="hidden">
+                <div id="bus-list" class="bus-list">
+                    <!-- Buses populated by JS -->
+                </div>
+            </section>
         </section>
 
         <!-- Step 3: Seat Map Modal -->
@@ -72,14 +88,15 @@
                         <div id="intelligence-panel" class="intel-card hidden">
                             <h3 class="intel-title">Selected Seat: <span id="intel-seat-no"></span></h3>
                             
-                            <div style="margin-bottom: 2rem;">
-                                <div class="intel-sub">Current Fare</div>
-                                <div class="intel-value" id="intel-current-fare"></div>
+                            <div style="margin-bottom: 2rem; display: flex; justify-content: space-between;">
+                                <div>
+                                    <div class="intel-sub">Current Fare</div>
+                                    <div class="intel-value" id="intel-current-fare"></div>
+                                </div>
+                                <div id="intel-recommendation-box" class="rec-badge"></div>
                             </div>
                             
-                            <div id="intel-recommendation-box" class="rec-badge"></div>
-                            
-                            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
                                 <div>
                                     <div class="intel-sub">Historical Minimum</div>
                                     <div class="intel-value" id="intel-hist-min" style="font-size: 1.25rem;"></div>
@@ -101,7 +118,12 @@
                                 </div>
                             </div>
                             
-                            <div style="margin-top: 2rem; font-size: 0.8rem; color: var(--text-light);" id="intel-reason"></div>
+                            <!-- Phase 9: Price Trend Chart -->
+                            <div class="chart-container" style="position: relative; height:200px; width:100%; margin-bottom: 1rem;">
+                                <canvas id="priceChart"></canvas>
+                            </div>
+                            
+                            <div style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-light);" id="intel-reason"></div>
                         </div>
                         
                         <div id="intel-placeholder" style="text-align: center; color: var(--text-light); margin-top: 4rem;">

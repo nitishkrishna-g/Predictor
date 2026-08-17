@@ -2,7 +2,7 @@
   "SourceStationID": "1064",
   "DestinationStationID": "2318",
   "Route": "Coimbatore-Bangalore",
-  "JourneyDate": "2026-08-18",
+  "JourneyDate": "2026-08-21",
   "ServiceID": "12731273",
   "SeatLayoutID": "HYBRID (20 BERTH + 20 SEAT)- AC",
   "upperTotalRows": "5",
@@ -12,54 +12,54 @@
   "lowerDividerRow": "3",
   "upperDividerRow": "3",
   "maxNumberOfSeats": 6,
-  "tentativeSeats": "~~~~26.33^P^636~11.45~~509~9.16~~742~13.36^0^op",
+  "tentativeSeats": "~~~~26.58^P^665~11.97~~523~9.41~~774~13.93^0^op",
   "TotalSeatList": {
     "lowerdeck_seat_nos": [
-      "1, 1, 1, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "3, 1, 2, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "5, 1, 3, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "7, 1, 4, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "9, 1, 5, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "11, 1, 6, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "13, 1, 7, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "15, 1, 8, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "17, 1, 9, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "19, 1, 10, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "2, 2, 1, SS, N, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "4, 2, 2, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "6, 2, 3, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "8, 2, 4, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "10, 2, 5, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "12, 2, 6, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "14, 2, 7, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "16, 2, 8, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "18, 2, 9, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "20, 2, 10, SS, Y, M, 509, 0, 92.00, 0.00, 0, 0,h,509",
-      "3L, 4, 1, LB, N, M, 742, 0, 134.00, 0.00, 0, 0,h,742",
-      "6L, 4, 3, LB, N, F, 742, 0, 134.00, 0.00, 0, 0,h,742",
-      "9L, 4, 5, LB, N, M, 742, 0, 134.00, 0.00, 0, 0,h,742",
-      "12L, 4, 7, LB, N, M, 742, 0, 134.00, 0.00, 0, 0,h,742",
-      "15L, 4, 9, LB, Y, M, 742, 0, 134.00, 0.00, 0, 0,h,742"
+      "1, 1, 1, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "3, 1, 2, SS, N, F, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "5, 1, 3, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "7, 1, 4, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "9, 1, 5, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "11, 1, 6, SS, N, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "13, 1, 7, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "15, 1, 8, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "17, 1, 9, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "19, 1, 10, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "2, 2, 1, SS, N, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "4, 2, 2, SS, Y, F, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "6, 2, 3, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "8, 2, 4, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "10, 2, 5, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "12, 2, 6, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "14, 2, 7, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "16, 2, 8, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "18, 2, 9, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "20, 2, 10, SS, Y, M, 523, 0, 94.00, 0.00, 0, 0,h,523",
+      "3L, 4, 1, LB, N, M, 774, 0, 139.00, 0.00, 0, 0,h,774",
+      "6L, 4, 3, LB, Y, M, 774, 0, 139.00, 0.00, 0, 0,h,774",
+      "9L, 4, 5, LB, Y, M, 774, 0, 139.00, 0.00, 0, 0,h,774",
+      "12L, 4, 7, LB, Y, M, 774, 0, 139.00, 0.00, 0, 0,h,774",
+      "15L, 4, 9, LB, Y, M, 774, 0, 139.00, 0.00, 0, 0,h,774"
     ],
     "upperdeck_seat_nos": [
-      "1U, 1, 1, UB, Y, M, 636, 0, 114.00, 0.00, 0, 0,h,636",
-      "4U, 1, 3, UB, Y, M, 636, 0, 114.00, 0.00, 0, 0,h,636",
-      "7U, 1, 5, UB, N, M, 636, 0, 114.00, 0.00, 0, 0,h,636",
-      "10U, 1, 7, UB, Y, M, 636, 0, 114.00, 0.00, 0, 0,h,636",
-      "13U, 1, 9, UB, Y, M, 636, 0, 114.00, 0.00, 0, 0,h,636",
-      "2U, 2, 1, UB, Y, M, 636, 0, 114.00, 0.00, 0, 0,h,636",
-      "5U, 2, 3, UB, Y, M, 636, 0, 114.00, 0.00, 0, 0,h,636",
-      "8U, 2, 5, UB, Y, M, 636, 0, 114.00, 0.00, 0, 0,h,636",
-      "11U, 2, 7, UB, Y, M, 636, 0, 114.00, 0.00, 0, 0,h,636",
-      "14U, 2, 9, UB, Y, M, 636, 0, 114.00, 0.00, 0, 0,h,636",
-      "3U, 5, 1, UB, Y, M, 742, 0, 134.00, 0.00, 0, 0,h,742",
-      "6U, 5, 3, UB, Y, M, 742, 0, 134.00, 0.00, 0, 0,h,742",
-      "9U, 5, 5, UB, Y, M, 742, 0, 134.00, 0.00, 0, 0,h,742",
-      "12U, 5, 7, UB, Y, M, 742, 0, 134.00, 0.00, 0, 0,h,742",
-      "15U, 5, 9, UB, Y, M, 742, 0, 134.00, 0.00, 0, 0,h,742"
+      "1U, 1, 1, UB, Y, M, 665, 0, 120.00, 0.00, 0, 0,h,665",
+      "4U, 1, 3, UB, Y, M, 665, 0, 120.00, 0.00, 0, 0,h,665",
+      "7U, 1, 5, UB, Y, M, 665, 0, 120.00, 0.00, 0, 0,h,665",
+      "10U, 1, 7, UB, Y, M, 665, 0, 120.00, 0.00, 0, 0,h,665",
+      "13U, 1, 9, UB, Y, M, 665, 0, 120.00, 0.00, 0, 0,h,665",
+      "2U, 2, 1, UB, Y, M, 665, 0, 120.00, 0.00, 0, 0,h,665",
+      "5U, 2, 3, UB, Y, M, 665, 0, 120.00, 0.00, 0, 0,h,665",
+      "8U, 2, 5, UB, Y, M, 665, 0, 120.00, 0.00, 0, 0,h,665",
+      "11U, 2, 7, UB, Y, M, 665, 0, 120.00, 0.00, 0, 0,h,665",
+      "14U, 2, 9, UB, Y, M, 665, 0, 120.00, 0.00, 0, 0,h,665",
+      "3U, 5, 1, UB, Y, M, 774, 0, 139.00, 0.00, 0, 0,h,774",
+      "6U, 5, 3, UB, Y, M, 774, 0, 139.00, 0.00, 0, 0,h,774",
+      "9U, 5, 5, UB, N, M, 774, 0, 139.00, 0.00, 0, 0,h,774",
+      "12U, 5, 7, UB, Y, M, 774, 0, 139.00, 0.00, 0, 0,h,774",
+      "15U, 5, 9, UB, Y, M, 774, 0, 139.00, 0.00, 0, 0,h,774"
     ]
   },
-  "seatLayoutUniqueId": "~~~~26.33^P^636~11.45~~509~9.16~~742~13.36^0^op^ASSURED",
+  "seatLayoutUniqueId": "~~~~26.58^P^665~11.97~~523~9.41~~774~13.93^0^op^ASSURED",
   "isAcSeat": null,
   "titles": [
     "Seat Number",
@@ -87,7 +87,7 @@
       "placeId": "474",
       "landMark": "Near Indian Petrol Bunk, Saibaba Koil-18002679001",
       "placeTimeTwfFormat": "19:25",
-      "dt": "2026-08-18 19:25",
+      "dt": "2026-08-21 19:25",
       "latlong": null
     },
     {
@@ -96,7 +96,7 @@
       "placeId": "472",
       "landMark": "Mathibala Travels, Omni Bus Stand, Gandhipuram-18002679001",
       "placeTimeTwfFormat": "19:45",
-      "dt": "2026-08-18 19:45",
+      "dt": "2026-08-21 19:45",
       "latlong": null
     },
     {
@@ -105,7 +105,7 @@
       "placeId": "465",
       "landMark": "Near Adyar Ananda Bhavan - A2B Bharathiyar Rd, Siddhapudur-18002679001",
       "placeTimeTwfFormat": "20:00",
-      "dt": "2026-08-18 20:00",
+      "dt": "2026-08-21 20:00",
       "latlong": null
     },
     {
@@ -114,7 +114,7 @@
       "placeId": "470",
       "landMark": "Near Axis Bank, PN Palayam-18002679001",
       "placeTimeTwfFormat": "20:05",
-      "dt": "2026-08-18 20:05",
+      "dt": "2026-08-21 20:05",
       "latlong": null
     },
     {
@@ -123,7 +123,7 @@
       "placeId": "473",
       "landMark": "PSG Tech Bridge, Avinashi Rd, Peelamedu-18002679001",
       "placeTimeTwfFormat": "20:10",
-      "dt": "2026-08-18 20:10",
+      "dt": "2026-08-21 20:10",
       "latlong": null
     },
     {
@@ -132,7 +132,7 @@
       "placeId": "468",
       "landMark": "Near TIDEL Park Turning Board, Avinashi Rd, Peelamedu, Civil Aerodrome Post-18002679001",
       "placeTimeTwfFormat": "20:15",
-      "dt": "2026-08-18 20:15",
+      "dt": "2026-08-21 20:15",
       "latlong": null
     },
     {
@@ -141,7 +141,7 @@
       "placeId": "467",
       "landMark": "Passport Office Bus Stop, Indira Nagar, Civil Aerodrome-18002679001",
       "placeTimeTwfFormat": "20:25",
-      "dt": "2026-08-18 20:25",
+      "dt": "2026-08-21 20:25",
       "latlong": null
     },
     {
@@ -150,7 +150,7 @@
       "placeId": "471",
       "landMark": "Near Dindigul Thalappakatti, Avinashi Rd, NPS Nagar,-18002679001",
       "placeTimeTwfFormat": "20:35",
-      "dt": "2026-08-18 20:35",
+      "dt": "2026-08-21 20:35",
       "latlong": null
     },
     {
@@ -159,7 +159,7 @@
       "placeId": "469",
       "landMark": "Near Toll Gate-18002679001",
       "placeTimeTwfFormat": "20:45",
-      "dt": "2026-08-18 20:45",
+      "dt": "2026-08-21 20:45",
       "latlong": null
     }
   ],
@@ -185,11 +185,11 @@
   ],
   "busStartDate": null,
   "faresList": [
-    "509",
-    "636",
-    "742"
+    "523",
+    "665",
+    "774"
   ],
-  "serviceNo": "1010#1064#2318#1273#1273#12780#18082026#8:00 PM#8:00 PM#2",
+  "serviceNo": "1010#1064#2318#1273#1273#12780#21082026#8:00 PM#8:00 PM#2",
   "isToShowSeatTypes": "1",
   "droppingPoints": [
     {
@@ -197,7 +197,7 @@
       "placeTime": "02:45 AM",
       "placeId": "394",
       "placeTimeTwfFormat": "02:45",
-      "dt": "2026-08-19 02:45",
+      "dt": "2026-08-22 02:45",
       "landMark": "",
       "latlong": ""
     },
@@ -206,7 +206,7 @@
       "placeTime": "02:55 AM",
       "placeId": "393",
       "placeTimeTwfFormat": "02:55",
-      "dt": "2026-08-19 02:55",
+      "dt": "2026-08-22 02:55",
       "landMark": "",
       "latlong": ""
     },
@@ -215,7 +215,7 @@
       "placeTime": "03:00 AM",
       "placeId": "400",
       "placeTimeTwfFormat": "03:00",
-      "dt": "2026-08-19 03:00",
+      "dt": "2026-08-22 03:00",
       "landMark": "",
       "latlong": ""
     },
@@ -224,7 +224,7 @@
       "placeTime": "03:05 AM",
       "placeId": "392",
       "placeTimeTwfFormat": "03:05",
-      "dt": "2026-08-19 03:05",
+      "dt": "2026-08-22 03:05",
       "landMark": "",
       "latlong": ""
     },
@@ -233,7 +233,7 @@
       "placeTime": "03:10 AM",
       "placeId": "391",
       "placeTimeTwfFormat": "03:10",
-      "dt": "2026-08-19 03:10",
+      "dt": "2026-08-22 03:10",
       "landMark": "",
       "latlong": ""
     },
@@ -242,7 +242,7 @@
       "placeTime": "03:30 AM",
       "placeId": "204",
       "placeTimeTwfFormat": "03:30",
-      "dt": "2026-08-19 03:30",
+      "dt": "2026-08-22 03:30",
       "landMark": "",
       "latlong": ""
     },
@@ -251,7 +251,7 @@
       "placeTime": "03:45 AM",
       "placeId": "150",
       "placeTimeTwfFormat": "03:45",
-      "dt": "2026-08-19 03:45",
+      "dt": "2026-08-22 03:45",
       "landMark": "",
       "latlong": ""
     },
@@ -260,60 +260,60 @@
       "placeTime": "04:00 AM",
       "placeId": "146",
       "placeTimeTwfFormat": "04:00",
-      "dt": "2026-08-19 04:00",
+      "dt": "2026-08-22 04:00",
       "landMark": "",
       "latlong": ""
     }
   ],
   "fareListCount": {
-    "509": "19",
-    "742": "6",
-    "636": "9"
+    "523": "17",
+    "774": "8",
+    "665": "10"
   },
   "sourceStateName": null,
   "sourceStateCode": "",
   "travelerAgentName": "NueGo",
-  "startTimeDateFormat": "2026-08-18 20:00",
+  "startTimeDateFormat": "2026-08-21 20:00",
   "servicesKey": null,
   "busTypeName": "HYBRID (20 BERTH + 20 SEAT)- AC",
   "cancellationsPolicy": [
     {
-      "cc": "Rs. 382",
+      "cc": "Rs. 392",
       "rp": "75%",
-      "tl": "Rs 382 /- @ 75% refund",
-      "con": "Before 18-Aug 07:25"
+      "tl": "Rs 392 /- @ 75% refund",
+      "con": "Before 21-Aug 07:25"
     },
     {
-      "cc": "Rs. 255",
+      "cc": "Rs. 262",
       "rp": "50%",
-      "tl": "Rs 255 /- @ 50% refund",
-      "con": "Between 18-Aug 07:25 & 18-Aug 11:25"
+      "tl": "Rs 262 /- @ 50% refund",
+      "con": "Between 21-Aug 07:25 & 21-Aug 11:25"
     },
     {
       "cc": "Rs. 0",
       "rp": "0%",
       "tl": "Rs 0 /- @ 0% refund",
-      "con": "Between 18-Aug 11:25 & 18-Aug 19:23"
+      "con": "Between 21-Aug 11:25 & 21-Aug 19:23"
     },
     {
       "cc": "Rs. 0",
       "rp": "0%",
       "tl": "Rs 0 /- @ 0% refund",
-      "con": "After 18-Aug 11:25"
+      "con": "After 21-Aug 11:25"
     }
   ],
   "offerFaresList": [
     {
-      "fare": "509",
-      "discountedFare": "509"
+      "fare": "523",
+      "discountedFare": "523"
     },
     {
-      "fare": "742",
-      "discountedFare": "742"
+      "fare": "774",
+      "discountedFare": "774"
     },
     {
-      "fare": "636",
-      "discountedFare": "636"
+      "fare": "665",
+      "discountedFare": "665"
     }
   ],
   "isRTC": "0",
@@ -405,7 +405,7 @@
   ],
   "gentsSeats": [
     "1",
-    "8U"
+    "12"
   ],
   "enableWhatsApp": "0",
   "enableFreeCancellation": "0",
@@ -420,8 +420,8 @@
     "isLoginRequired": "0",
     "addTime": "360",
     "calcOnBaseFare": "1",
-    "amount": "9.5",
-    "strikeoffAmount": "9.5",
+    "amount": "10.5",
+    "strikeoffAmount": "10.5",
     "text": "Assured Benefits at",
     "benefits": [
       {

@@ -12,10 +12,10 @@
   "lowerDividerRow": "3",
   "upperDividerRow": "3",
   "maxNumberOfSeats": 6,
-  "tentativeSeats": "697^^6a01a9820f91b06987b9066f~~~~5.04^P^^0^op",
+  "tentativeSeats": "664^^6a01a9820f91b06987b9066f~~~~5.04^P^^0^op",
   "TotalSeatList": {
     "lowerdeck_seat_nos": [
-      "1, 1, 1, SS, Y, M, 697, 0, 35.13, 0.00, 0, 0,h,609",
+      "1, 1, 1, SS, Y, M, 611, 0, 30.79, 0.00, 0, 0,h,534",
       "3, 1, 2, SS, N, M, 1703, 0, 85.83, 0.00, 0, 0,h,1490",
       "5, 1, 3, SS, N, F, 1805, 0, 90.97, 0.00, 0, 0,h,1579",
       "7, 1, 4, SS, N, M, 1771, 0, 89.26, 0.00, 0, 0,h,1549",
@@ -26,9 +26,9 @@
       "17, 1, 9, SS, N, M, 1402, 0, 70.66, 0.00, 0, 0,h,1226",
       "19, 1, 10, SS, N, M, 1766, 0, 89.01, 0.00, 0, 0,h,1545",
       "21, 1, 11, SS, N, F, 1466, 0, 73.89, 0.00, 0, 0,h,1282",
-      "2, 2, 1, SS, Y, M, 697, 0, 35.13, 0.00, 0, 0,h,609",
-      "4, 2, 2, SS, Y, M, 874, 0, 44.05, 0.00, 0, 0,h,764",
-      "6, 2, 3, SS, Y, F, 874, 0, 44.05, 0.00, 0, 0,h,764",
+      "2, 2, 1, SS, Y, M, 611, 0, 30.79, 0.00, 0, 0,h,534",
+      "4, 2, 2, SS, Y, M, 732, 0, 36.89, 0.00, 0, 0,h,640",
+      "6, 2, 3, SS, Y, F, 732, 0, 36.89, 0.00, 0, 0,h,640",
       "8, 2, 4, SS, N, M, 1422, 0, 71.67, 0.00, 0, 0,h,1244",
       "10, 2, 5, SS, N, F, 1370, 0, 69.05, 0.00, 0, 0,h,1198",
       "12, 2, 6, SS, N, M, 1496, 0, 75.40, 0.00, 0, 0,h,1309",
@@ -41,7 +41,7 @@
       "LD2, 4, 5, LB, N, F, 1895, 0, 95.51, 0.00, 0, 0,h,1658",
       "LD3, 4, 7, LB, N, M, 1675, 0, 84.42, 0.00, 0, 0,h,1465",
       "LD4, 4, 9, LB, N, M, 1317, 0, 66.38, 0.00, 0, 0,h,1152",
-      "LD5, 4, 11, LB, Y, M, 1132, 0, 57.05, 0.00, 0, 0,h,990"
+      "LD5, 4, 11, LB, N, M, 1007, 0, 50.75, 0.00, 0, 0,h,881"
     ],
     "upperdeck_seat_nos": [
       "UD1, 1, 1, UB, N, M, 1541, 0, 77.67, 0.00, 0, 0,h,1348",
@@ -55,7 +55,7 @@
       "UD7, 2, 5, UB, N, M, 1853, 0, 93.39, 0.00, 0, 0,h,1621",
       "UD10, 2, 7, UB, N, M, 1572, 0, 79.23, 0.00, 0, 0,h,1375",
       "UD13, 2, 9, UB, N, F, 1347, 0, 67.89, 0.00, 0, 0,h,1178",
-      "UD16, 2, 11, UB, Y, M, 931, 0, 46.92, 0.00, 0, 0,h,814",
+      "UD16, 2, 11, UB, Y, M, 790, 0, 39.82, 0.00, 0, 0,h,691",
       "UD5, 4, 3, UB, N, M, 1740, 0, 87.70, 0.00, 0, 0,h,1522",
       "UD8, 4, 5, UB, N, F, 1806, 0, 91.02, 0.00, 0, 0,h,1580",
       "UD11, 4, 7, UB, N, M, 1150, 0, 57.96, 0.00, 0, 0,h,1006",
@@ -63,8 +63,8 @@
       "UD17, 4, 11, UB, N, M, 1322, 0, 66.63, 0.00, 0, 0,h,1156"
     ]
   },
-  "seatLayoutUniqueId": "697^^6a01a9820f91b06987b9066f~~~~5.04^P^^0^op^ASSURED",
-  "isAcSeat": "697^^6a01a9820f91b06987b9066f",
+  "seatLayoutUniqueId": "664^^6a01a9820f91b06987b9066f~~~~5.04^P^^0^op^ASSURED",
+  "isAcSeat": "664^^6a01a9820f91b06987b9066f",
   "titles": [
     "Seat Number",
     "Row ID",
@@ -85,60 +85,6 @@
   ],
   "seatLayoutMessage": "",
   "boardingPoints": [
-    {
-      "placeName": "Koundampalayam",
-      "placeTime": "09:50 PM",
-      "placeId": "6748c020d56831d061a053b7",
-      "landMark": "In front of Tamilnadu Fire Station OfficeKoundampalayam, 8287009889",
-      "placeTimeTwfFormat": "21:50",
-      "dt": "2026-08-17 21:50",
-      "latlong": "11.043553944317, 76.948160866435"
-    },
-    {
-      "placeName": "Zingbus Office Gandhipuram",
-      "placeTime": "10:00 PM",
-      "placeId": "68dcb4005097b21927a485f6",
-      "landMark": "Opposite Zingbus Office, Gandhipuram, CoimbatoreZingbus Office Gandhipuram, 8287009889",
-      "placeTimeTwfFormat": "22:00",
-      "dt": "2026-08-17 22:00",
-      "latlong": "11.017744, 76.969319"
-    },
-    {
-      "placeName": "Gandhipuram (In front of HMR Hotel)",
-      "placeTime": "10:05 PM",
-      "placeId": "67a74e5e16d4c1bd60525a0d",
-      "landMark": "Infront of HMR Hotel, GandhipuramGandhipuram (In front of HMR Hotel), 8287009889",
-      "placeTimeTwfFormat": "22:05",
-      "dt": "2026-08-17 22:05",
-      "latlong": "11.014013, 76.96742"
-    },
-    {
-      "placeName": "Lakshmi Mills (In front of Axis Bank ATM)",
-      "placeTime": "10:25 PM",
-      "placeId": "6420b4b7470954263a38a0de",
-      "landMark": "Infront of Axis Bank (Near Bus Stop)Lakshmi Mills (In front of Axis Bank ATM), 8287009889",
-      "placeTimeTwfFormat": "22:25",
-      "dt": "2026-08-17 22:25",
-      "latlong": "11.013870582034, 76.986951128756"
-    },
-    {
-      "placeName": "Peelamedu (Bus Stop)",
-      "placeTime": "10:35 PM",
-      "placeId": "67a74eea16d4c1bd60525ab8",
-      "landMark": "Bus Stop, PeelameduPeelamedu (Bus Stop), 8287009889",
-      "placeTimeTwfFormat": "22:35",
-      "dt": "2026-08-17 22:35",
-      "latlong": "11.026136, 77.018997"
-    },
-    {
-      "placeName": "Hopes college (CMC Bus stop)",
-      "placeTime": "10:40 PM",
-      "placeId": "66694c349c11a2a9783ff9f1",
-      "landMark": "CMC Bus stopHopes college (CMC Bus stop), 8287009889",
-      "placeTimeTwfFormat": "22:40",
-      "dt": "2026-08-17 22:40",
-      "latlong": "11.028082, 77.024373"
-    },
     {
       "placeName": "Sitra (Opp Airport Road)",
       "placeTime": "10:45 PM",
@@ -254,12 +200,13 @@
   ],
   "busStartDate": null,
   "faresList": [
-    "609",
-    "764",
-    "814",
+    "534",
+    "640",
+    "691",
     "837",
     "850",
     "861",
+    "881",
     "918",
     "973",
     "990",
@@ -444,10 +391,9 @@
     }
   ],
   "fareListCount": {
-    "609": "2",
-    "764": "2",
-    "990": "1",
-    "814": "1"
+    "534": "2",
+    "640": "2",
+    "691": "1"
   },
   "sourceStateName": null,
   "sourceStateCode": "",
@@ -457,27 +403,27 @@
   "busTypeName": "Bharat Benz A/C Semi-Sleeper/Sleeper (With Washroom) AC",
   "cancellationsPolicy": [
     {
-      "cc": "Rs. 487",
+      "cc": "Rs. 427",
       "rp": "70%",
-      "tl": "Rs 487 /- @ 70% refund",
+      "tl": "Rs 427 /- @ 70% refund",
       "con": "Before 14-Aug 21:30"
     },
     {
-      "cc": "Rs. 487",
+      "cc": "Rs. 427",
       "rp": "70%",
-      "tl": "Rs 487 /- @ 70% refund",
+      "tl": "Rs 427 /- @ 70% refund",
       "con": "Between 14-Aug 21:30 & 15-Aug 21:30"
     },
     {
-      "cc": "Rs. 348",
+      "cc": "Rs. 305",
       "rp": "50%",
-      "tl": "Rs 348 /- @ 50% refund",
+      "tl": "Rs 305 /- @ 50% refund",
       "con": "Between 15-Aug 21:30 & 16-Aug 21:30"
     },
     {
-      "cc": "Rs. 139",
+      "cc": "Rs. 122",
       "rp": "20%",
-      "tl": "Rs 139 /- @ 20% refund",
+      "tl": "Rs 122 /- @ 20% refund",
       "con": "Between 16-Aug 21:30 & 17-Aug 09:30"
     },
     {
@@ -489,8 +435,8 @@
   ],
   "offerFaresList": [
     {
-      "fare": "697",
-      "discountedFare": "609"
+      "fare": "611",
+      "discountedFare": "534"
     },
     {
       "fare": "1703",
@@ -533,8 +479,8 @@
       "discountedFare": "1282"
     },
     {
-      "fare": "874",
-      "discountedFare": "764"
+      "fare": "732",
+      "discountedFare": "640"
     },
     {
       "fare": "1422",
@@ -585,8 +531,8 @@
       "discountedFare": "1152"
     },
     {
-      "fare": "1132",
-      "discountedFare": "990"
+      "fare": "1007",
+      "discountedFare": "881"
     },
     {
       "fare": "1541",
@@ -595,6 +541,10 @@
     {
       "fare": "972",
       "discountedFare": "850"
+    },
+    {
+      "fare": "1132",
+      "discountedFare": "990"
     },
     {
       "fare": "1112",
@@ -625,8 +575,8 @@
       "discountedFare": "1178"
     },
     {
-      "fare": "931",
-      "discountedFare": "814"
+      "fare": "790",
+      "discountedFare": "691"
     },
     {
       "fare": "1740",

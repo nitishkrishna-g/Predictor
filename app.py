@@ -3,21 +3,11 @@ import json
 import sqlite3
 from datetime import datetime, timedelta
 import traceback
-from analyze_history import get_seat_intelligence, build_dataset
+from analyze_history import get_seat_intelligence, get_dataset_maturity
 from booking_advisor import get_recommendation
 
 app = Flask(__name__, static_folder='static', static_url_path='')
 DB = "abhibus.db"
-
-# We cache the dataset globally to avoid reloading the huge history JSON on every click
-# If we had 90 days of data, reloading it every click would be catastrophic.
-GLOBAL_DATASET = None
-
-def get_dataset():
-    global GLOBAL_DATASET
-    if GLOBAL_DATASET is None:
-        GLOBAL_DATASET = build_dataset()
-    return GLOBAL_DATASET
 
 def get_db_connection():
     conn = sqlite3.connect(DB)
@@ -28,8 +18,8 @@ def get_db_connection():
 def serve_index():
     return send_from_directory(app.static_folder, 'index.html')
 
-@app.route('/api/health')
-def get_health():
+@app.route('/api/dashboard')
+def get_dashboard():
     try:
         conn = get_db_connection()
         last_scrape = conn.execute("SELECT MAX(scraped_at) as last_time FROM scrapes").fetchone()["last_time"]
@@ -40,19 +30,38 @@ def get_health():
         today = datetime.now().strftime("%Y-%m-%d")
         services_today = conn.execute("SELECT COUNT(DISTINCT service_id) as cnt FROM scrapes WHERE scraped_at LIKE ?", (f"{today}%",)).fetchone()["cnt"]
         
-        # Determine dataset maturity
-        dates_with_data = conn.execute("SELECT COUNT(DISTINCT journey_date) as cnt FROM services").fetchone()["cnt"]
+        failed_count = 0
+        try:
+            with open("failed_queue.json", "r") as f:
+                failed_q = json.load(f)
+                failed_count = len(failed_q)
+        except:
+            pass
+        
+        dataset_days = get_dataset_maturity(conn)
         
         conn.close()
+        
+        # Check collector running via file modified time of db
+        import os
+        db_mtime = datetime.fromtimestamp(os.path.getmtime(DB))
+        is_running = (datetime.now() - db_mtime).total_seconds() < 1200 # 20 mins
+        
         return jsonify({
-            "status": "RUNNING",
+            "status": "RUNNING" if is_running else "STALE",
             "last_scrape": last_scrape,
             "scrapes_24h": scrapes_24h,
             "services_today": services_today,
-            "dataset_maturity_days": dates_with_data
+            "failed_queue": failed_count,
+            "dataset_maturity_days": dataset_days
         })
     except Exception as e:
         return jsonify({"status": "ERROR", "error": str(e)}), 500
+
+@app.route('/api/health')
+def get_health():
+    # Backward compatibility
+    return get_dashboard()
 
 @app.route('/api/search_options')
 def get_search_options():
@@ -76,7 +85,6 @@ def get_search_options():
         if 'Bangalore-Coimbatore' not in routes: routes.append('Bangalore-Coimbatore')
         if 'Coimbatore-Bangalore' not in routes: routes.append('Coimbatore-Bangalore')
         
-        # Get up to 7 distinct upcoming dates (T0 to T+7)
         today = datetime.now().strftime("%Y-%m-%d")
         dates_rows = conn.execute("SELECT DISTINCT journey_date FROM services WHERE journey_date >= ? ORDER BY journey_date LIMIT 8", (today,)).fetchall()
         dates = [r["journey_date"] for r in dates_rows]
@@ -102,13 +110,16 @@ def search_services():
         else:
             pattern1, pattern2 = 'coimbatore%bangalore', 'coimbatore%bengaluru'
         
+        now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
+        
         services_raw = conn.execute("""
-            SELECT id, operator, service_name, departure, bus_type, service_key 
+            SELECT id, operator, service_name, departure, bus_type, service_key, route, journey_date
             FROM services 
             WHERE (LOWER(route) LIKE ? OR LOWER(route) LIKE ?) AND journey_date = ?
+            AND departure > ?
             AND LOWER(operator) IN ('freshbus', 'fresh bus electric', 'nuego', 'neogo', 'zingbus', 'zingbus plus')
             ORDER BY departure ASC
-        """, (pattern1, pattern2, date)).fetchall()
+        """, (pattern1, pattern2, date, now_str)).fetchall()
         
         results = []
         for sv in services_raw:
@@ -119,8 +130,23 @@ def search_services():
             """, (sid,)).fetchone()
             
             if scrape:
-                # Calculate duration or arrival if possible
-                # AbhiBus doesn't always provide arrival, we leave it as None for now
+                # Get basic bus-level intelligence for the UI
+                bus_intel = get_seat_intelligence(
+                    route=sv["route"], 
+                    journey_date=sv["journey_date"], 
+                    operator=sv["operator"], 
+                    seat_type='seater' if 'seater' in sv["bus_type"].lower() else 'sleeper', 
+                    seat_number=None,
+                    db_path=DB
+                )
+                
+                rec = "INSUFFICIENT DATA"
+                hist_min = None
+                if "error" not in bus_intel:
+                    rec_tuple = get_recommendation(bus_intel)
+                    rec = rec_tuple[0]
+                    hist_min = bus_intel.get("historical_min")
+
                 results.append({
                     "service_id": sid,
                     "service_key": sv["service_key"],
@@ -131,11 +157,14 @@ def search_services():
                     "total_seats": scrape["total_seats"],
                     "available_seats": scrape["available_seats"],
                     "cheapest_seater": scrape["cheapest_seater"],
-                    "cheapest_sleeper": scrape["cheapest_sleeper"]
+                    "cheapest_sleeper": scrape["cheapest_sleeper"],
+                    "historical_min": hist_min,
+                    "recommendation": rec
                 })
         conn.close()
         return jsonify(results)
     except Exception as e:
+        traceback.print_exc()
         return jsonify({"error": str(e)}), 500
 
 @app.route('/api/seatmap/<int:service_id>')
@@ -154,12 +183,41 @@ def get_seatmap(service_id):
         """, (latest_scrape["id"],)).fetchall()
         conn.close()
         
+        # We process column_id deterministically to calculate col_span for sleepers
+        # By grouping seats into rows, we can calculate the col_span between adjacent columns.
+        rows_map = {}
+        for s in seats:
+            key = f"{s['deck']}_{s['row_id']}"
+            if key not in rows_map: rows_map[key] = []
+            rows_map[key].append(dict(s))
+            
+        processed_seats = []
+        for key, row_seats in rows_map.items():
+            # sort by column
+            row_seats.sort(key=lambda x: int(x['column_id'] or 1))
+            
+            for i in range(len(row_seats)):
+                s = row_seats[i]
+                col_span = 1
+                if i < len(row_seats) - 1:
+                    next_s = row_seats[i+1]
+                    diff = int(next_s['column_id'] or 1) - int(s['column_id'] or 1)
+                    if diff > 1 and diff < 4:  # typical sleeper span is 2 or 3 columns
+                        col_span = diff
+                # if it's the last seat in the row and it's a sleeper, we default it to span 2
+                elif s['seat_type'] != 'SS':
+                    col_span = 2
+                    
+                s['col_span'] = col_span
+                processed_seats.append(s)
+        
         return jsonify({
             "service": dict(sv),
             "scraped_at": latest_scrape["scraped_at"],
-            "seats": [dict(s) for s in seats]
+            "seats": processed_seats
         })
     except Exception as e:
+        traceback.print_exc()
         return jsonify({"error": str(e)}), 500
 
 @app.route('/api/intelligence')
@@ -181,7 +239,6 @@ def get_intelligence():
             return jsonify({"error": "Service or seat not found"}), 404
             
         stype = "seater" if seat["seat_type"] == "SS" else "sleeper"
-        dataset = get_dataset()
         
         intel = get_seat_intelligence(
             route=sv["route"], 
@@ -189,7 +246,7 @@ def get_intelligence():
             operator=sv["operator"], 
             seat_type=stype,
             seat_number=seat_number,
-            dataset=dataset
+            db_path=DB
         )
         
         if "error" in intel:
@@ -205,15 +262,16 @@ def get_intelligence():
         return jsonify({
             "status": "SUCCESS",
             "current_fare": current_fare,
-            "historical_minimum": intel.get("historical_minimum", None),
-            "observations_count": intel.get("observations_count", 0),
+            "historical_minimum": intel.get("historical_min", None),
+            "observations_count": intel.get("total_snapshots", 0),
             "expected_lowest_fare": intel.get("expected_minimum", None),
             "price_drop_probability": intel.get("probability_of_price_drop", 0),
             "recommendation": rec,
             "confidence": conf,
             "best_booking_window": intel.get("historical_low_window", "Unknown"),
             "why_reason": why,
-            "comparable_journeys": intel.get("comparable_journeys", 0)
+            "comparable_journeys": intel.get("comparable_journeys", 0),
+            "chart_data": intel.get("current_journey_history", [])
         })
         
     except Exception as e:
