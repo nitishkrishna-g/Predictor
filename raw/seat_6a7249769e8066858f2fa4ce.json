@@ -21,8 +21,8 @@
       "7, 1, 4, SS, Y, M, 944, 0, 47.48, 0.00, 0, 0,h,826",
       "9, 1, 5, SS, Y, M, 944, 0, 47.48, 0.00, 0, 0,h,826",
       "11, 1, 6, SS, Y, M, 944, 0, 47.48, 0.00, 0, 0,h,826",
-      "13, 1, 7, SS, Y, M, 830, 0, 41.75, 0.00, 0, 0,h,726",
-      "15, 1, 8, SS, N, M, 979, 0, 49.24, 0.00, 0, 0,h,856",
+      "13, 1, 7, SS, N, M, 1279, 0, 64.33, 0.00, 0, 0,h,1119",
+      "15, 1, 8, SS, Y, M, 830, 0, 41.75, 0.00, 0, 0,h,726",
       "17, 1, 9, SS, N, M, 1076, 0, 54.12, 0.00, 0, 0,h,941",
       "19, 1, 10, SS, Y, M, 830, 0, 41.75, 0.00, 0, 0,h,726",
       "21, 1, 11, SS, N, M, 1062, 0, 53.42, 0.00, 0, 0,h,929",
@@ -311,11 +311,11 @@
     "726",
     "776",
     "826",
-    "856",
     "929",
     "936",
     "941",
     "1031",
+    "1119",
     "1147",
     "1204",
     "1221",
@@ -490,12 +490,12 @@
       "discountedFare": "1663"
     },
     {
-      "fare": "830",
-      "discountedFare": "726"
+      "fare": "1279",
+      "discountedFare": "1119"
     },
     {
-      "fare": "979",
-      "discountedFare": "856"
+      "fare": "830",
+      "discountedFare": "726"
     },
     {
       "fare": "1076",
@@ -670,8 +670,6 @@
     }
   ],
   "gentsSeats": [
-    "13",
-    "16",
     "18",
     "UD7",
     "UD13"
@@ -680,7 +678,7 @@
   "enableFreeCancellation": "0",
   "restRoomSeats": [],
   "applicableAbsCancellationFee": "15",
-  "applicableCancPolicyIndex": 0,
+  "applicableCancPolicyIndex": 1,
   "applicableCancPolicyPercentage": "70",
   "assuredPartnerInfo": {
     "isEnable": "1",

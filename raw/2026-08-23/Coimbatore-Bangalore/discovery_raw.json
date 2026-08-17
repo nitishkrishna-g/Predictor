@@ -13643,168 +13643,6 @@
     },
     {
       "fares": {
-        "fare": 1200,
-        "offerPrice": 1150,
-        "fareList": [
-          1200,
-          1500,
-          1600
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {
-          "4": 120
-        },
-        "featuredOffersGuest": {
-          "4": 120
-        }
-      },
-      "timings": {
-        "startTime": "02:30 AM",
-        "startTimeDateFormat": "2026-08-23T02:30:00+05:30",
-        "arriveTime": "08:00 AM",
-        "travelTime": "05:30:00",
-        "startTimeTwfFormat": "02:30",
-        "arriveTimeTwfFormat": "08:00",
-        "startTimestamp": 1787432400,
-        "arriveTimestamp": 1787472000
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 1,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 0,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 0,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "4": {
-          "type": "P",
-          "minTicketValue": 10,
-          "maxDiscount": 5000,
-          "discount": 10
-        },
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 0,
-        "metaText": [],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 8
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "0,0,0,2~~6,7,6,2",
-        "strRin": "8,2,7,7,19~~3.80,116"
-      },
-      "tags": [
-        {
-          "title": "8 Single Berths (LB-4, UB-4)",
-          "value": "8",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "EER",
-          "PD"
-        ],
-        "boardingPoints": [
-          61,
-          72,
-          1,
-          3
-        ],
-        "droppingPoints": [
-          11,
-          12,
-          13,
-          1,
-          2,
-          4,
-          5,
-          14,
-          6,
-          50,
-          17,
-          7,
-          69
-        ],
-        "amenities": [
-          6,
-          8,
-          10,
-          13,
-          14,
-          15,
-          18,
-          21
-        ]
-      },
-      "busTypeName": "Bharat Benz AC Seater/Sleeper (2 + 1)",
-      "serviceKey": "KLM BLR 8.15 PM NO DINNER BREAK",
-      "travelerAgentName": "Yathra Logistics",
-      "serviceName": "YATHRA  Kollam Coimbatore Bangalore",
-      "busServiceTypeName": "Bharat Benz AC Seater/Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 202608232427670",
-      "busTypeMapID": "1,3,4",
-      "operatorId": 1413,
-      "viaPlaces": "Coming from Kollam",
-      "busNo": "",
-      "rating": 3.8,
-      "noOfRatings": 116,
-      "discountMsg": "",
-      "serviceId": 4584775408,
-      "masterId": 355376,
-      "originDateTime": "2026-08-23 02:30",
-      "seatStats": {
-        "availableSeats": 32,
-        "singleBerthsCount": 8,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 20,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 0,
-        "seatsCapacity": 48,
-        "womenTravellerCount": 0,
-        "womenRatingsAggregate": 3.4
-      }
-    },
-    {
-      "fares": {
         "fare": 1900,
         "offerPrice": 1850,
         "fareList": [
@@ -13970,6 +13808,168 @@
         "seatsCapacity": 36,
         "womenTravellerCount": 1,
         "womenRatingsAggregate": 3
+      }
+    },
+    {
+      "fares": {
+        "fare": 1200,
+        "offerPrice": 1150,
+        "fareList": [
+          1200,
+          1500,
+          1600
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {
+          "4": 120
+        },
+        "featuredOffersGuest": {
+          "4": 120
+        }
+      },
+      "timings": {
+        "startTime": "02:30 AM",
+        "startTimeDateFormat": "2026-08-23T02:30:00+05:30",
+        "arriveTime": "08:00 AM",
+        "travelTime": "05:30:00",
+        "startTimeTwfFormat": "02:30",
+        "arriveTimeTwfFormat": "08:00",
+        "startTimestamp": 1787432400,
+        "arriveTimestamp": 1787472000
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 0,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "4": {
+          "type": "P",
+          "minTicketValue": 10,
+          "maxDiscount": 5000,
+          "discount": 10
+        },
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 0,
+        "metaText": [],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 8
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "0,0,0,2~~6,7,6,2",
+        "strRin": "8,2,7,7,19~~3.80,116"
+      },
+      "tags": [
+        {
+          "title": "8 Single Berths (LB-4, UB-4)",
+          "value": "8",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "EER",
+          "PD"
+        ],
+        "boardingPoints": [
+          61,
+          72,
+          1,
+          3
+        ],
+        "droppingPoints": [
+          11,
+          12,
+          13,
+          1,
+          2,
+          4,
+          5,
+          14,
+          6,
+          50,
+          17,
+          7,
+          69
+        ],
+        "amenities": [
+          6,
+          8,
+          10,
+          13,
+          14,
+          15,
+          18,
+          21
+        ]
+      },
+      "busTypeName": "Bharat Benz AC Seater/Sleeper (2 + 1)",
+      "serviceKey": "KLM BLR 8.15 PM NO DINNER BREAK",
+      "travelerAgentName": "Yathra Logistics",
+      "serviceName": "YATHRA  Kollam Coimbatore Bangalore",
+      "busServiceTypeName": "Bharat Benz AC Seater/Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 202608232427670",
+      "busTypeMapID": "1,3,4",
+      "operatorId": 1413,
+      "viaPlaces": "Coming from Kollam",
+      "busNo": "",
+      "rating": 3.8,
+      "noOfRatings": 116,
+      "discountMsg": "",
+      "serviceId": 4584775408,
+      "masterId": 355376,
+      "originDateTime": "2026-08-23 02:30",
+      "seatStats": {
+        "availableSeats": 32,
+        "singleBerthsCount": 8,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 20,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 0,
+        "seatsCapacity": 48,
+        "womenTravellerCount": 0,
+        "womenRatingsAggregate": 3.4
       }
     },
     {
@@ -15309,8 +15309,8 @@
     },
     {
       "fares": {
-        "fare": 1340,
-        "offerPrice": 1290,
+        "fare": 1380,
+        "offerPrice": 1330,
         "fareList": [
           1330,
           1430,
@@ -15704,7 +15704,7 @@
       "busInsights": {
         "metaMapId": 1,
         "metaText": [
-          "8 Months Old",
+          "1 Yr Old Bus",
           "Brand New"
         ],
         "busImgCount": 0,
@@ -16164,6 +16164,213 @@
     },
     {
       "fares": {
+        "fare": 1500,
+        "offerPrice": 1263,
+        "fareList": [
+          1500,
+          1560,
+          1610,
+          1700,
+          2070,
+          2270,
+          2390
+        ],
+        "discounts": {
+          "coFund": 50,
+          "edgeOffer": 187,
+          "offerType": 1
+        },
+        "appliedOffers": {
+          "1": 187,
+          "101": 50
+        },
+        "featuredOffers": {
+          "4": 150
+        },
+        "featuredOffersGuest": {
+          "4": 150
+        }
+      },
+      "timings": {
+        "startTime": "10:30 PM",
+        "startTimeDateFormat": "2026-08-23T22:30:00+05:30",
+        "arriveTime": "05:15 AM",
+        "travelTime": "06:45:00",
+        "startTimeTwfFormat": "22:30",
+        "arriveTimeTwfFormat": "05:15",
+        "startTimestamp": 1787504400,
+        "arriveTimestamp": 1787548500
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 0,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": null,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 1,
+        "isFcOperator": 0,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "1": {
+          "type": "P",
+          "minTicketValue": 750,
+          "maxDiscount": 5000,
+          "discount": 12.5
+        },
+        "4": {
+          "type": "P",
+          "minTicketValue": 10,
+          "maxDiscount": 5000,
+          "discount": 10
+        },
+        "7": {
+          "type": "F",
+          "minTicketValue": 900,
+          "maxDiscount": 200,
+          "discount": 200
+        },
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": true
+        }
+      },
+      "busInsights": {
+        "metaMapId": 2,
+        "metaText": [
+          "2 Yr Old Bus",
+          "New Bus"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 7
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "0,0,0,0~~10,10,10,8",
+        "strRin": "1,2,0,6,28~~4.30,47"
+      },
+      "tags": [
+        {
+          "title": "8 Single Berths (LB-4, UB-4)",
+          "value": "8",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "EER",
+          "EFD",
+          "ASD",
+          "TR",
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          54,
+          55,
+          62,
+          57,
+          58,
+          59,
+          12,
+          5,
+          6,
+          7,
+          8,
+          14,
+          11,
+          15,
+          1,
+          44,
+          3,
+          27,
+          30
+        ],
+        "droppingPoints": [
+          11,
+          12,
+          13,
+          1,
+          2,
+          4,
+          5,
+          31,
+          32,
+          59,
+          33,
+          34,
+          35,
+          36,
+          63,
+          64,
+          16,
+          17
+        ],
+        "amenities": [
+          1,
+          2,
+          6,
+          7,
+          14,
+          15,
+          17
+        ]
+      },
+      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "serviceKey": "SCH368B44E",
+      "travelerAgentName": "Delta Transport Pvt Ltd",
+      "serviceName": "33N358S260823D",
+      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 33N358S260823D274T111",
+      "busTypeMapID": "1,4",
+      "operatorId": 122131,
+      "viaPlaces": "",
+      "busNo": "",
+      "rating": 4.3,
+      "noOfRatings": 47,
+      "discountMsg": "Save min ₹187 with Flash Offer",
+      "serviceId": 4499314964,
+      "masterId": 9914,
+      "originDateTime": "2026-08-23 21:30",
+      "seatStats": {
+        "availableSeats": 14,
+        "singleBerthsCount": 8,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 11,
+        "femaleAvailableCount": 1,
+        "femaleBookedCount": 11,
+        "seatsCapacity": 36,
+        "womenTravellerCount": 11,
+        "womenRatingsAggregate": 5
+      }
+    },
+    {
+      "fares": {
         "fare": 999,
         "offerPrice": 949,
         "fareList": [
@@ -16470,52 +16677,42 @@
     },
     {
       "fares": {
-        "fare": 1500,
-        "offerPrice": 1263,
+        "fare": 1899,
+        "offerPrice": 1849,
         "fareList": [
-          1500,
-          1560,
-          1610,
-          1700,
-          2070,
-          2270,
-          2390
+          1899,
+          1999,
+          2099,
+          2199
         ],
         "discounts": {
-          "coFund": 50,
-          "edgeOffer": 187,
-          "offerType": 1
+          "coFund": 50
         },
         "appliedOffers": {
-          "1": 187,
           "101": 50
         },
-        "featuredOffers": {
-          "4": 150
-        },
-        "featuredOffersGuest": {
-          "4": 150
-        }
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
       },
       "timings": {
-        "startTime": "10:30 PM",
-        "startTimeDateFormat": "2026-08-23T22:30:00+05:30",
-        "arriveTime": "05:15 AM",
-        "travelTime": "06:45:00",
-        "startTimeTwfFormat": "22:30",
-        "arriveTimeTwfFormat": "05:15",
-        "startTimestamp": 1787504400,
-        "arriveTimestamp": 1787548500
+        "startTime": "11:59 PM",
+        "startTimeDateFormat": "2026-08-23T23:59:00+05:30",
+        "arriveTime": "06:15 AM",
+        "travelTime": "06:16:00",
+        "startTimeTwfFormat": "23:59",
+        "arriveTimeTwfFormat": "06:15",
+        "startTimestamp": 1787509740,
+        "arriveTimestamp": 1787552100
       },
       "flags": {
         "isVolvo": 0,
         "isLuxury": 0,
         "isCATAvail": 0,
         "isDealAvail": 1,
-        "isTrackAvail": 0,
+        "isTrackAvail": 1,
         "isTopOperatorSaleOn": 0,
         "isSortTopServices": 0,
-        "busStartDate": null,
+        "busStartDate": 0,
         "hasGroupDeal": 0,
         "sortTopServices": 0,
         "enableRating": 1,
@@ -16523,29 +16720,11 @@
         "isElectric": 0,
         "isAdAvail": 0,
         "isSafetyCheck": 1,
-        "isAssuredOperator": 1,
-        "isFcOperator": 0,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
         "isWomenSafeBoarding": 1
       },
       "edgeConfig": {
-        "1": {
-          "type": "P",
-          "minTicketValue": 750,
-          "maxDiscount": 5000,
-          "discount": 12.5
-        },
-        "4": {
-          "type": "P",
-          "minTicketValue": 10,
-          "maxDiscount": 5000,
-          "discount": 10
-        },
-        "7": {
-          "type": "F",
-          "minTicketValue": 900,
-          "maxDiscount": 200,
-          "discount": 200
-        },
         "101": {
           "type": "F",
           "minTicketValue": 0,
@@ -16553,34 +16732,34 @@
           "discount": 50,
           "coupon": "RETURN500W",
           "loginRequired": "0",
-          "hasEdgeOffers": true
+          "hasEdgeOffers": false
         }
       },
       "busInsights": {
-        "metaMapId": 2,
+        "metaMapId": 1,
         "metaText": [
-          "2 Yr Old Bus",
-          "New Bus"
+          "1 Yr Old Bus",
+          "Brand New"
         ],
         "busImgCount": 0,
         "busPhotosUrl": "",
         "busThumbnailUrl": "",
         "busPreviewUrl": "",
         "is360Available": 0,
-        "amenitiesCount": 7
+        "amenitiesCount": 0
       },
       "safetyCheck": {
         "insUpto": "",
         "permitUpto": "",
         "fitUpto": "",
         "rcUpto": "",
-        "rtFBin": "0,0,0,0~~10,10,10,8",
-        "strRin": "1,2,0,6,28~~4.30,47"
+        "rtFBin": "0,0,2,1~~13,12,13,9",
+        "strRin": "5,2,4,4,31~~4.20,95"
       },
       "tags": [
         {
-          "title": "8 Single Berths (LB-4, UB-4)",
-          "value": "8",
+          "title": "7 Single Berths (LB-2, UB-5)",
+          "value": "7",
           "type": "SingleBerths",
           "filterID": 19,
           "discountAmount": 0
@@ -16588,91 +16767,54 @@
       ],
       "filters": {
         "bannerFilter": [
-          "EER",
-          "EFD",
-          "ASD",
           "TR",
           "PD",
           "NB"
         ],
         "boardingPoints": [
-          54,
-          55,
-          62,
-          57,
-          58,
-          59,
-          12,
-          5,
-          6,
-          7,
-          8,
-          14,
-          11,
-          15,
-          1,
-          44,
-          3,
-          27,
-          30
+          1
         ],
         "droppingPoints": [
           11,
-          12,
-          13,
+          9,
           1,
           2,
           4,
           5,
-          31,
-          32,
-          59,
-          33,
-          34,
-          35,
-          36,
-          63,
-          64,
-          16,
-          17
-        ],
-        "amenities": [
-          1,
-          2,
-          6,
-          7,
           14,
-          15,
-          17
-        ]
+          6,
+          17,
+          16
+        ],
+        "amenities": []
       },
       "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "serviceKey": "SCH368B44E",
-      "travelerAgentName": "Delta Transport Pvt Ltd",
-      "serviceName": "33N358S260823D",
+      "serviceKey": "PTHA-BNG",
+      "travelerAgentName": "Rukma Travels",
+      "serviceName": "Rukma Travels",
       "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
       "busType": "",
-      "serviceNumber": "Service Number - 33N358S260823D274T111",
+      "serviceNumber": "Service Number - 20260823203500",
       "busTypeMapID": "1,4",
-      "operatorId": 122131,
-      "viaPlaces": "",
+      "operatorId": 118949,
+      "viaPlaces": "Coming from Pathanamthitta",
       "busNo": "",
-      "rating": 4.3,
-      "noOfRatings": 47,
-      "discountMsg": "Save min ₹187 with Flash Offer",
-      "serviceId": 4499314964,
-      "masterId": 9914,
-      "originDateTime": "2026-08-23 21:30",
+      "rating": 4.2,
+      "noOfRatings": 95,
+      "discountMsg": "",
+      "serviceId": 4470099825,
+      "masterId": 251899,
+      "originDateTime": "2026-08-23 23:59",
       "seatStats": {
-        "availableSeats": 14,
-        "singleBerthsCount": 8,
+        "availableSeats": 26,
+        "singleBerthsCount": 7,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 11,
-        "femaleAvailableCount": 1,
-        "femaleBookedCount": 11,
+        "windowSeatCount": 17,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 4,
         "seatsCapacity": 36,
-        "womenTravellerCount": 11,
-        "womenRatingsAggregate": 5
+        "womenTravellerCount": 4,
+        "womenRatingsAggregate": 4.5
       }
     },
     {
@@ -16830,148 +16972,6 @@
         "seatsCapacity": 0,
         "womenTravellerCount": 0,
         "womenRatingsAggregate": 4.8
-      }
-    },
-    {
-      "fares": {
-        "fare": 1899,
-        "offerPrice": 1849,
-        "fareList": [
-          1899,
-          1999,
-          2099,
-          2199
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "11:59 PM",
-        "startTimeDateFormat": "2026-08-23T23:59:00+05:30",
-        "arriveTime": "06:15 AM",
-        "travelTime": "06:16:00",
-        "startTimeTwfFormat": "23:59",
-        "arriveTimeTwfFormat": "06:15",
-        "startTimestamp": 1787509740,
-        "arriveTimestamp": 1787552100
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 1,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 0,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 1,
-        "metaText": [
-          "1 Yr Old Bus",
-          "Brand New"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 0
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "0,0,2,1~~13,12,13,9",
-        "strRin": "5,2,4,4,31~~4.20,95"
-      },
-      "tags": [
-        {
-          "title": "7 Single Berths (LB-2, UB-5)",
-          "value": "7",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "TR",
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          1
-        ],
-        "droppingPoints": [
-          11,
-          9,
-          1,
-          2,
-          4,
-          5,
-          14,
-          6,
-          17,
-          16
-        ],
-        "amenities": []
-      },
-      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "serviceKey": "PTHA-BNG",
-      "travelerAgentName": "Rukma Travels",
-      "serviceName": "Rukma Travels",
-      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 20260823203500",
-      "busTypeMapID": "1,4",
-      "operatorId": 118949,
-      "viaPlaces": "Coming from Pathanamthitta",
-      "busNo": "",
-      "rating": 4.2,
-      "noOfRatings": 95,
-      "discountMsg": "",
-      "serviceId": 4470099825,
-      "masterId": 251899,
-      "originDateTime": "2026-08-23 23:59",
-      "seatStats": {
-        "availableSeats": 26,
-        "singleBerthsCount": 7,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 17,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 4,
-        "seatsCapacity": 36,
-        "womenTravellerCount": 4,
-        "womenRatingsAggregate": 4.5
       }
     },
     {
@@ -18655,6 +18655,194 @@
     },
     {
       "fares": {
+        "fare": 1996,
+        "offerPrice": 1896,
+        "fareList": [
+          1996,
+          2218,
+          2662,
+          2773
+        ],
+        "discounts": {
+          "coFund": 50,
+          "edgeOffer": 50,
+          "offerType": 1
+        },
+        "appliedOffers": {
+          "1": 50,
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "10:30 PM",
+        "startTimeDateFormat": "2026-08-23T22:30:00+05:30",
+        "arriveTime": "05:15 AM",
+        "travelTime": "06:45:00",
+        "startTimeTwfFormat": "22:30",
+        "arriveTimeTwfFormat": "05:15",
+        "startTimestamp": 1787504400,
+        "arriveTimestamp": 1787548500
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 1,
+        "isFcOperator": 0,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "1": {
+          "type": "F",
+          "minTicketValue": 300,
+          "maxDiscount": 50,
+          "discount": 50
+        },
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": true
+        }
+      },
+      "busInsights": {
+        "metaMapId": 1,
+        "metaText": [
+          "1 Yr Old Bus",
+          "Brand New"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 12
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "0,0,0,0~~20,20,19,21",
+        "strRin": "1,0,1,3,48~~4.90,156"
+      },
+      "tags": [
+        {
+          "title": "8 Single Berths (LB-4, UB-4)",
+          "value": "8",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "EFD",
+          "ASD",
+          "TR",
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          12,
+          5,
+          6,
+          7,
+          8,
+          14,
+          11,
+          15,
+          1,
+          44,
+          3
+        ],
+        "droppingPoints": [
+          9,
+          13,
+          1,
+          2,
+          4,
+          5,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          45,
+          46,
+          38,
+          39,
+          21,
+          40,
+          19,
+          85,
+          105
+        ],
+        "amenities": [
+          1,
+          2,
+          6,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "serviceKey": "COIMBATORE TO BANGALORE",
+      "travelerAgentName": "SST Limoliner",
+      "serviceName": "SST LIMOLINER",
+      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 202608232005007",
+      "busTypeMapID": "1,4",
+      "operatorId": 121422,
+      "viaPlaces": "Starts from Coimbatore",
+      "busNo": "",
+      "rating": 4.9,
+      "noOfRatings": 156,
+      "discountMsg": "Save min ₹50 with Flash Offer",
+      "serviceId": 4513630727,
+      "masterId": 133649,
+      "originDateTime": "2026-08-23 22:30",
+      "seatStats": {
+        "availableSeats": 25,
+        "singleBerthsCount": 8,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 16,
+        "femaleAvailableCount": 1,
+        "femaleBookedCount": 9,
+        "seatsCapacity": 36,
+        "womenTravellerCount": 9,
+        "womenRatingsAggregate": 4.1
+      }
+    },
+    {
+      "fares": {
         "fare": 1699,
         "offerPrice": 1437,
         "fareList": [
@@ -18859,194 +19047,6 @@
         "femaleBookedCount": 2,
         "seatsCapacity": 36,
         "womenTravellerCount": 2
-      }
-    },
-    {
-      "fares": {
-        "fare": 1996,
-        "offerPrice": 1896,
-        "fareList": [
-          1996,
-          2218,
-          2662,
-          2773
-        ],
-        "discounts": {
-          "coFund": 50,
-          "edgeOffer": 50,
-          "offerType": 1
-        },
-        "appliedOffers": {
-          "1": 50,
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "10:30 PM",
-        "startTimeDateFormat": "2026-08-23T22:30:00+05:30",
-        "arriveTime": "05:15 AM",
-        "travelTime": "06:45:00",
-        "startTimeTwfFormat": "22:30",
-        "arriveTimeTwfFormat": "05:15",
-        "startTimestamp": 1787504400,
-        "arriveTimestamp": 1787548500
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 1,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 0,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 1,
-        "isFcOperator": 0,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "1": {
-          "type": "F",
-          "minTicketValue": 300,
-          "maxDiscount": 50,
-          "discount": 50
-        },
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": true
-        }
-      },
-      "busInsights": {
-        "metaMapId": 1,
-        "metaText": [
-          "1 Yr Old Bus",
-          "Brand New"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 12
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "0,0,0,0~~20,20,19,21",
-        "strRin": "1,0,1,3,48~~4.90,156"
-      },
-      "tags": [
-        {
-          "title": "8 Single Berths (LB-4, UB-4)",
-          "value": "8",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "EFD",
-          "ASD",
-          "TR",
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          12,
-          5,
-          6,
-          7,
-          8,
-          14,
-          11,
-          15,
-          1,
-          44,
-          3
-        ],
-        "droppingPoints": [
-          9,
-          13,
-          1,
-          2,
-          4,
-          5,
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          45,
-          46,
-          38,
-          39,
-          21,
-          40,
-          19,
-          85,
-          105
-        ],
-        "amenities": [
-          1,
-          2,
-          6,
-          8,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17
-        ]
-      },
-      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "serviceKey": "COIMBATORE TO BANGALORE",
-      "travelerAgentName": "SST Limoliner",
-      "serviceName": "SST LIMOLINER",
-      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 202608232005007",
-      "busTypeMapID": "1,4",
-      "operatorId": 121422,
-      "viaPlaces": "Starts from Coimbatore",
-      "busNo": "",
-      "rating": 4.9,
-      "noOfRatings": 156,
-      "discountMsg": "Save min ₹50 with Flash Offer",
-      "serviceId": 4513630727,
-      "masterId": 133649,
-      "originDateTime": "2026-08-23 22:30",
-      "seatStats": {
-        "availableSeats": 25,
-        "singleBerthsCount": 8,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 16,
-        "femaleAvailableCount": 1,
-        "femaleBookedCount": 9,
-        "seatsCapacity": 36,
-        "womenTravellerCount": 9,
-        "womenRatingsAggregate": 4.1
       }
     },
     {
@@ -20228,6 +20228,181 @@
     },
     {
       "fares": {
+        "fare": 1899,
+        "offerPrice": 1749,
+        "fareList": [
+          1929,
+          1959,
+          2109,
+          2209,
+          2389,
+          2479
+        ],
+        "discounts": {
+          "coFund": 50,
+          "edgeOffer": 100,
+          "offerType": 1
+        },
+        "appliedOffers": {
+          "1": 100,
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "11:59 PM",
+        "startTimeDateFormat": "2026-08-23T23:59:00+05:30",
+        "arriveTime": "06:20 AM",
+        "travelTime": "06:21:00",
+        "startTimeTwfFormat": "23:59",
+        "arriveTimeTwfFormat": "06:20",
+        "startTimestamp": 1787509740,
+        "arriveTimestamp": 1787552400
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": null,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 1,
+        "isFcOperator": 0,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "1": {
+          "type": "F",
+          "minTicketValue": 100,
+          "maxDiscount": 100,
+          "discount": 100
+        },
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": true
+        }
+      },
+      "busInsights": {
+        "metaMapId": 1,
+        "metaText": [
+          "1 Yr Old Bus",
+          "Brand New"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 6
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "1,0,1,1~~5,6,11,6",
+        "strRin": "4,3,1,8,21~~4.20,233"
+      },
+      "tags": [
+        {
+          "title": "6 Single Berths (LB-3, UB-3)",
+          "value": "6",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        },
+        {
+          "title": "Toilet",
+          "value": "0",
+          "type": "Toilet",
+          "filterID": 0,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "EFD",
+          "ASD",
+          "TR",
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          92,
+          61,
+          4,
+          1,
+          44,
+          27
+        ],
+        "droppingPoints": [
+          11,
+          9,
+          1,
+          13,
+          2,
+          4,
+          5,
+          41,
+          50,
+          16,
+          17
+        ],
+        "amenities": [
+          1,
+          2,
+          6,
+          14,
+          15,
+          24
+        ]
+      },
+      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "serviceKey": "SCH4B8B492H",
+      "travelerAgentName": "ACLS Navigator (Washroom onboard)",
+      "serviceName": "14N5839S260823D",
+      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 14N5839S260823D274T111",
+      "busTypeMapID": "1,4",
+      "operatorId": 121241,
+      "viaPlaces": "",
+      "busNo": "",
+      "rating": 4.2,
+      "noOfRatings": 233,
+      "discountMsg": "Save min ₹100 with Flash Offer",
+      "serviceId": 4499053053,
+      "masterId": 9343,
+      "originDateTime": "2026-08-23 23:59",
+      "seatStats": {
+        "availableSeats": 21,
+        "singleBerthsCount": 6,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 13,
+        "femaleAvailableCount": 1,
+        "femaleBookedCount": 2,
+        "seatsCapacity": 37,
+        "womenTravellerCount": 2,
+        "womenRatingsAggregate": 4
+      }
+    },
+    {
+      "fares": {
         "fare": 900,
         "offerPrice": 750,
         "fareList": [
@@ -20518,181 +20693,6 @@
         "seatsCapacity": 42,
         "womenTravellerCount": 1,
         "womenRatingsAggregate": 4.8
-      }
-    },
-    {
-      "fares": {
-        "fare": 1899,
-        "offerPrice": 1749,
-        "fareList": [
-          1929,
-          1959,
-          2109,
-          2209,
-          2389,
-          2479
-        ],
-        "discounts": {
-          "coFund": 50,
-          "edgeOffer": 100,
-          "offerType": 1
-        },
-        "appliedOffers": {
-          "1": 100,
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "11:59 PM",
-        "startTimeDateFormat": "2026-08-23T23:59:00+05:30",
-        "arriveTime": "06:20 AM",
-        "travelTime": "06:21:00",
-        "startTimeTwfFormat": "23:59",
-        "arriveTimeTwfFormat": "06:20",
-        "startTimestamp": 1787509740,
-        "arriveTimestamp": 1787552400
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 1,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": null,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 1,
-        "isFcOperator": 0,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "1": {
-          "type": "F",
-          "minTicketValue": 100,
-          "maxDiscount": 100,
-          "discount": 100
-        },
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": true
-        }
-      },
-      "busInsights": {
-        "metaMapId": 1,
-        "metaText": [
-          "1 Yr Old Bus",
-          "Brand New"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 6
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "1,0,1,1~~5,6,11,6",
-        "strRin": "4,3,1,8,21~~4.20,233"
-      },
-      "tags": [
-        {
-          "title": "6 Single Berths (LB-3, UB-3)",
-          "value": "6",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        },
-        {
-          "title": "Toilet",
-          "value": "0",
-          "type": "Toilet",
-          "filterID": 0,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "EFD",
-          "ASD",
-          "TR",
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          92,
-          61,
-          4,
-          1,
-          44,
-          27
-        ],
-        "droppingPoints": [
-          11,
-          9,
-          1,
-          13,
-          2,
-          4,
-          5,
-          41,
-          50,
-          16,
-          17
-        ],
-        "amenities": [
-          1,
-          2,
-          6,
-          14,
-          15,
-          24
-        ]
-      },
-      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "serviceKey": "SCH4B8B492H",
-      "travelerAgentName": "ACLS Navigator (Washroom onboard)",
-      "serviceName": "14N5839S260823D",
-      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 14N5839S260823D274T111",
-      "busTypeMapID": "1,4",
-      "operatorId": 121241,
-      "viaPlaces": "",
-      "busNo": "",
-      "rating": 4.2,
-      "noOfRatings": 233,
-      "discountMsg": "Save min ₹100 with Flash Offer",
-      "serviceId": 4499053053,
-      "masterId": 9343,
-      "originDateTime": "2026-08-23 23:59",
-      "seatStats": {
-        "availableSeats": 21,
-        "singleBerthsCount": 6,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 13,
-        "femaleAvailableCount": 1,
-        "femaleBookedCount": 2,
-        "seatsCapacity": 37,
-        "womenTravellerCount": 2,
-        "womenRatingsAggregate": 4
       }
     },
     {
@@ -21377,6 +21377,158 @@
     },
     {
       "fares": {
+        "fare": 2300,
+        "offerPrice": 2250,
+        "fareList": [
+          2300
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "11:58 PM",
+        "startTimeDateFormat": "2026-08-23T23:58:00+05:30",
+        "arriveTime": "06:00 AM",
+        "travelTime": "06:02:00",
+        "startTimeTwfFormat": "23:58",
+        "arriveTimeTwfFormat": "06:00",
+        "startTimestamp": 1787509680,
+        "arriveTimestamp": 1787551200
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 0,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 1,
+        "metaText": [
+          "5 Months Old",
+          "Brand New"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 0
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "0,0,0,0~~10,12,14,12",
+        "strRin": "0,4,3,2,47~~4.70,59"
+      },
+      "tags": [
+        {
+          "title": "6 Single Berths (LB-2, UB-4)",
+          "value": "6",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "TR",
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          1,
+          3
+        ],
+        "droppingPoints": [
+          9,
+          13,
+          80,
+          1,
+          2,
+          4,
+          5,
+          14,
+          41,
+          18,
+          6,
+          17,
+          16,
+          65,
+          87,
+          19,
+          40,
+          21,
+          22,
+          23,
+          84,
+          83
+        ],
+        "amenities": []
+      },
+      "busTypeName": "AC Sleeper (2 + 1)",
+      "serviceKey": "EKM BLR SLPR",
+      "travelerAgentName": "Padikkal Travels(pdkt)",
+      "serviceName": "Padikkal Travels",
+      "busServiceTypeName": "AC Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 20260823747697",
+      "busTypeMapID": "1,4",
+      "operatorId": 127674,
+      "viaPlaces": "Coming from Ernakulam",
+      "busNo": "",
+      "rating": 4.7,
+      "noOfRatings": 59,
+      "discountMsg": "",
+      "serviceId": 4477757749,
+      "masterId": 3955337,
+      "originDateTime": "2026-08-23 23:58",
+      "seatStats": {
+        "availableSeats": 16,
+        "singleBerthsCount": 6,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 11,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 5,
+        "seatsCapacity": 36,
+        "womenTravellerCount": 5,
+        "womenRatingsAggregate": 5
+      }
+    },
+    {
+      "fares": {
         "fare": 1224,
         "offerPrice": 1113,
         "fareList": [
@@ -21570,158 +21722,6 @@
     },
     {
       "fares": {
-        "fare": 2300,
-        "offerPrice": 2250,
-        "fareList": [
-          2300
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "11:58 PM",
-        "startTimeDateFormat": "2026-08-23T23:58:00+05:30",
-        "arriveTime": "06:00 AM",
-        "travelTime": "06:02:00",
-        "startTimeTwfFormat": "23:58",
-        "arriveTimeTwfFormat": "06:00",
-        "startTimestamp": 1787509680,
-        "arriveTimestamp": 1787551200
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 0,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 0,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 1,
-        "metaText": [
-          "5 Months Old",
-          "Brand New"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 0
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "0,0,0,0~~10,12,14,12",
-        "strRin": "0,4,3,2,47~~4.70,59"
-      },
-      "tags": [
-        {
-          "title": "6 Single Berths (LB-2, UB-4)",
-          "value": "6",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "TR",
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          1,
-          3
-        ],
-        "droppingPoints": [
-          9,
-          13,
-          80,
-          1,
-          2,
-          4,
-          5,
-          14,
-          41,
-          18,
-          6,
-          17,
-          16,
-          65,
-          87,
-          19,
-          40,
-          21,
-          22,
-          23,
-          84,
-          83
-        ],
-        "amenities": []
-      },
-      "busTypeName": "AC Sleeper (2 + 1)",
-      "serviceKey": "EKM BLR SLPR",
-      "travelerAgentName": "Padikkal Travels(pdkt)",
-      "serviceName": "Padikkal Travels",
-      "busServiceTypeName": "AC Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 20260823747697",
-      "busTypeMapID": "1,4",
-      "operatorId": 127674,
-      "viaPlaces": "Coming from Ernakulam",
-      "busNo": "",
-      "rating": 4.7,
-      "noOfRatings": 59,
-      "discountMsg": "",
-      "serviceId": 4477757749,
-      "masterId": 3955337,
-      "originDateTime": "2026-08-23 23:58",
-      "seatStats": {
-        "availableSeats": 16,
-        "singleBerthsCount": 6,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 11,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 5,
-        "seatsCapacity": 36,
-        "womenTravellerCount": 5,
-        "womenRatingsAggregate": 5
-      }
-    },
-    {
-      "fares": {
         "fare": 799,
         "offerPrice": 749,
         "fareList": [
@@ -21869,173 +21869,6 @@
         "femaleAvailableCount": 1,
         "femaleBookedCount": 0,
         "seatsCapacity": 37,
-        "womenTravellerCount": 0
-      }
-    },
-    {
-      "fares": {
-        "fare": 703,
-        "offerPrice": 653,
-        "fareList": [
-          703,
-          726,
-          750,
-          845,
-          892,
-          893,
-          941,
-          987,
-          1083,
-          1178,
-          1273,
-          1368
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "01:40 AM",
-        "startTimeDateFormat": "2026-08-23T01:40:00+05:30",
-        "arriveTime": "09:55 AM",
-        "travelTime": "08:15:00",
-        "startTimeTwfFormat": "01:40",
-        "arriveTimeTwfFormat": "09:55",
-        "startTimestamp": 1787429400,
-        "arriveTimestamp": 1787478900
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 1,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 0,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 1,
-        "isFcOperator": 0,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 1,
-        "metaText": [
-          "1 Yr Old Bus",
-          "Brand New"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 10
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "",
-        "strRin": "~~0.00,0"
-      },
-      "tags": [
-        {
-          "title": "12 Single Berths (LB-6, UB-6)",
-          "value": "12",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "ASD",
-          "TR",
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          1
-        ],
-        "droppingPoints": [
-          12,
-          13,
-          1,
-          29,
-          2,
-          4,
-          5,
-          30,
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          63,
-          16
-        ],
-        "amenities": [
-          1,
-          4,
-          6,
-          8,
-          10,
-          13,
-          14,
-          15,
-          16,
-          21
-        ]
-      },
-      "busTypeName": "TATA AC Sleeper",
-      "serviceKey": "fa612f41-6f0c-4459-92e8-6b8a6f27b42b_52",
-      "travelerAgentName": "FlixBus",
-      "serviceName": "794_7_100_595_SLEEPER",
-      "busServiceTypeName": "TATA AC Sleeper",
-      "busType": "",
-      "serviceNumber": "Service Number - 30306b0b-89e5-4a09-99ee-1371567eea0d",
-      "busTypeMapID": "1,4",
-      "operatorId": 122750,
-      "viaPlaces": "Coming from Kochi",
-      "busNo": "",
-      "rating": 4,
-      "noOfRatings": 0,
-      "discountMsg": "",
-      "serviceId": 4501307780,
-      "masterId": 4044332,
-      "originDateTime": "2026-08-23 01:40",
-      "seatStats": {
-        "availableSeats": 34,
-        "singleBerthsCount": 12,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 23,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 0,
-        "seatsCapacity": 36,
         "womenTravellerCount": 0
       }
     },
@@ -22219,6 +22052,173 @@
     },
     {
       "fares": {
+        "fare": 703,
+        "offerPrice": 653,
+        "fareList": [
+          703,
+          726,
+          750,
+          845,
+          892,
+          893,
+          941,
+          987,
+          1083,
+          1178,
+          1273,
+          1368
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "01:40 AM",
+        "startTimeDateFormat": "2026-08-23T01:40:00+05:30",
+        "arriveTime": "09:55 AM",
+        "travelTime": "08:15:00",
+        "startTimeTwfFormat": "01:40",
+        "arriveTimeTwfFormat": "09:55",
+        "startTimestamp": 1787429400,
+        "arriveTimestamp": 1787478900
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 1,
+        "isFcOperator": 0,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 1,
+        "metaText": [
+          "1 Yr Old Bus",
+          "Brand New"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 10
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "",
+        "strRin": "~~0.00,0"
+      },
+      "tags": [
+        {
+          "title": "12 Single Berths (LB-6, UB-6)",
+          "value": "12",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "ASD",
+          "TR",
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          1
+        ],
+        "droppingPoints": [
+          12,
+          13,
+          1,
+          29,
+          2,
+          4,
+          5,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          63,
+          16
+        ],
+        "amenities": [
+          1,
+          4,
+          6,
+          8,
+          10,
+          13,
+          14,
+          15,
+          16,
+          21
+        ]
+      },
+      "busTypeName": "TATA AC Sleeper",
+      "serviceKey": "fa612f41-6f0c-4459-92e8-6b8a6f27b42b_52",
+      "travelerAgentName": "FlixBus",
+      "serviceName": "794_7_100_595_SLEEPER",
+      "busServiceTypeName": "TATA AC Sleeper",
+      "busType": "",
+      "serviceNumber": "Service Number - 30306b0b-89e5-4a09-99ee-1371567eea0d",
+      "busTypeMapID": "1,4",
+      "operatorId": 122750,
+      "viaPlaces": "Coming from Kochi",
+      "busNo": "",
+      "rating": 4,
+      "noOfRatings": 0,
+      "discountMsg": "",
+      "serviceId": 4501307780,
+      "masterId": 4044332,
+      "originDateTime": "2026-08-23 01:40",
+      "seatStats": {
+        "availableSeats": 34,
+        "singleBerthsCount": 12,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 23,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 0,
+        "seatsCapacity": 36,
+        "womenTravellerCount": 0
+      }
+    },
+    {
+      "fares": {
         "fare": 1440,
         "offerPrice": 1290,
         "fareList": [
@@ -22394,161 +22394,6 @@
     },
     {
       "fares": {
-        "fare": 1300,
-        "offerPrice": 1150,
-        "fareList": [
-          1300,
-          1400,
-          1600
-        ],
-        "discounts": {
-          "coFund": 50,
-          "edgeOffer": 100,
-          "offerType": 1
-        },
-        "appliedOffers": {
-          "1": 100,
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "01:45 AM",
-        "startTimeDateFormat": "2026-08-23T01:45:00+05:30",
-        "arriveTime": "07:15 AM",
-        "travelTime": "05:30:00",
-        "startTimeTwfFormat": "01:45",
-        "arriveTimeTwfFormat": "07:15",
-        "startTimestamp": 1787429700,
-        "arriveTimestamp": 1787469300
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 0,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": null,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 1,
-        "isFcOperator": 0,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "1": {
-          "type": "F",
-          "minTicketValue": 200,
-          "maxDiscount": 100,
-          "discount": 100
-        },
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": true
-        }
-      },
-      "busInsights": {
-        "metaMapId": 1,
-        "metaText": [
-          "4 Months Old",
-          "Brand New"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 1
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "0,0,0,0~~0,0,0,0",
-        "strRin": "0,0,0,1,0~~4.30,0"
-      },
-      "tags": [
-        {
-          "title": "6 Single Berths (LB-4, UB-2)",
-          "value": "6",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "EFD",
-          "ASD",
-          "TR",
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          1,
-          4,
-          44
-        ],
-        "droppingPoints": [
-          12,
-          1,
-          2,
-          4,
-          5,
-          14,
-          18,
-          6,
-          17,
-          7
-        ],
-        "amenities": [
-          15
-        ]
-      },
-      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "serviceKey": "SCH5B88208F",
-      "travelerAgentName": "Jubile Travels",
-      "serviceName": "413N47230S260822D",
-      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 413N47230S260822D39T152",
-      "busTypeMapID": "1,4",
-      "operatorId": 124881,
-      "viaPlaces": "Starts from Coimbatore",
-      "busNo": "",
-      "rating": 4.3,
-      "noOfRatings": 0,
-      "discountMsg": "Save min ₹100 with Flash Offer",
-      "serviceId": 4549871730,
-      "masterId": 4090955,
-      "originDateTime": "2026-08-23 01:45",
-      "seatStats": {
-        "availableSeats": 23,
-        "singleBerthsCount": 6,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 14,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 0,
-        "seatsCapacity": 36,
-        "womenTravellerCount": 0
-      }
-    },
-    {
-      "fares": {
         "fare": 614,
         "offerPrice": 564,
         "fareList": [
@@ -22713,6 +22558,161 @@
         "femaleBookedCount": 3,
         "seatsCapacity": 45,
         "womenTravellerCount": 3
+      }
+    },
+    {
+      "fares": {
+        "fare": 1300,
+        "offerPrice": 1150,
+        "fareList": [
+          1300,
+          1400,
+          1600
+        ],
+        "discounts": {
+          "coFund": 50,
+          "edgeOffer": 100,
+          "offerType": 1
+        },
+        "appliedOffers": {
+          "1": 100,
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "01:45 AM",
+        "startTimeDateFormat": "2026-08-23T01:45:00+05:30",
+        "arriveTime": "07:15 AM",
+        "travelTime": "05:30:00",
+        "startTimeTwfFormat": "01:45",
+        "arriveTimeTwfFormat": "07:15",
+        "startTimestamp": 1787429700,
+        "arriveTimestamp": 1787469300
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 0,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": null,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 1,
+        "isFcOperator": 0,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "1": {
+          "type": "F",
+          "minTicketValue": 200,
+          "maxDiscount": 100,
+          "discount": 100
+        },
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": true
+        }
+      },
+      "busInsights": {
+        "metaMapId": 1,
+        "metaText": [
+          "4 Months Old",
+          "Brand New"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 1
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "0,0,0,0~~0,0,0,0",
+        "strRin": "0,0,0,1,0~~4.30,0"
+      },
+      "tags": [
+        {
+          "title": "6 Single Berths (LB-4, UB-2)",
+          "value": "6",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "EFD",
+          "ASD",
+          "TR",
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          1,
+          4,
+          44
+        ],
+        "droppingPoints": [
+          12,
+          1,
+          2,
+          4,
+          5,
+          14,
+          18,
+          6,
+          17,
+          7
+        ],
+        "amenities": [
+          15
+        ]
+      },
+      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "serviceKey": "SCH5B88208F",
+      "travelerAgentName": "Jubile Travels",
+      "serviceName": "413N47230S260822D",
+      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 413N47230S260822D39T152",
+      "busTypeMapID": "1,4",
+      "operatorId": 124881,
+      "viaPlaces": "Starts from Coimbatore",
+      "busNo": "",
+      "rating": 4.3,
+      "noOfRatings": 0,
+      "discountMsg": "Save min ₹100 with Flash Offer",
+      "serviceId": 4549871730,
+      "masterId": 4090955,
+      "originDateTime": "2026-08-23 01:45",
+      "seatStats": {
+        "availableSeats": 23,
+        "singleBerthsCount": 6,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 14,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 0,
+        "seatsCapacity": 36,
+        "womenTravellerCount": 0
       }
     },
     {
@@ -23708,8 +23708,8 @@
     },
     {
       "fares": {
-        "fare": 2000,
-        "offerPrice": 1950,
+        "fare": 1960,
+        "offerPrice": 1910,
         "fareList": [
           2000,
           2100,
@@ -23840,7 +23840,7 @@
       "masterId": 88790,
       "originDateTime": "2026-08-23 23:55",
       "seatStats": {
-        "availableSeats": 10,
+        "availableSeats": 12,
         "singleBerthsCount": 1,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 6,
@@ -24691,158 +24691,6 @@
     },
     {
       "fares": {
-        "fare": 1500,
-        "offerPrice": 1450,
-        "fareList": [
-          1500,
-          1700
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "10:30 PM",
-        "startTimeDateFormat": "2026-08-23T22:30:00+05:30",
-        "arriveTime": "05:30 AM",
-        "travelTime": "07:00:00",
-        "startTimeTwfFormat": "22:30",
-        "arriveTimeTwfFormat": "05:30",
-        "startTimestamp": 1787504400,
-        "arriveTimestamp": 1787549400
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 1,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 10,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 1,
-        "metaText": [
-          "2 Months Old",
-          "Brand New"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 4
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "1,0,0,1~~2,1,0,0",
-        "strRin": "1,1,1,2,2~~3.70,98"
-      },
-      "tags": [
-        {
-          "title": "10 Single Berths (LB-5, UB-5)",
-          "value": "10",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          5,
-          7,
-          8,
-          14,
-          11,
-          15,
-          1,
-          3,
-          27,
-          100
-        ],
-        "droppingPoints": [
-          11,
-          12,
-          1,
-          2,
-          4,
-          5,
-          14,
-          18,
-          16,
-          17
-        ],
-        "amenities": [
-          2,
-          6,
-          12,
-          15
-        ]
-      },
-      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "serviceKey": "SCH5A8E1241C",
-      "travelerAgentName": "No 1 Air Travels",
-      "serviceName": "20N17052S260823D",
-      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 20N17052S260823D39T152",
-      "busTypeMapID": "1,4",
-      "operatorId": 119955,
-      "viaPlaces": "Starts from Coimbatore",
-      "busNo": "",
-      "rating": 3.7,
-      "noOfRatings": 98,
-      "discountMsg": "",
-      "serviceId": 4498959234,
-      "masterId": 8661,
-      "originDateTime": "2026-08-23 22:30",
-      "seatStats": {
-        "availableSeats": 26,
-        "singleBerthsCount": 10,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 18,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 4,
-        "seatsCapacity": 36,
-        "womenTravellerCount": 4
-      }
-    },
-    {
-      "fares": {
         "fare": 879,
         "offerPrice": 829,
         "fareList": [
@@ -25001,6 +24849,158 @@
         "femaleBookedCount": 0,
         "seatsCapacity": 48,
         "womenTravellerCount": 0
+      }
+    },
+    {
+      "fares": {
+        "fare": 1500,
+        "offerPrice": 1450,
+        "fareList": [
+          1500,
+          1700
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "10:30 PM",
+        "startTimeDateFormat": "2026-08-23T22:30:00+05:30",
+        "arriveTime": "05:30 AM",
+        "travelTime": "07:00:00",
+        "startTimeTwfFormat": "22:30",
+        "arriveTimeTwfFormat": "05:30",
+        "startTimestamp": 1787504400,
+        "arriveTimestamp": 1787549400
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 10,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 1,
+        "metaText": [
+          "2 Months Old",
+          "Brand New"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 4
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "1,0,0,1~~2,1,0,0",
+        "strRin": "1,1,1,2,2~~3.70,98"
+      },
+      "tags": [
+        {
+          "title": "10 Single Berths (LB-5, UB-5)",
+          "value": "10",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          5,
+          7,
+          8,
+          14,
+          11,
+          15,
+          1,
+          3,
+          27,
+          100
+        ],
+        "droppingPoints": [
+          11,
+          12,
+          1,
+          2,
+          4,
+          5,
+          14,
+          18,
+          16,
+          17
+        ],
+        "amenities": [
+          2,
+          6,
+          12,
+          15
+        ]
+      },
+      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "serviceKey": "SCH5A8E1241C",
+      "travelerAgentName": "No 1 Air Travels",
+      "serviceName": "20N17052S260823D",
+      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 20N17052S260823D39T152",
+      "busTypeMapID": "1,4",
+      "operatorId": 119955,
+      "viaPlaces": "Starts from Coimbatore",
+      "busNo": "",
+      "rating": 3.7,
+      "noOfRatings": 98,
+      "discountMsg": "",
+      "serviceId": 4498959234,
+      "masterId": 8661,
+      "originDateTime": "2026-08-23 22:30",
+      "seatStats": {
+        "availableSeats": 26,
+        "singleBerthsCount": 10,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 18,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 4,
+        "seatsCapacity": 36,
+        "womenTravellerCount": 4
       }
     },
     {
@@ -25802,6 +25802,152 @@
     },
     {
       "fares": {
+        "fare": 2150,
+        "offerPrice": 2100,
+        "fareList": [
+          2150,
+          2250,
+          2350,
+          2450
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "11:59 PM",
+        "startTimeDateFormat": "2026-08-23T23:59:00+05:30",
+        "arriveTime": "06:00 AM",
+        "travelTime": "06:01:00",
+        "startTimeTwfFormat": "23:59",
+        "arriveTimeTwfFormat": "06:00",
+        "startTimestamp": 1787509740,
+        "arriveTimestamp": 1787551200
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 0,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 1,
+        "metaText": [
+          "1 Yr Old Bus",
+          "Brand New"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 0
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "0,0,0,0~~2,2,1,1",
+        "strRin": "0,0,0,1,4~~4.80,5"
+      },
+      "tags": [
+        {
+          "title": "7 Single Berths (LB-4, UB-3)",
+          "value": "7",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "TR",
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          61,
+          4,
+          1,
+          3
+        ],
+        "droppingPoints": [
+          11,
+          9,
+          1,
+          2,
+          4,
+          5,
+          14,
+          6,
+          17,
+          16,
+          7,
+          69
+        ],
+        "amenities": []
+      },
+      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "serviceKey": "WLA>EKM>BLR",
+      "travelerAgentName": "Meridien Coches",
+      "serviceName": "Meridien Coaches",
+      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 202608231894413",
+      "busTypeMapID": "1,4",
+      "operatorId": 126275,
+      "viaPlaces": "Coming from Kakkanad",
+      "busNo": "",
+      "rating": 4.8,
+      "noOfRatings": 5,
+      "discountMsg": "",
+      "serviceId": 4503744985,
+      "masterId": 487462,
+      "originDateTime": "2026-08-23 23:59",
+      "seatStats": {
+        "availableSeats": 23,
+        "singleBerthsCount": 7,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 14,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 5,
+        "seatsCapacity": 36,
+        "womenTravellerCount": 5
+      }
+    },
+    {
+      "fares": {
         "fare": 1206,
         "offerPrice": 1156,
         "fareList": [
@@ -25950,152 +26096,6 @@
         "singleBerthsCount": 11,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 20,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 5,
-        "seatsCapacity": 36,
-        "womenTravellerCount": 5
-      }
-    },
-    {
-      "fares": {
-        "fare": 2150,
-        "offerPrice": 2100,
-        "fareList": [
-          2150,
-          2250,
-          2350,
-          2450
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "11:59 PM",
-        "startTimeDateFormat": "2026-08-23T23:59:00+05:30",
-        "arriveTime": "06:00 AM",
-        "travelTime": "06:01:00",
-        "startTimeTwfFormat": "23:59",
-        "arriveTimeTwfFormat": "06:00",
-        "startTimestamp": 1787509740,
-        "arriveTimestamp": 1787551200
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 0,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 0,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 1,
-        "metaText": [
-          "1 Yr Old Bus",
-          "Brand New"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 0
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "0,0,0,0~~2,2,1,1",
-        "strRin": "0,0,0,1,4~~4.80,5"
-      },
-      "tags": [
-        {
-          "title": "7 Single Berths (LB-4, UB-3)",
-          "value": "7",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "TR",
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          61,
-          4,
-          1,
-          3
-        ],
-        "droppingPoints": [
-          11,
-          9,
-          1,
-          2,
-          4,
-          5,
-          14,
-          6,
-          17,
-          16,
-          7,
-          69
-        ],
-        "amenities": []
-      },
-      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "serviceKey": "WLA>EKM>BLR",
-      "travelerAgentName": "Meridien Coches",
-      "serviceName": "Meridien Coaches",
-      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 202608231894413",
-      "busTypeMapID": "1,4",
-      "operatorId": 126275,
-      "viaPlaces": "Coming from Kakkanad",
-      "busNo": "",
-      "rating": 4.8,
-      "noOfRatings": 5,
-      "discountMsg": "",
-      "serviceId": 4503744985,
-      "masterId": 487462,
-      "originDateTime": "2026-08-23 23:59",
-      "seatStats": {
-        "availableSeats": 23,
-        "singleBerthsCount": 7,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 14,
         "femaleAvailableCount": 0,
         "femaleBookedCount": 5,
         "seatsCapacity": 36,
@@ -27673,161 +27673,6 @@
     },
     {
       "fares": {
-        "fare": 1800,
-        "offerPrice": 1750,
-        "fareList": [
-          1800,
-          2100,
-          2350,
-          2600
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "01:00 AM",
-        "startTimeDateFormat": "2026-08-23T01:00:00+05:30",
-        "arriveTime": "07:15 AM",
-        "travelTime": "06:15:00",
-        "startTimeTwfFormat": "01:00",
-        "arriveTimeTwfFormat": "07:15",
-        "startTimestamp": 1787427000,
-        "arriveTimestamp": 1787469300
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 0,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 2,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 0
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 1,
-        "metaText": [
-          "2 Months Old",
-          "Brand New"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 8
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "0,0,0,0~~3,3,5,3",
-        "strRin": "1,1,0,3,13~~4.60,18"
-      },
-      "tags": [
-        {
-          "title": "10 Single Berths (LB-5, UB-5)",
-          "value": "10",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "TR",
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          94
-        ],
-        "droppingPoints": [
-          11,
-          9,
-          80,
-          1,
-          2,
-          4,
-          5,
-          14,
-          18,
-          16,
-          123,
-          87,
-          124,
-          19
-        ],
-        "amenities": [
-          1,
-          2,
-          6,
-          7,
-          12,
-          13,
-          14,
-          15
-        ]
-      },
-      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "serviceKey": "SCH3B8966C",
-      "travelerAgentName": "London Travel Lights",
-      "serviceName": "538N46307S260822D",
-      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 538N46307S260822D39T152",
-      "busTypeMapID": "1,4",
-      "operatorId": 128625,
-      "viaPlaces": "Coming from Kottayam",
-      "busNo": "",
-      "rating": 4.6,
-      "noOfRatings": 18,
-      "discountMsg": "",
-      "serviceId": 4499517032,
-      "masterId": 4027461,
-      "originDateTime": "2026-08-23 01:00",
-      "seatStats": {
-        "availableSeats": 28,
-        "singleBerthsCount": 10,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 20,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 0,
-        "seatsCapacity": 36,
-        "womenTravellerCount": 0,
-        "womenRatingsAggregate": 5
-      }
-    },
-    {
-      "fares": {
         "fare": 590,
         "offerPrice": 540,
         "fareList": [
@@ -28011,6 +27856,161 @@
     },
     {
       "fares": {
+        "fare": 1800,
+        "offerPrice": 1750,
+        "fareList": [
+          1800,
+          2100,
+          2350,
+          2600
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "01:00 AM",
+        "startTimeDateFormat": "2026-08-23T01:00:00+05:30",
+        "arriveTime": "07:15 AM",
+        "travelTime": "06:15:00",
+        "startTimeTwfFormat": "01:00",
+        "arriveTimeTwfFormat": "07:15",
+        "startTimestamp": 1787427000,
+        "arriveTimestamp": 1787469300
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 0,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 2,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 0
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 1,
+        "metaText": [
+          "2 Months Old",
+          "Brand New"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 8
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "0,0,0,0~~3,3,5,3",
+        "strRin": "1,1,0,3,13~~4.60,18"
+      },
+      "tags": [
+        {
+          "title": "10 Single Berths (LB-5, UB-5)",
+          "value": "10",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "TR",
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          94
+        ],
+        "droppingPoints": [
+          11,
+          9,
+          80,
+          1,
+          2,
+          4,
+          5,
+          14,
+          18,
+          16,
+          123,
+          87,
+          124,
+          19
+        ],
+        "amenities": [
+          1,
+          2,
+          6,
+          7,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "serviceKey": "SCH3B8966C",
+      "travelerAgentName": "London Travel Lights",
+      "serviceName": "538N46307S260822D",
+      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 538N46307S260822D39T152",
+      "busTypeMapID": "1,4",
+      "operatorId": 128625,
+      "viaPlaces": "Coming from Kottayam",
+      "busNo": "",
+      "rating": 4.6,
+      "noOfRatings": 18,
+      "discountMsg": "",
+      "serviceId": 4499517032,
+      "masterId": 4027461,
+      "originDateTime": "2026-08-23 01:00",
+      "seatStats": {
+        "availableSeats": 28,
+        "singleBerthsCount": 10,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 20,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 0,
+        "seatsCapacity": 36,
+        "womenTravellerCount": 0,
+        "womenRatingsAggregate": 5
+      }
+    },
+    {
+      "fares": {
         "fare": 1300,
         "offerPrice": 1250,
         "fareList": [
@@ -28167,155 +28167,6 @@
         "seatsCapacity": 36,
         "womenTravellerCount": 0,
         "womenRatingsAggregate": 4
-      }
-    },
-    {
-      "fares": {
-        "fare": 1200,
-        "offerPrice": 1150,
-        "fareList": [
-          1200,
-          1400
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "05:30 PM",
-        "startTimeDateFormat": "2026-08-23T17:30:00+05:30",
-        "arriveTime": "12:30 AM",
-        "travelTime": "07:00:00",
-        "startTimeTwfFormat": "17:30",
-        "arriveTimeTwfFormat": "00:30",
-        "startTimestamp": 1787486400,
-        "arriveTimestamp": 1787531400
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 1,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": null,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 3,
-        "metaText": [
-          "",
-          "6 Yr Old Bus"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 4
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "1,0,2,2~~1,1,1,2",
-        "strRin": "9,4,4,2,6~~3.10,32"
-      },
-      "tags": [
-        {
-          "title": "12 Single Berths (LB-6, UB-6)",
-          "value": "12",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "PD"
-        ],
-        "boardingPoints": [
-          5,
-          6,
-          7,
-          8,
-          14,
-          11,
-          15,
-          3,
-          27,
-          100
-        ],
-        "droppingPoints": [
-          11,
-          12,
-          2,
-          4,
-          5,
-          17,
-          16
-        ],
-        "amenities": [
-          2,
-          6,
-          12,
-          15
-        ]
-      },
-      "busTypeName": "AC Sleeper (2 + 1)",
-      "serviceKey": "SHG7TDO227",
-      "travelerAgentName": "No 1 Air Travels",
-      "serviceName": "20N3292S260823D",
-      "busServiceTypeName": "AC Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 20N3292S260823D39T152",
-      "busTypeMapID": "1,4",
-      "operatorId": 119955,
-      "viaPlaces": "Starts from Coimbatore",
-      "busNo": "",
-      "rating": 3.1,
-      "noOfRatings": 32,
-      "discountMsg": "",
-      "serviceId": 4498959232,
-      "masterId": 32508,
-      "originDateTime": "2026-08-23 17:30",
-      "seatStats": {
-        "availableSeats": 34,
-        "singleBerthsCount": 12,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 23,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 2,
-        "seatsCapacity": 36,
-        "womenTravellerCount": 2,
-        "womenRatingsAggregate": 2
       }
     },
     {
@@ -28506,6 +28357,155 @@
         "femaleBookedCount": 5,
         "seatsCapacity": 45,
         "womenTravellerCount": 5
+      }
+    },
+    {
+      "fares": {
+        "fare": 1200,
+        "offerPrice": 1150,
+        "fareList": [
+          1200,
+          1400
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "05:30 PM",
+        "startTimeDateFormat": "2026-08-23T17:30:00+05:30",
+        "arriveTime": "12:30 AM",
+        "travelTime": "07:00:00",
+        "startTimeTwfFormat": "17:30",
+        "arriveTimeTwfFormat": "00:30",
+        "startTimestamp": 1787486400,
+        "arriveTimestamp": 1787531400
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": null,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 3,
+        "metaText": [
+          "",
+          "6 Yr Old Bus"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 4
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "1,0,2,2~~1,1,1,2",
+        "strRin": "9,4,4,2,6~~3.10,32"
+      },
+      "tags": [
+        {
+          "title": "12 Single Berths (LB-6, UB-6)",
+          "value": "12",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "PD"
+        ],
+        "boardingPoints": [
+          5,
+          6,
+          7,
+          8,
+          14,
+          11,
+          15,
+          3,
+          27,
+          100
+        ],
+        "droppingPoints": [
+          11,
+          12,
+          2,
+          4,
+          5,
+          17,
+          16
+        ],
+        "amenities": [
+          2,
+          6,
+          12,
+          15
+        ]
+      },
+      "busTypeName": "AC Sleeper (2 + 1)",
+      "serviceKey": "SHG7TDO227",
+      "travelerAgentName": "No 1 Air Travels",
+      "serviceName": "20N3292S260823D",
+      "busServiceTypeName": "AC Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 20N3292S260823D39T152",
+      "busTypeMapID": "1,4",
+      "operatorId": 119955,
+      "viaPlaces": "Starts from Coimbatore",
+      "busNo": "",
+      "rating": 3.1,
+      "noOfRatings": 32,
+      "discountMsg": "",
+      "serviceId": 4498959232,
+      "masterId": 32508,
+      "originDateTime": "2026-08-23 17:30",
+      "seatStats": {
+        "availableSeats": 34,
+        "singleBerthsCount": 12,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 23,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 2,
+        "seatsCapacity": 36,
+        "womenTravellerCount": 2,
+        "womenRatingsAggregate": 2
       }
     },
     {
@@ -28822,170 +28822,6 @@
     },
     {
       "fares": {
-        "fare": 1003,
-        "offerPrice": 903,
-        "fareList": [
-          1003,
-          1308,
-          1373,
-          1472
-        ],
-        "discounts": {
-          "coFund": 100
-        },
-        "appliedOffers": {
-          "101": 100
-        },
-        "featuredOffers": {
-          "4": 100
-        },
-        "featuredOffersGuest": {
-          "4": 100
-        }
-      },
-      "timings": {
-        "startTime": "09:25 PM",
-        "startTimeDateFormat": "2026-08-23T21:25:00+05:30",
-        "arriveTime": "04:40 AM",
-        "travelTime": "07:15:00",
-        "startTimeTwfFormat": "21:25",
-        "arriveTimeTwfFormat": "04:40",
-        "startTimestamp": 1787500500,
-        "arriveTimestamp": 1787546400
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 1,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 0,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 1,
-        "isFcOperator": 0,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "4": {
-          "type": "P",
-          "minTicketValue": 10,
-          "maxDiscount": 5000,
-          "discount": 10
-        },
-        "101": {
-          "type": "P",
-          "minTicketValue": 200,
-          "maxDiscount": 200,
-          "discount": 10,
-          "coupon": "NUEGOAB",
-          "loginRequired": "1",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 2,
-        "metaText": [
-          "2 Yr Old Bus",
-          "New Bus"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 2
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "3,2,5,5~~1,1,1,2",
-        "strRin": "2,4,4,6,7~~3.50,42"
-      },
-      "tags": [
-        {
-          "title": "8 Single Berths (LB-4, UB-4)",
-          "value": "8",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "EER",
-          "101000002269",
-          "ASD",
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          84,
-          12,
-          5,
-          6,
-          7,
-          8,
-          14,
-          1,
-          44
-        ],
-        "droppingPoints": [
-          12,
-          1,
-          2,
-          4,
-          5,
-          16,
-          42,
-          43,
-          44
-        ],
-        "amenities": [
-          6,
-          14
-        ]
-      },
-      "busTypeName": "AC Seater/Sleeper",
-      "serviceKey": "15671567",
-      "travelerAgentName": "NueGo",
-      "serviceName": "NueGo",
-      "busServiceTypeName": "AC Seater/Sleeper",
-      "busType": "",
-      "serviceNumber": "Service Number - 1010#1064#2318#1567#1567#12780#23082026#9:25 PM#9:25 PM#2",
-      "busTypeMapID": "1,3,4",
-      "operatorId": 120799,
-      "viaPlaces": "Starts from Coimbatore",
-      "busNo": "",
-      "rating": 3.5,
-      "noOfRatings": 42,
-      "discountMsg": "",
-      "serviceId": 4500448264,
-      "masterId": 359430,
-      "originDateTime": "2026-08-23 21:25",
-      "seatStats": {
-        "availableSeats": 36,
-        "singleBerthsCount": 8,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 22,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 1,
-        "seatsCapacity": 40,
-        "womenTravellerCount": 1,
-        "womenRatingsAggregate": 3.3
-      }
-    },
-    {
-      "fares": {
         "fare": 2200,
         "offerPrice": 2150,
         "fareList": [
@@ -29159,6 +28995,170 @@
         "femaleBookedCount": 9,
         "seatsCapacity": 40,
         "womenTravellerCount": 9
+      }
+    },
+    {
+      "fares": {
+        "fare": 1003,
+        "offerPrice": 903,
+        "fareList": [
+          1003,
+          1308,
+          1373,
+          1472
+        ],
+        "discounts": {
+          "coFund": 100
+        },
+        "appliedOffers": {
+          "101": 100
+        },
+        "featuredOffers": {
+          "4": 100
+        },
+        "featuredOffersGuest": {
+          "4": 100
+        }
+      },
+      "timings": {
+        "startTime": "09:25 PM",
+        "startTimeDateFormat": "2026-08-23T21:25:00+05:30",
+        "arriveTime": "04:40 AM",
+        "travelTime": "07:15:00",
+        "startTimeTwfFormat": "21:25",
+        "arriveTimeTwfFormat": "04:40",
+        "startTimestamp": 1787500500,
+        "arriveTimestamp": 1787546400
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 1,
+        "isFcOperator": 0,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "4": {
+          "type": "P",
+          "minTicketValue": 10,
+          "maxDiscount": 5000,
+          "discount": 10
+        },
+        "101": {
+          "type": "P",
+          "minTicketValue": 200,
+          "maxDiscount": 200,
+          "discount": 10,
+          "coupon": "NUEGOAB",
+          "loginRequired": "1",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 2,
+        "metaText": [
+          "2 Yr Old Bus",
+          "New Bus"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 2
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "3,2,5,5~~1,1,1,2",
+        "strRin": "2,4,4,6,7~~3.50,42"
+      },
+      "tags": [
+        {
+          "title": "8 Single Berths (LB-4, UB-4)",
+          "value": "8",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "EER",
+          "101000002269",
+          "ASD",
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          84,
+          12,
+          5,
+          6,
+          7,
+          8,
+          14,
+          1,
+          44
+        ],
+        "droppingPoints": [
+          12,
+          1,
+          2,
+          4,
+          5,
+          16,
+          42,
+          43,
+          44
+        ],
+        "amenities": [
+          6,
+          14
+        ]
+      },
+      "busTypeName": "AC Seater/Sleeper",
+      "serviceKey": "15671567",
+      "travelerAgentName": "NueGo",
+      "serviceName": "NueGo",
+      "busServiceTypeName": "AC Seater/Sleeper",
+      "busType": "",
+      "serviceNumber": "Service Number - 1010#1064#2318#1567#1567#12780#23082026#9:25 PM#9:25 PM#2",
+      "busTypeMapID": "1,3,4",
+      "operatorId": 120799,
+      "viaPlaces": "Starts from Coimbatore",
+      "busNo": "",
+      "rating": 3.5,
+      "noOfRatings": 42,
+      "discountMsg": "",
+      "serviceId": 4500448264,
+      "masterId": 359430,
+      "originDateTime": "2026-08-23 21:25",
+      "seatStats": {
+        "availableSeats": 36,
+        "singleBerthsCount": 8,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 22,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 1,
+        "seatsCapacity": 40,
+        "womenTravellerCount": 1,
+        "womenRatingsAggregate": 3.3
       }
     },
     {
@@ -30277,6 +30277,139 @@
     },
     {
       "fares": {
+        "fare": 1999,
+        "offerPrice": 1949,
+        "fareList": [
+          1999
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {
+          "4": 199
+        },
+        "featuredOffersGuest": {
+          "4": 199
+        }
+      },
+      "timings": {
+        "startTime": "11:15 PM",
+        "startTimeDateFormat": "2026-08-23T23:15:00+05:30",
+        "arriveTime": "04:45 AM",
+        "travelTime": "05:30:00",
+        "startTimeTwfFormat": "23:15",
+        "arriveTimeTwfFormat": "04:45",
+        "startTimestamp": 1787507100,
+        "arriveTimestamp": 1787546700
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 0,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "4": {
+          "type": "P",
+          "minTicketValue": 10,
+          "maxDiscount": 5000,
+          "discount": 10
+        },
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 0,
+        "metaText": [],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 0
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "",
+        "strRin": "~~0.00,0"
+      },
+      "tags": [],
+      "filters": {
+        "bannerFilter": [
+          "EER",
+          "TR",
+          "PD"
+        ],
+        "boardingPoints": [
+          1
+        ],
+        "droppingPoints": [
+          9,
+          4,
+          1,
+          2,
+          11,
+          5
+        ],
+        "amenities": []
+      },
+      "busTypeName": "SCANIA AC Multiaxle Sleeper (2 + 1)",
+      "serviceKey": "GUVR-TCR-BLR AC SLEEPER",
+      "travelerAgentName": "Kerala Lines",
+      "serviceName": "BLR Business Class AC SLEEPER (No Dinner Break)",
+      "busServiceTypeName": "SCANIA AC Multiaxle Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 202608232523768",
+      "busTypeMapID": "1,4",
+      "operatorId": 242,
+      "viaPlaces": "Coming from Guruvayoor",
+      "busNo": "",
+      "rating": 4.3,
+      "noOfRatings": 0,
+      "discountMsg": "",
+      "serviceId": 4599144514,
+      "masterId": 4100164,
+      "originDateTime": "2026-08-23 23:15",
+      "seatStats": {
+        "availableSeats": 40,
+        "singleBerthsCount": 0,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 0,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 0,
+        "seatsCapacity": 40,
+        "womenTravellerCount": 0
+      }
+    },
+    {
+      "fares": {
         "fare": 1100,
         "offerPrice": 1050,
         "fareList": [
@@ -30852,7 +30985,7 @@
       "masterId": 15246,
       "originDateTime": "2026-08-23T13:45:00",
       "seatStats": {
-        "availableSeats": 32,
+        "availableSeats": 30,
         "singleBerthsCount": 0,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 15,
@@ -31800,154 +31933,6 @@
     },
     {
       "fares": {
-        "fare": 899,
-        "offerPrice": 849,
-        "fareList": [
-          899,
-          1250,
-          1350,
-          1450
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "01:15 AM",
-        "startTimeDateFormat": "2026-08-23T01:15:00+05:30",
-        "arriveTime": "06:45 AM",
-        "travelTime": "05:30:00",
-        "startTimeTwfFormat": "01:15",
-        "arriveTimeTwfFormat": "06:45",
-        "startTimestamp": 1787427900,
-        "arriveTimestamp": 1787467500
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 0,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 0,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 0,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 0
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 0,
-        "metaText": [],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 9
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "",
-        "strRin": "~~0.00,0"
-      },
-      "tags": [
-        {
-          "title": "7 Single Berths (LB-4, UB-3)",
-          "value": "7",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "PD"
-        ],
-        "boardingPoints": [
-          107
-        ],
-        "droppingPoints": [
-          9,
-          1,
-          29,
-          2,
-          4,
-          5,
-          14,
-          50,
-          17,
-          16,
-          42,
-          43
-        ],
-        "amenities": [
-          1,
-          2,
-          6,
-          7,
-          10,
-          12,
-          13,
-          14,
-          17
-        ]
-      },
-      "busTypeName": "Bharat Benz AC Seater/Sleeper (2 + 1)",
-      "serviceKey": "ADOOR TO BLR  SLP-STR BB",
-      "travelerAgentName": "Suraj Holidays",
-      "serviceName": "ADOOR TO BLR AC SEAT-SLP BHARATH BENZ",
-      "busServiceTypeName": "Bharat Benz AC Seater/Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 202608232237865",
-      "busTypeMapID": "1,3,4",
-      "operatorId": 114030,
-      "viaPlaces": "Coming from Adoor",
-      "busNo": "",
-      "rating": 3.4,
-      "noOfRatings": 0,
-      "discountMsg": "",
-      "serviceId": 4554577431,
-      "masterId": 4091702,
-      "originDateTime": "2026-08-23 01:15",
-      "seatStats": {
-        "availableSeats": 29,
-        "singleBerthsCount": 7,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 18,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 2,
-        "seatsCapacity": 48,
-        "womenTravellerCount": 2
-      }
-    },
-    {
-      "fares": {
         "fare": 1789,
         "offerPrice": 1739,
         "fareList": [
@@ -32111,6 +32096,154 @@
         "femaleBookedCount": 0,
         "seatsCapacity": 36,
         "womenTravellerCount": 0
+      }
+    },
+    {
+      "fares": {
+        "fare": 899,
+        "offerPrice": 849,
+        "fareList": [
+          899,
+          1250,
+          1350,
+          1450
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "01:15 AM",
+        "startTimeDateFormat": "2026-08-23T01:15:00+05:30",
+        "arriveTime": "06:45 AM",
+        "travelTime": "05:30:00",
+        "startTimeTwfFormat": "01:15",
+        "arriveTimeTwfFormat": "06:45",
+        "startTimestamp": 1787427900,
+        "arriveTimestamp": 1787467500
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 0,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 0,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 0
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 0,
+        "metaText": [],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 9
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "",
+        "strRin": "~~0.00,0"
+      },
+      "tags": [
+        {
+          "title": "7 Single Berths (LB-4, UB-3)",
+          "value": "7",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "PD"
+        ],
+        "boardingPoints": [
+          107
+        ],
+        "droppingPoints": [
+          9,
+          1,
+          29,
+          2,
+          4,
+          5,
+          14,
+          50,
+          17,
+          16,
+          42,
+          43
+        ],
+        "amenities": [
+          1,
+          2,
+          6,
+          7,
+          10,
+          12,
+          13,
+          14,
+          17
+        ]
+      },
+      "busTypeName": "Bharat Benz AC Seater/Sleeper (2 + 1)",
+      "serviceKey": "ADOOR TO BLR  SLP-STR BB",
+      "travelerAgentName": "Suraj Holidays",
+      "serviceName": "ADOOR TO BLR AC SEAT-SLP BHARATH BENZ",
+      "busServiceTypeName": "Bharat Benz AC Seater/Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 202608232237865",
+      "busTypeMapID": "1,3,4",
+      "operatorId": 114030,
+      "viaPlaces": "Coming from Adoor",
+      "busNo": "",
+      "rating": 3.4,
+      "noOfRatings": 0,
+      "discountMsg": "",
+      "serviceId": 4554577431,
+      "masterId": 4091702,
+      "originDateTime": "2026-08-23 01:15",
+      "seatStats": {
+        "availableSeats": 29,
+        "singleBerthsCount": 7,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 18,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 2,
+        "seatsCapacity": 48,
+        "womenTravellerCount": 2
       }
     },
     {
@@ -33847,6 +33980,161 @@
     },
     {
       "fares": {
+        "fare": 999,
+        "offerPrice": 949,
+        "fareList": [
+          849,
+          999,
+          1249
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "11:25 PM",
+        "startTimeDateFormat": "2026-08-23T23:25:00+05:30",
+        "arriveTime": "06:15 AM",
+        "travelTime": "06:50:00",
+        "startTimeTwfFormat": "23:25",
+        "arriveTimeTwfFormat": "06:15",
+        "startTimestamp": 1787507700,
+        "arriveTimestamp": 1787552100
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 0,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": null,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 3,
+        "metaText": [
+          "",
+          "7 Yr Old Bus"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 1
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "0,0,0,0~~0,0,0,0",
+        "strRin": "2,0,0,0,0~~3.20,0"
+      },
+      "tags": [],
+      "filters": {
+        "bannerFilter": [
+          "PD"
+        ],
+        "boardingPoints": [
+          27,
+          61,
+          90,
+          29,
+          4,
+          91,
+          23,
+          109,
+          110,
+          21,
+          111,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          15,
+          1,
+          44,
+          3
+        ],
+        "droppingPoints": [
+          11,
+          9,
+          13,
+          1,
+          2,
+          3,
+          4,
+          5,
+          14,
+          6,
+          16,
+          116,
+          17
+        ],
+        "amenities": [
+          6
+        ]
+      },
+      "busTypeName": "NON-AC Seater/Sleeper",
+      "serviceKey": "SCH4A852662J",
+      "travelerAgentName": "Maaruti Travels",
+      "serviceName": "116N17386S260823D",
+      "busServiceTypeName": "NON-AC Seater/Sleeper",
+      "busType": "",
+      "serviceNumber": "Service Number - 116N17386S260823D274T111",
+      "busTypeMapID": "2,3,4",
+      "operatorId": 121842,
+      "viaPlaces": "",
+      "busNo": "",
+      "rating": 3.2,
+      "noOfRatings": 0,
+      "discountMsg": "",
+      "serviceId": 4527327611,
+      "masterId": 4031715,
+      "originDateTime": "2026-08-23 12:20",
+      "seatStats": {
+        "availableSeats": 55,
+        "singleBerthsCount": 0,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 19,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 10,
+        "seatsCapacity": 59,
+        "womenTravellerCount": 10
+      }
+    },
+    {
+      "fares": {
         "fare": 1256,
         "offerPrice": 1049,
         "fareList": [
@@ -34034,161 +34322,6 @@
         "seatsCapacity": 44,
         "womenTravellerCount": 4,
         "womenRatingsAggregate": 5
-      }
-    },
-    {
-      "fares": {
-        "fare": 999,
-        "offerPrice": 949,
-        "fareList": [
-          849,
-          999,
-          1249
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "11:25 PM",
-        "startTimeDateFormat": "2026-08-23T23:25:00+05:30",
-        "arriveTime": "06:15 AM",
-        "travelTime": "06:50:00",
-        "startTimeTwfFormat": "23:25",
-        "arriveTimeTwfFormat": "06:15",
-        "startTimestamp": 1787507700,
-        "arriveTimestamp": 1787552100
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 0,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": null,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 3,
-        "metaText": [
-          "",
-          "7 Yr Old Bus"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 1
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "0,0,0,0~~0,0,0,0",
-        "strRin": "2,0,0,0,0~~3.20,0"
-      },
-      "tags": [],
-      "filters": {
-        "bannerFilter": [
-          "PD"
-        ],
-        "boardingPoints": [
-          27,
-          61,
-          90,
-          29,
-          4,
-          91,
-          23,
-          109,
-          110,
-          21,
-          111,
-          5,
-          6,
-          7,
-          8,
-          10,
-          11,
-          15,
-          1,
-          44,
-          3
-        ],
-        "droppingPoints": [
-          11,
-          9,
-          13,
-          1,
-          2,
-          3,
-          4,
-          5,
-          14,
-          6,
-          16,
-          116,
-          17
-        ],
-        "amenities": [
-          6
-        ]
-      },
-      "busTypeName": "NON-AC Seater/Sleeper",
-      "serviceKey": "SCH4A852662J",
-      "travelerAgentName": "Maaruti Travels",
-      "serviceName": "116N17386S260823D",
-      "busServiceTypeName": "NON-AC Seater/Sleeper",
-      "busType": "",
-      "serviceNumber": "Service Number - 116N17386S260823D274T111",
-      "busTypeMapID": "2,3,4",
-      "operatorId": 121842,
-      "viaPlaces": "",
-      "busNo": "",
-      "rating": 3.2,
-      "noOfRatings": 0,
-      "discountMsg": "",
-      "serviceId": 4527327611,
-      "masterId": 4031715,
-      "originDateTime": "2026-08-23 12:20",
-      "seatStats": {
-        "availableSeats": 55,
-        "singleBerthsCount": 0,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 19,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 10,
-        "seatsCapacity": 59,
-        "womenTravellerCount": 10
       }
     },
     {
@@ -37500,155 +37633,6 @@
     },
     {
       "fares": {
-        "fare": 1259,
-        "offerPrice": 1209,
-        "fareList": [
-          1249,
-          1299,
-          1349,
-          1399,
-          1449
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "02:30 AM",
-        "startTimeDateFormat": "2026-08-23T02:30:00+05:30",
-        "arriveTime": "07:30 AM",
-        "travelTime": "05:00:00",
-        "startTimeTwfFormat": "02:30",
-        "arriveTimeTwfFormat": "07:30",
-        "startTimestamp": 1787432400,
-        "arriveTimestamp": 1787470200
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 1,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 0,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 0
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 1,
-        "metaText": [
-          "8 Months Old",
-          "Brand New"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 10
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "0,0,1,1~~0,0,0,0",
-        "strRin": "9,3,4,0,2~~2.00,19"
-      },
-      "tags": [
-        {
-          "title": "8 Single Berths (LB-4, UB-4)",
-          "value": "8",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          87
-        ],
-        "droppingPoints": [
-          9,
-          1,
-          2,
-          4,
-          5,
-          17
-        ],
-        "amenities": [
-          2,
-          6,
-          7,
-          8,
-          10,
-          12,
-          13,
-          14,
-          15,
-          16
-        ]
-      },
-      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "serviceKey": "VARKALA TO BANGALORE",
-      "travelerAgentName": "Kallada Travels G4",
-      "serviceName": "Varkala to Bangalore",
-      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 202608231336460",
-      "busTypeMapID": "1,4",
-      "operatorId": 119918,
-      "viaPlaces": "Coming from Varkala(kerala)",
-      "busNo": "",
-      "rating": 2,
-      "noOfRatings": 19,
-      "discountMsg": "",
-      "serviceId": 4501025983,
-      "masterId": 3962756,
-      "originDateTime": "2026-08-23 02:30",
-      "seatStats": {
-        "availableSeats": 26,
-        "singleBerthsCount": 8,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 17,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 0,
-        "seatsCapacity": 36,
-        "womenTravellerCount": 0,
-        "womenRatingsAggregate": 0.5
-      }
-    },
-    {
-      "fares": {
         "fare": 1899,
         "offerPrice": 1749,
         "fareList": [
@@ -37803,6 +37787,155 @@
         "seatsCapacity": 49,
         "womenTravellerCount": 9,
         "womenRatingsAggregate": 2.7
+      }
+    },
+    {
+      "fares": {
+        "fare": 1259,
+        "offerPrice": 1209,
+        "fareList": [
+          1249,
+          1299,
+          1349,
+          1399,
+          1449
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "02:30 AM",
+        "startTimeDateFormat": "2026-08-23T02:30:00+05:30",
+        "arriveTime": "07:30 AM",
+        "travelTime": "05:00:00",
+        "startTimeTwfFormat": "02:30",
+        "arriveTimeTwfFormat": "07:30",
+        "startTimestamp": 1787432400,
+        "arriveTimestamp": 1787470200
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 0
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 1,
+        "metaText": [
+          "8 Months Old",
+          "Brand New"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 10
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "0,0,1,1~~0,0,0,0",
+        "strRin": "9,3,4,0,2~~2.00,19"
+      },
+      "tags": [
+        {
+          "title": "8 Single Berths (LB-4, UB-4)",
+          "value": "8",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          87
+        ],
+        "droppingPoints": [
+          9,
+          1,
+          2,
+          4,
+          5,
+          17
+        ],
+        "amenities": [
+          2,
+          6,
+          7,
+          8,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "busTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "serviceKey": "VARKALA TO BANGALORE",
+      "travelerAgentName": "Kallada Travels G4",
+      "serviceName": "Varkala to Bangalore",
+      "busServiceTypeName": "Bharat Benz AC Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 202608231336460",
+      "busTypeMapID": "1,4",
+      "operatorId": 119918,
+      "viaPlaces": "Coming from Varkala(kerala)",
+      "busNo": "",
+      "rating": 2,
+      "noOfRatings": 19,
+      "discountMsg": "",
+      "serviceId": 4501025983,
+      "masterId": 3962756,
+      "originDateTime": "2026-08-23 02:30",
+      "seatStats": {
+        "availableSeats": 26,
+        "singleBerthsCount": 8,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 17,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 0,
+        "seatsCapacity": 36,
+        "womenTravellerCount": 0,
+        "womenRatingsAggregate": 0.5
       }
     },
     {
@@ -43677,10 +43810,10 @@
     },
     {
       "fares": {
-        "fare": 1999,
-        "offerPrice": 1949,
+        "fare": 849,
+        "offerPrice": 799,
         "fareList": [
-          1999
+          849
         ],
         "discounts": {
           "coFund": 50
@@ -43688,22 +43821,18 @@
         "appliedOffers": {
           "101": 50
         },
-        "featuredOffers": {
-          "4": 199
-        },
-        "featuredOffersGuest": {
-          "4": 199
-        }
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
       },
       "timings": {
-        "startTime": "11:15 PM",
-        "startTimeDateFormat": "2026-08-23T23:15:00+05:30",
-        "arriveTime": "04:45 AM",
-        "travelTime": "05:30:00",
-        "startTimeTwfFormat": "23:15",
-        "arriveTimeTwfFormat": "04:45",
-        "startTimestamp": 1787507100,
-        "arriveTimestamp": 1787546700
+        "startTime": "04:30 AM",
+        "startTimeDateFormat": "2026-08-23T04:30:00+05:30",
+        "arriveTime": "11:30 AM",
+        "travelTime": "07:00:00",
+        "startTimeTwfFormat": "04:30",
+        "arriveTimeTwfFormat": "11:30",
+        "startTimestamp": 1787439600,
+        "arriveTimestamp": 1787484600
       },
       "flags": {
         "isVolvo": 0,
@@ -43726,12 +43855,6 @@
         "isWomenSafeBoarding": 1
       },
       "edgeConfig": {
-        "4": {
-          "type": "P",
-          "minTicketValue": 10,
-          "maxDiscount": 5000,
-          "discount": 10
-        },
         "101": {
           "type": "F",
           "minTicketValue": 0,
@@ -43763,48 +43886,65 @@
       "tags": [],
       "filters": {
         "bannerFilter": [
-          "EER",
-          "TR",
           "PD"
         ],
         "boardingPoints": [
-          1
+          61,
+          16,
+          17,
+          18,
+          19,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          15,
+          1,
+          44,
+          3,
+          27
         ],
         "droppingPoints": [
           9,
-          4,
+          106,
           1,
           2,
-          11,
-          5
+          4,
+          14,
+          5,
+          50,
+          65,
+          16
         ],
         "amenities": []
       },
-      "busTypeName": "SCANIA AC Multiaxle Sleeper (2 + 1)",
-      "serviceKey": "GUVR-TCR-BLR AC SLEEPER",
-      "travelerAgentName": "Kerala Lines",
-      "serviceName": "BLR Business Class AC SLEEPER (No Dinner Break)",
-      "busServiceTypeName": "SCANIA AC Multiaxle Sleeper (2 + 1)",
+      "busTypeName": "AC Seater/Sleeper (2 + 1)",
+      "serviceKey": "Kottarakara To Bangalore ",
+      "travelerAgentName": "Krish Travels(jksn)",
+      "serviceName": "Reg",
+      "busServiceTypeName": "AC Seater/Sleeper (2 + 1)",
       "busType": "",
-      "serviceNumber": "Service Number - 202608232523768",
-      "busTypeMapID": "1,4",
-      "operatorId": 242,
-      "viaPlaces": "Coming from Guruvayoor",
+      "serviceNumber": "Service Number - 202608232526195",
+      "busTypeMapID": "1,3,4",
+      "operatorId": 111592,
+      "viaPlaces": "Coming from Kottarakara",
       "busNo": "",
-      "rating": 4.3,
+      "rating": 3.4,
       "noOfRatings": 0,
       "discountMsg": "",
-      "serviceId": 4599144514,
-      "masterId": 4100164,
-      "originDateTime": "2026-08-23 23:15",
+      "serviceId": 4599225040,
+      "masterId": 4100193,
+      "originDateTime": "2026-08-23 04:30",
       "seatStats": {
-        "availableSeats": 40,
+        "availableSeats": 23,
         "singleBerthsCount": 0,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 0,
         "femaleAvailableCount": 0,
         "femaleBookedCount": 0,
-        "seatsCapacity": 40,
+        "seatsCapacity": 23,
         "womenTravellerCount": 0
       }
     },

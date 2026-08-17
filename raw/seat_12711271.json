@@ -15,7 +15,7 @@
   "tentativeSeats": "~~~~37.41^P^1003~18.05~~556~10.01~~1199~21.58~~1155~20.79^0^op",
   "TotalSeatList": {
     "lowerdeck_seat_nos": [
-      "1, 1, 1, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
+      "1, 1, 1, SS, N, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
       "3, 1, 2, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
       "5, 1, 3, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
       "7, 1, 4, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
@@ -312,7 +312,7 @@
     }
   ],
   "fareListCount": {
-    "556": "20",
+    "556": "19",
     "1199": "4",
     "1003": "10",
     "1155": "5"
@@ -454,7 +454,9 @@
       "insuranceIcon": "https://static.abhibus.com/tata_aig_global/tata_aig_global.webp"
     }
   ],
-  "gentsSeats": [],
+  "gentsSeats": [
+    "2"
+  ],
   "enableWhatsApp": "0",
   "enableFreeCancellation": "0",
   "restRoomSeats": [],

@@ -3672,10 +3672,10 @@
           "NB"
         ],
         "boardingPoints": [
-          77,
+          91,
           73,
           1,
-          78,
+          92,
           39,
           2,
           37,
@@ -6882,8 +6882,8 @@
       },
       "tags": [
         {
-          "title": "7 Single Berths (LB-3, UB-4)",
-          "value": "7",
+          "title": "5 Single Berths (LB-2, UB-3)",
+          "value": "5",
           "type": "SingleBerths",
           "filterID": 19,
           "discountAmount": 0
@@ -6944,14 +6944,14 @@
       "masterId": 3954142,
       "originDateTime": "2026-08-22 14:00",
       "seatStats": {
-        "availableSeats": 11,
-        "singleBerthsCount": 7,
+        "availableSeats": 10,
+        "singleBerthsCount": 5,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 9,
+        "windowSeatCount": 7,
         "femaleAvailableCount": 0,
-        "femaleBookedCount": 14,
+        "femaleBookedCount": 15,
         "seatsCapacity": 36,
-        "womenTravellerCount": 14,
+        "womenTravellerCount": 15,
         "womenRatingsAggregate": 4.9
       }
     },
@@ -11599,10 +11599,10 @@
       "masterId": 4025151,
       "originDateTime": "2026-08-22T18:10:00",
       "seatStats": {
-        "availableSeats": 35,
+        "availableSeats": 33,
         "singleBerthsCount": 8,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 21,
+        "windowSeatCount": 20,
         "femaleAvailableCount": 0,
         "femaleBookedCount": 6,
         "seatsCapacity": 46,
@@ -11872,7 +11872,7 @@
           "NB"
         ],
         "boardingPoints": [
-          79,
+          77,
           68,
           14,
           15,
@@ -12217,11 +12217,11 @@
         ],
         "boardingPoints": [
           47,
+          78,
+          79,
           80,
           81,
           82,
-          83,
-          84,
           68,
           17,
           75,
@@ -12386,7 +12386,7 @@
         ],
         "boardingPoints": [
           39,
-          85,
+          83,
           2,
           58,
           38,
@@ -12711,13 +12711,13 @@
           "NB"
         ],
         "boardingPoints": [
-          86,
-          79,
+          84,
+          77,
           68,
           15,
           16,
           17,
-          87,
+          85,
           20,
           21,
           22,
@@ -12884,7 +12884,7 @@
         ],
         "boardingPoints": [
           44,
-          88,
+          86,
           72,
           1,
           35,
@@ -13228,7 +13228,7 @@
           39,
           35,
           2,
-          89,
+          87,
           12,
           3,
           4,
@@ -13366,10 +13366,10 @@
           "NB"
         ],
         "boardingPoints": [
-          90,
-          83,
-          91,
-          84,
+          88,
+          81,
+          89,
+          82,
           17,
           75,
           15,
@@ -13385,7 +13385,7 @@
           4,
           9,
           6,
-          92,
+          90,
           29,
           11
         ],
@@ -14044,179 +14044,6 @@
     },
     {
       "fares": {
-        "fare": 2239,
-        "offerPrice": 2189,
-        "fareList": [
-          2239,
-          2359,
-          2399,
-          2499,
-          2639,
-          2679,
-          2739,
-          2819,
-          2959,
-          3119,
-          3259,
-          3419
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "08:35 PM",
-        "startTimeDateFormat": "2026-08-22T20:35:00+05:30",
-        "arriveTime": "04:20 AM",
-        "travelTime": "07:45:00",
-        "startTimeTwfFormat": "20:35",
-        "arriveTimeTwfFormat": "04:20",
-        "startTimestamp": 1787411100,
-        "arriveTimestamp": 1787458800
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 1,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 0,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 1,
-        "metaText": [
-          "9 Months Old",
-          "Brand New"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 12
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "3,0,1,5~~20,21,38,16",
-        "strRin": "10,11,9,50,112~~4.20,225"
-      },
-      "tags": [
-        {
-          "title": "9 Single Berths (LB-4, UB-5)",
-          "value": "9",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        },
-        {
-          "title": "Toilet",
-          "value": "0",
-          "type": "Toilet",
-          "filterID": 0,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "280280000772",
-          "TR",
-          "PD",
-          "NB"
-        ],
-        "boardingPoints": [
-          39,
-          35,
-          34,
-          2,
-          38,
-          3,
-          4,
-          9,
-          6,
-          11,
-          8
-        ],
-        "droppingPoints": [
-          3,
-          1
-        ],
-        "amenities": [
-          1,
-          2,
-          4,
-          6,
-          7,
-          8,
-          10,
-          13,
-          14,
-          15,
-          16,
-          24
-        ]
-      },
-      "busTypeName": "AC Seater/Sleeper (2 + 1)",
-      "serviceKey": "1493",
-      "travelerAgentName": "IntrCity SmartBus",
-      "serviceName": "NXS-1493-40745-1001968-1001127-20260822",
-      "busServiceTypeName": "AC Seater/Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 1493",
-      "busTypeMapID": "1,3,4",
-      "operatorId": 116653,
-      "viaPlaces": "Starts from Bangalore",
-      "busNo": "",
-      "rating": 4.2,
-      "noOfRatings": 225,
-      "discountMsg": "",
-      "serviceId": 4500137426,
-      "masterId": 667,
-      "originDateTime": "2026-08-22 19:15",
-      "seatStats": {
-        "availableSeats": 41,
-        "singleBerthsCount": 9,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 27,
-        "femaleAvailableCount": 1,
-        "femaleBookedCount": 4,
-        "seatsCapacity": 46,
-        "womenTravellerCount": 4,
-        "womenRatingsAggregate": 3
-      }
-    },
-    {
-      "fares": {
         "fare": 3000,
         "offerPrice": 2850,
         "fareList": [
@@ -14845,13 +14672,13 @@
         "boardingPoints": [
           35,
           93,
-          86,
-          79,
+          84,
+          77,
           68,
           15,
           16,
           17,
-          87,
+          85,
           20,
           21,
           22,
@@ -15091,6 +14918,179 @@
         "femaleBookedCount": 11,
         "seatsCapacity": 40,
         "womenTravellerCount": 11,
+        "womenRatingsAggregate": 3
+      }
+    },
+    {
+      "fares": {
+        "fare": 2239,
+        "offerPrice": 2189,
+        "fareList": [
+          2239,
+          2359,
+          2399,
+          2499,
+          2639,
+          2679,
+          2739,
+          2819,
+          2959,
+          3119,
+          3259,
+          3419
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "08:35 PM",
+        "startTimeDateFormat": "2026-08-22T20:35:00+05:30",
+        "arriveTime": "04:20 AM",
+        "travelTime": "07:45:00",
+        "startTimeTwfFormat": "20:35",
+        "arriveTimeTwfFormat": "04:20",
+        "startTimestamp": 1787411100,
+        "arriveTimestamp": 1787458800
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 1,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 1,
+        "metaText": [
+          "9 Months Old",
+          "Brand New"
+        ],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 12
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "3,0,1,5~~20,21,38,16",
+        "strRin": "10,11,9,50,112~~4.20,225"
+      },
+      "tags": [
+        {
+          "title": "9 Single Berths (LB-4, UB-5)",
+          "value": "9",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        },
+        {
+          "title": "Toilet",
+          "value": "0",
+          "type": "Toilet",
+          "filterID": 0,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "280280000772",
+          "TR",
+          "PD",
+          "NB"
+        ],
+        "boardingPoints": [
+          39,
+          35,
+          34,
+          2,
+          38,
+          3,
+          4,
+          9,
+          6,
+          11,
+          8
+        ],
+        "droppingPoints": [
+          3,
+          1
+        ],
+        "amenities": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          10,
+          13,
+          14,
+          15,
+          16,
+          24
+        ]
+      },
+      "busTypeName": "AC Seater/Sleeper (2 + 1)",
+      "serviceKey": "1493",
+      "travelerAgentName": "IntrCity SmartBus",
+      "serviceName": "NXS-1493-40745-1001968-1001127-20260822",
+      "busServiceTypeName": "AC Seater/Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 1493",
+      "busTypeMapID": "1,3,4",
+      "operatorId": 116653,
+      "viaPlaces": "Starts from Bangalore",
+      "busNo": "",
+      "rating": 4.2,
+      "noOfRatings": 225,
+      "discountMsg": "",
+      "serviceId": 4500137426,
+      "masterId": 667,
+      "originDateTime": "2026-08-22 19:15",
+      "seatStats": {
+        "availableSeats": 41,
+        "singleBerthsCount": 9,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 27,
+        "femaleAvailableCount": 1,
+        "femaleBookedCount": 4,
+        "seatsCapacity": 46,
+        "womenTravellerCount": 4,
         "womenRatingsAggregate": 3
       }
     },
@@ -15517,7 +15517,7 @@
           "NB"
         ],
         "boardingPoints": [
-          88,
+          86,
           72,
           1,
           39,
@@ -16142,8 +16142,8 @@
       },
       "tags": [
         {
-          "title": "5 Single Berths (LB-2, UB-3)",
-          "value": "5",
+          "title": "4 Single Berths (LB-1, UB-3)",
+          "value": "4",
           "type": "SingleBerths",
           "filterID": 19,
           "discountAmount": 0
@@ -16229,14 +16229,14 @@
       "masterId": 4088407,
       "originDateTime": "2026-08-22T08:15:00",
       "seatStats": {
-        "availableSeats": 23,
-        "singleBerthsCount": 5,
+        "availableSeats": 22,
+        "singleBerthsCount": 4,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 14,
+        "windowSeatCount": 13,
         "femaleAvailableCount": 1,
-        "femaleBookedCount": 15,
+        "femaleBookedCount": 16,
         "seatsCapacity": 46,
-        "womenTravellerCount": 15
+        "womenTravellerCount": 16
       }
     },
     {
@@ -17861,8 +17861,8 @@
     },
     {
       "fares": {
-        "fare": 2490,
-        "offerPrice": 2440,
+        "fare": 2530,
+        "offerPrice": 2480,
         "fareList": [
           2490,
           2560,
@@ -17992,7 +17992,7 @@
       "masterId": 57243,
       "originDateTime": "2026-08-22 21:35",
       "seatStats": {
-        "availableSeats": 15,
+        "availableSeats": 14,
         "singleBerthsCount": 2,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 9,
@@ -18453,7 +18453,7 @@
         ],
         "boardingPoints": [
           130,
-          88,
+          86,
           72,
           73,
           1,
@@ -18665,7 +18665,7 @@
       "masterId": 4091414,
       "originDateTime": "2026-08-22 21:45",
       "seatStats": {
-        "availableSeats": 32,
+        "availableSeats": 31,
         "singleBerthsCount": 6,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 19,
@@ -18806,7 +18806,7 @@
           4,
           9,
           6,
-          92,
+          90,
           29,
           11
         ],
@@ -18955,7 +18955,7 @@
           "NB"
         ],
         "boardingPoints": [
-          86,
+          84,
           68,
           15,
           59,
@@ -19450,10 +19450,10 @@
           "NB"
         ],
         "boardingPoints": [
-          90,
-          84,
-          83,
-          91,
+          88,
+          82,
+          81,
+          89,
           136,
           137,
           16,
@@ -19473,7 +19473,7 @@
           4,
           9,
           6,
-          92,
+          90,
           29,
           11,
           8
@@ -19788,19 +19788,19 @@
         ],
         "boardingPoints": [
           130,
-          88,
+          86,
           72,
           73,
           1,
           35,
           2,
-          89,
+          87,
           12,
           3,
           4,
           9,
           6,
-          92,
+          90,
           29,
           11,
           8
@@ -20911,7 +20911,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11,
           8
         ],
@@ -22878,8 +22878,8 @@
     },
     {
       "fares": {
-        "fare": 709,
-        "offerPrice": 638,
+        "fare": 698,
+        "offerPrice": 628,
         "fareList": [
           709,
           1232,
@@ -22887,16 +22887,16 @@
           1450
         ],
         "discounts": {
-          "coFund": 71
+          "coFund": 70
         },
         "appliedOffers": {
-          "101": 71
+          "101": 70
         },
         "featuredOffers": {
-          "4": 70
+          "4": 69
         },
         "featuredOffersGuest": {
-          "4": 70
+          "4": 69
         }
       },
       "timings": {
@@ -23641,13 +23641,13 @@
           "NB"
         ],
         "boardingPoints": [
-          86,
-          79,
+          84,
+          77,
           68,
           15,
           16,
           17,
-          87,
+          85,
           20,
           21,
           22,
@@ -23985,7 +23985,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11,
           8
         ],
@@ -24315,8 +24315,8 @@
           "NB"
         ],
         "boardingPoints": [
-          86,
-          79,
+          84,
+          77,
           68,
           13,
           14,
@@ -25540,8 +25540,8 @@
       },
       "tags": [
         {
-          "title": "5 Single Berths (LB-2, UB-3)",
-          "value": "5",
+          "title": "4 Single Berths (LB-2, UB-2)",
+          "value": "4",
           "type": "SingleBerths",
           "filterID": 19,
           "discountAmount": 0
@@ -25598,10 +25598,10 @@
       "masterId": 8684,
       "originDateTime": "2026-08-22 06:30",
       "seatStats": {
-        "availableSeats": 17,
-        "singleBerthsCount": 5,
+        "availableSeats": 16,
+        "singleBerthsCount": 4,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 11,
+        "windowSeatCount": 10,
         "femaleAvailableCount": 0,
         "femaleBookedCount": 10,
         "seatsCapacity": 36,
@@ -26190,19 +26190,19 @@
         ],
         "boardingPoints": [
           130,
-          88,
+          86,
           72,
           73,
           1,
           35,
           2,
-          89,
+          87,
           12,
           3,
           4,
           9,
           6,
-          92,
+          90,
           29,
           11,
           8
@@ -26351,7 +26351,7 @@
         ],
         "boardingPoints": [
           162,
-          80,
+          78,
           68,
           15,
           34,
@@ -27771,7 +27771,7 @@
         ],
         "boardingPoints": [
           130,
-          88,
+          86,
           72,
           73,
           1,
@@ -28426,13 +28426,13 @@
           "NB"
         ],
         "boardingPoints": [
-          86,
-          79,
+          84,
+          77,
           68,
           15,
           16,
           17,
-          87,
+          85,
           20,
           21,
           22,
@@ -28638,7 +28638,7 @@
       "masterId": 4099220,
       "originDateTime": "2026-08-22 20:45",
       "seatStats": {
-        "availableSeats": 23,
+        "availableSeats": 26,
         "singleBerthsCount": 6,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 13,
@@ -30357,8 +30357,8 @@
           "PD"
         ],
         "boardingPoints": [
-          86,
-          79,
+          84,
+          77,
           68,
           15,
           75,
@@ -30978,7 +30978,7 @@
         ],
         "boardingPoints": [
           39,
-          85,
+          83,
           2,
           3,
           4,
@@ -31131,7 +31131,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11,
           8
         ],
@@ -31577,12 +31577,12 @@
           "PD"
         ],
         "boardingPoints": [
-          79,
+          77,
           68,
           15,
           16,
           17,
-          87,
+          85,
           20,
           21,
           22,
@@ -31735,12 +31735,12 @@
           "PD"
         ],
         "boardingPoints": [
-          79,
+          77,
           68,
           15,
           16,
           17,
-          87,
+          85,
           20,
           21,
           22,
@@ -31941,161 +31941,6 @@
         "seatsCapacity": 48,
         "womenTravellerCount": 7,
         "womenRatingsAggregate": 2.5
-      }
-    },
-    {
-      "fares": {
-        "fare": 1050,
-        "offerPrice": 1000,
-        "fareList": [
-          1050,
-          1220,
-          1280,
-          1380,
-          1480
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "06:10 AM",
-        "startTimeDateFormat": "2026-08-22T06:10:00+05:30",
-        "arriveTime": "01:30 PM",
-        "travelTime": "07:20:00",
-        "startTimeTwfFormat": "06:10",
-        "arriveTimeTwfFormat": "13:30",
-        "startTimestamp": 1787359200,
-        "arriveTimestamp": 1787405400
-      },
-      "flags": {
-        "isVolvo": 1,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 0,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": null,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 1,
-        "isAssuredOperator": 1,
-        "isFcOperator": 0,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 3,
-        "metaText": [
-          "",
-          "4 Yr Old Bus"
-        ],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 1
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "0,0,0,0~~1,1,1,1",
-        "strRin": "0,0,0,0,1~~0.00,0"
-      },
-      "tags": [
-        {
-          "title": "6 Single Berths (LB-2, UB-4)",
-          "value": "6",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "ASD",
-          "PD"
-        ],
-        "boardingPoints": [
-          128,
-          39,
-          2,
-          37,
-          3,
-          4,
-          9,
-          6,
-          29,
-          11,
-          8
-        ],
-        "droppingPoints": [
-          2,
-          3,
-          1,
-          5,
-          6,
-          8,
-          13,
-          9,
-          55,
-          10,
-          11,
-          12
-        ],
-        "amenities": [
-          15
-        ]
-      },
-      "busTypeName": "VOLVO AC Sleeper (2 + 1)",
-      "serviceKey": "SCH1689977H",
-      "travelerAgentName": "Jihan Luxury Travels",
-      "serviceName": "560N46600S260822D",
-      "busServiceTypeName": "VOLVO AC Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 560N46600S260822D152T39",
-      "busTypeMapID": "1,4",
-      "operatorId": 128799,
-      "viaPlaces": "Starts from Bangalore",
-      "busNo": "",
-      "rating": 3.6,
-      "noOfRatings": 0,
-      "discountMsg": "",
-      "serviceId": 4495442072,
-      "masterId": 4034079,
-      "originDateTime": "2026-08-22 06:10",
-      "seatStats": {
-        "availableSeats": 22,
-        "singleBerthsCount": 6,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 14,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 8,
-        "seatsCapacity": 36,
-        "womenTravellerCount": 8
       }
     },
     {
@@ -33641,13 +33486,13 @@
           "PD"
         ],
         "boardingPoints": [
-          86,
-          79,
+          84,
+          77,
           68,
           15,
           16,
           17,
-          87,
+          85,
           20,
           21,
           22,
@@ -33713,10 +33558,9 @@
     },
     {
       "fares": {
-        "fare": 1099,
-        "offerPrice": 1049,
+        "fare": 1299,
+        "offerPrice": 1249,
         "fareList": [
-          1099,
           1299,
           1749,
           1899
@@ -33856,14 +33700,14 @@
       "masterId": 4092316,
       "originDateTime": "2026-08-22 06:30",
       "seatStats": {
-        "availableSeats": 24,
+        "availableSeats": 17,
         "singleBerthsCount": 8,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 13,
+        "windowSeatCount": 12,
         "femaleAvailableCount": 0,
-        "femaleBookedCount": 15,
+        "femaleBookedCount": 19,
         "seatsCapacity": 47,
-        "womenTravellerCount": 15
+        "womenTravellerCount": 19
       }
     },
     {
@@ -34797,7 +34641,7 @@
           4,
           9,
           6,
-          92,
+          90,
           29,
           11
         ],
@@ -35100,13 +34944,13 @@
           "NB"
         ],
         "boardingPoints": [
-          86,
-          79,
+          84,
+          77,
           68,
           15,
           16,
           17,
-          87,
+          85,
           20,
           21,
           22,
@@ -36963,7 +36807,7 @@
           "PD"
         ],
         "boardingPoints": [
-          77,
+          91,
           73,
           1,
           35,
@@ -37109,13 +36953,13 @@
           "PD"
         ],
         "boardingPoints": [
-          79,
+          77,
           68,
           14,
           15,
           16,
           17,
-          87,
+          85,
           20,
           21,
           22,
@@ -38593,8 +38437,8 @@
       },
       "tags": [
         {
-          "title": "8 Single Berths (LB-4, UB-4)",
-          "value": "8",
+          "title": "6 Single Berths (LB-4, UB-2)",
+          "value": "6",
           "type": "SingleBerths",
           "filterID": 19,
           "discountAmount": 0
@@ -38653,10 +38497,10 @@
       "masterId": 9673,
       "originDateTime": "2026-08-22 03:50",
       "seatStats": {
-        "availableSeats": 24,
-        "singleBerthsCount": 8,
+        "availableSeats": 22,
+        "singleBerthsCount": 6,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 16,
+        "windowSeatCount": 14,
         "femaleAvailableCount": 0,
         "femaleBookedCount": 6,
         "seatsCapacity": 36,
@@ -38666,8 +38510,8 @@
     },
     {
       "fares": {
-        "fare": 729,
-        "offerPrice": 679,
+        "fare": 719,
+        "offerPrice": 669,
         "fareList": [
           739,
           939,
@@ -40008,7 +39852,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11,
           8,
           173,
@@ -40314,7 +40158,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11
         ],
         "droppingPoints": [
@@ -40462,7 +40306,7 @@
           4,
           9,
           6,
-          92,
+          90,
           7
         ],
         "droppingPoints": [
@@ -41309,8 +41153,8 @@
     },
     {
       "fares": {
-        "fare": 670,
-        "offerPrice": 620,
+        "fare": 770,
+        "offerPrice": 720,
         "fareList": [
           670,
           710,
@@ -41567,7 +41411,7 @@
           4,
           9,
           6,
-          92,
+          90,
           29,
           11,
           8
@@ -41729,7 +41573,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11
         ],
         "droppingPoints": [
@@ -41872,7 +41716,7 @@
           "NB"
         ],
         "boardingPoints": [
-          88,
+          86,
           72,
           73,
           1,
@@ -41887,7 +41731,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11
         ],
         "droppingPoints": [
@@ -42045,7 +41889,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11
         ],
         "droppingPoints": [
@@ -42197,7 +42041,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11,
           8
         ],
@@ -42341,7 +42185,7 @@
           "NB"
         ],
         "boardingPoints": [
-          88,
+          86,
           72,
           73,
           1,
@@ -42356,7 +42200,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11,
           8
         ],
@@ -42504,7 +42348,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11
         ],
         "droppingPoints": [
@@ -42658,7 +42502,7 @@
           4,
           9,
           6,
-          92,
+          90,
           11
         ],
         "droppingPoints": [
@@ -43621,7 +43465,7 @@
           4,
           9,
           6,
-          92,
+          90,
           29,
           11
         ],
@@ -43668,6 +43512,158 @@
         "femaleAvailableCount": 0,
         "femaleBookedCount": 0,
         "seatsCapacity": 34,
+        "womenTravellerCount": 0
+      }
+    },
+    {
+      "fares": {
+        "fare": 2900,
+        "offerPrice": 2850,
+        "fareList": [
+          2900,
+          2999,
+          3700,
+          4100,
+          4200
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "02:00 PM",
+        "startTimeDateFormat": "2026-08-22T14:00:00+05:30",
+        "arriveTime": "10:05 PM",
+        "travelTime": "08:05:00",
+        "startTimeTwfFormat": "14:00",
+        "arriveTimeTwfFormat": "22:05",
+        "startTimestamp": 1787387400,
+        "arriveTimestamp": 1787436300
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 0,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 0,
+        "metaText": [],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 0
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "",
+        "strRin": "~~0.00,0"
+      },
+      "tags": [
+        {
+          "title": "6 Single Berths (LB-3, UB-3)",
+          "value": "6",
+          "type": "SingleBerths",
+          "filterID": 19,
+          "discountAmount": 0
+        }
+      ],
+      "filters": {
+        "bannerFilter": [
+          "PD"
+        ],
+        "boardingPoints": [
+          35,
+          34,
+          2,
+          12,
+          3,
+          4,
+          9,
+          6,
+          94,
+          11
+        ],
+        "droppingPoints": [
+          2,
+          3,
+          4,
+          1,
+          5,
+          6,
+          13,
+          8,
+          9,
+          10,
+          11,
+          56,
+          63,
+          57,
+          58,
+          79
+        ],
+        "amenities": []
+      },
+      "busTypeName": "AC Seater/Sleeper (2 + 1)",
+      "serviceKey": "Bangalore To Kottarakara",
+      "travelerAgentName": "Krish Travels(jksn)",
+      "serviceName": "",
+      "busServiceTypeName": "AC Seater/Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 202608222372238",
+      "busTypeMapID": "1,3,4",
+      "operatorId": 111592,
+      "viaPlaces": "",
+      "busNo": "",
+      "rating": 3.4,
+      "noOfRatings": 0,
+      "discountMsg": "",
+      "serviceId": 4573321347,
+      "masterId": 4094814,
+      "originDateTime": "2026-08-22 14:00",
+      "seatStats": {
+        "availableSeats": 25,
+        "singleBerthsCount": 6,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 15,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 0,
+        "seatsCapacity": 48,
         "womenTravellerCount": 0
       }
     },
@@ -43998,158 +43994,6 @@
         "femaleAvailableCount": 0,
         "femaleBookedCount": 0,
         "seatsCapacity": 36,
-        "womenTravellerCount": 0
-      }
-    },
-    {
-      "fares": {
-        "fare": 2900,
-        "offerPrice": 2850,
-        "fareList": [
-          2900,
-          2999,
-          3700,
-          4100,
-          4200
-        ],
-        "discounts": {
-          "coFund": 50
-        },
-        "appliedOffers": {
-          "101": 50
-        },
-        "featuredOffers": {},
-        "featuredOffersGuest": {}
-      },
-      "timings": {
-        "startTime": "02:00 PM",
-        "startTimeDateFormat": "2026-08-22T14:00:00+05:30",
-        "arriveTime": "10:05 PM",
-        "travelTime": "08:05:00",
-        "startTimeTwfFormat": "14:00",
-        "arriveTimeTwfFormat": "22:05",
-        "startTimestamp": 1787387400,
-        "arriveTimestamp": 1787436300
-      },
-      "flags": {
-        "isVolvo": 0,
-        "isLuxury": 0,
-        "isCATAvail": 0,
-        "isDealAvail": 1,
-        "isTrackAvail": 1,
-        "isTopOperatorSaleOn": 0,
-        "isSortTopServices": 0,
-        "busStartDate": 0,
-        "hasGroupDeal": 0,
-        "sortTopServices": 0,
-        "enableRating": 1,
-        "ttdFlag": 0,
-        "isElectric": 0,
-        "isAdAvail": 0,
-        "isSafetyCheck": 0,
-        "isAssuredOperator": 0,
-        "isFcOperator": 1,
-        "isWomenSafeBoarding": 1
-      },
-      "edgeConfig": {
-        "101": {
-          "type": "F",
-          "minTicketValue": 0,
-          "maxDiscount": 50,
-          "discount": 50,
-          "coupon": "RETURN500W",
-          "loginRequired": "0",
-          "hasEdgeOffers": false
-        }
-      },
-      "busInsights": {
-        "metaMapId": 0,
-        "metaText": [],
-        "busImgCount": 0,
-        "busPhotosUrl": "",
-        "busThumbnailUrl": "",
-        "busPreviewUrl": "",
-        "is360Available": 0,
-        "amenitiesCount": 0
-      },
-      "safetyCheck": {
-        "insUpto": "",
-        "permitUpto": "",
-        "fitUpto": "",
-        "rcUpto": "",
-        "rtFBin": "",
-        "strRin": "~~0.00,0"
-      },
-      "tags": [
-        {
-          "title": "6 Single Berths (LB-3, UB-3)",
-          "value": "6",
-          "type": "SingleBerths",
-          "filterID": 19,
-          "discountAmount": 0
-        }
-      ],
-      "filters": {
-        "bannerFilter": [
-          "PD"
-        ],
-        "boardingPoints": [
-          35,
-          34,
-          2,
-          12,
-          3,
-          4,
-          9,
-          6,
-          94,
-          11
-        ],
-        "droppingPoints": [
-          2,
-          3,
-          4,
-          1,
-          5,
-          6,
-          13,
-          8,
-          9,
-          10,
-          11,
-          56,
-          63,
-          57,
-          58,
-          79
-        ],
-        "amenities": []
-      },
-      "busTypeName": "AC Seater/Sleeper (2 + 1)",
-      "serviceKey": "Bangalore To Kottarakara",
-      "travelerAgentName": "Krish Travels(jksn)",
-      "serviceName": "",
-      "busServiceTypeName": "AC Seater/Sleeper (2 + 1)",
-      "busType": "",
-      "serviceNumber": "Service Number - 202608222372238",
-      "busTypeMapID": "1,3,4",
-      "operatorId": 111592,
-      "viaPlaces": "",
-      "busNo": "",
-      "rating": 3.4,
-      "noOfRatings": 0,
-      "discountMsg": "",
-      "serviceId": 4573321347,
-      "masterId": 4094814,
-      "originDateTime": "2026-08-22 14:00",
-      "seatStats": {
-        "availableSeats": 25,
-        "singleBerthsCount": 6,
-        "singleWindowSeatCount": 0,
-        "windowSeatCount": 15,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 0,
-        "seatsCapacity": 48,
         "womenTravellerCount": 0
       }
     },
@@ -44697,7 +44541,7 @@
           39,
           2,
           40,
-          81,
+          79,
           41,
           42,
           23,
@@ -45008,13 +44852,13 @@
           "NB"
         ],
         "boardingPoints": [
-          86,
-          79,
+          84,
+          77,
           68,
           15,
           16,
           17,
-          87,
+          85,
           20,
           21,
           22,
@@ -45460,7 +45304,7 @@
       "rank": "0"
     },
     {
-      "filterID": 80,
+      "filterID": 78,
       "filterName": "Bagalur Cross Bus Stop",
       "filterStatus": false,
       "placeId": "STP198A665M",
@@ -45577,7 +45421,7 @@
       "rank": "0"
     },
     {
-      "filterID": 91,
+      "filterID": 89,
       "filterName": "Byrathi",
       "filterStatus": false,
       "placeId": "570907",
@@ -45901,7 +45745,7 @@
       "rank": "0"
     },
     {
-      "filterID": 87,
+      "filterID": 85,
       "filterName": "Hrbr Layout",
       "filterStatus": false,
       "placeId": "37832",
@@ -45919,7 +45763,7 @@
       "rank": "18"
     },
     {
-      "filterID": 79,
+      "filterID": 77,
       "filterName": "Hunasamaranahalli",
       "filterStatus": false,
       "placeId": "571956",
@@ -46018,7 +45862,7 @@
       "rank": "0"
     },
     {
-      "filterID": 84,
+      "filterID": 82,
       "filterName": "K Narayanapura",
       "filterStatus": false,
       "placeId": "STP5A842987K",
@@ -46198,7 +46042,7 @@
       "rank": "0"
     },
     {
-      "filterID": 83,
+      "filterID": 81,
       "filterName": "Kothnur",
       "filterStatus": false,
       "placeId": "STP3A8D55N",
@@ -46270,7 +46114,7 @@
       "rank": "0"
     },
     {
-      "filterID": 90,
+      "filterID": 88,
       "filterName": "Kyalasanahalli",
       "filterStatus": false,
       "placeId": "713116",
@@ -46441,7 +46285,7 @@
       "rank": "0"
     },
     {
-      "filterID": 81,
+      "filterID": 79,
       "filterName": "Mg Road",
       "filterStatus": false,
       "placeId": "STP588B712M",
@@ -46450,7 +46294,7 @@
       "rank": "0"
     },
     {
-      "filterID": 85,
+      "filterID": 83,
       "filterName": "Minerva Circle",
       "filterStatus": false,
       "placeId": "STP5B8B117J",
@@ -46459,7 +46303,7 @@
       "rank": "0"
     },
     {
-      "filterID": 78,
+      "filterID": 92,
       "filterName": "Mysore Circle",
       "filterStatus": false,
       "placeId": "STP168767C",
@@ -46468,7 +46312,7 @@
       "rank": "0"
     },
     {
-      "filterID": 77,
+      "filterID": 91,
       "filterName": "Mysore Road",
       "filterStatus": false,
       "placeId": "STP578F86K",
@@ -46531,7 +46375,7 @@
       "rank": "22"
     },
     {
-      "filterID": 92,
+      "filterID": 90,
       "filterName": "Narayana Hrudralaya Hospital",
       "filterStatus": false,
       "placeId": "235212",
@@ -46567,7 +46411,7 @@
       "rank": "0"
     },
     {
-      "filterID": 82,
+      "filterID": 80,
       "filterName": "Others",
       "filterStatus": false,
       "placeId": "STP468427I",
@@ -46621,7 +46465,7 @@
       "rank": "0"
     },
     {
-      "filterID": 88,
+      "filterID": 86,
       "filterName": "R R Nagar",
       "filterStatus": false,
       "placeId": "c7acd825-1cb6-4c0c-81d1-95b8f8c27e22",
@@ -46873,7 +46717,7 @@
       "rank": "0"
     },
     {
-      "filterID": 86,
+      "filterID": 84,
       "filterName": "Vidya Nagar",
       "filterStatus": false,
       "placeId": "646399",
@@ -46900,7 +46744,7 @@
       "rank": "0"
     },
     {
-      "filterID": 89,
+      "filterID": 87,
       "filterName": "Wilson Garden",
       "filterStatus": false,
       "placeId": "15255",

@@ -436,8 +436,8 @@
     "isLoginRequired": "0",
     "addTime": "360",
     "calcOnBaseFare": "1",
-    "amount": "10",
-    "strikeoffAmount": "10",
+    "amount": "9.5",
+    "strikeoffAmount": "9.5",
     "text": "Assured Benefits at",
     "benefits": [
       {

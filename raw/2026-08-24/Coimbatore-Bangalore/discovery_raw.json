@@ -12336,10 +12336,10 @@
     },
     {
       "fares": {
-        "fare": 1540,
-        "offerPrice": 1490,
+        "fare": 1480,
+        "offerPrice": 1430,
         "fareList": [
-          1540
+          1480
         ],
         "discounts": {
           "coFund": 50
@@ -13356,10 +13356,10 @@
     },
     {
       "fares": {
-        "fare": 1910,
-        "offerPrice": 1860,
+        "fare": 1860,
+        "offerPrice": 1810,
         "fareList": [
-          1910
+          1860
         ],
         "discounts": {
           "coFund": 50
@@ -21908,8 +21908,8 @@
     },
     {
       "fares": {
-        "fare": 730,
-        "offerPrice": 657,
+        "fare": 698,
+        "offerPrice": 628,
         "fareList": [
           687,
           916,
@@ -21918,16 +21918,16 @@
           1264
         ],
         "discounts": {
-          "coFund": 73
+          "coFund": 70
         },
         "appliedOffers": {
-          "101": 73
+          "101": 70
         },
         "featuredOffers": {
-          "4": 73
+          "4": 69
         },
         "featuredOffersGuest": {
-          "4": 73
+          "4": 69
         }
       },
       "timings": {
@@ -22519,8 +22519,8 @@
     },
     {
       "fares": {
-        "fare": 739,
-        "offerPrice": 689,
+        "fare": 711,
+        "offerPrice": 661,
         "fareList": [
           816,
           854,
@@ -22661,7 +22661,7 @@
       "masterId": 74653,
       "originDateTime": "2026-08-24 22:30",
       "seatStats": {
-        "availableSeats": 36,
+        "availableSeats": 35,
         "singleBerthsCount": 12,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 24,
@@ -38747,6 +38747,146 @@
         "femaleAvailableCount": 0,
         "femaleBookedCount": 0,
         "seatsCapacity": 40,
+        "womenTravellerCount": 0
+      }
+    },
+    {
+      "fares": {
+        "fare": 2900,
+        "offerPrice": 2850,
+        "fareList": [
+          2900
+        ],
+        "discounts": {
+          "coFund": 50
+        },
+        "appliedOffers": {
+          "101": 50
+        },
+        "featuredOffers": {},
+        "featuredOffersGuest": {}
+      },
+      "timings": {
+        "startTime": "04:30 AM",
+        "startTimeDateFormat": "2026-08-24T04:30:00+05:30",
+        "arriveTime": "11:30 AM",
+        "travelTime": "07:00:00",
+        "startTimeTwfFormat": "04:30",
+        "arriveTimeTwfFormat": "11:30",
+        "startTimestamp": 1787526000,
+        "arriveTimestamp": 1787571000
+      },
+      "flags": {
+        "isVolvo": 0,
+        "isLuxury": 0,
+        "isCATAvail": 0,
+        "isDealAvail": 1,
+        "isTrackAvail": 1,
+        "isTopOperatorSaleOn": 0,
+        "isSortTopServices": 0,
+        "busStartDate": 0,
+        "hasGroupDeal": 0,
+        "sortTopServices": 0,
+        "enableRating": 1,
+        "ttdFlag": 0,
+        "isElectric": 0,
+        "isAdAvail": 0,
+        "isSafetyCheck": 0,
+        "isAssuredOperator": 0,
+        "isFcOperator": 1,
+        "isWomenSafeBoarding": 1
+      },
+      "edgeConfig": {
+        "101": {
+          "type": "F",
+          "minTicketValue": 0,
+          "maxDiscount": 50,
+          "discount": 50,
+          "coupon": "RETURN500W",
+          "loginRequired": "0",
+          "hasEdgeOffers": false
+        }
+      },
+      "busInsights": {
+        "metaMapId": 0,
+        "metaText": [],
+        "busImgCount": 0,
+        "busPhotosUrl": "",
+        "busThumbnailUrl": "",
+        "busPreviewUrl": "",
+        "is360Available": 0,
+        "amenitiesCount": 0
+      },
+      "safetyCheck": {
+        "insUpto": "",
+        "permitUpto": "",
+        "fitUpto": "",
+        "rcUpto": "",
+        "rtFBin": "",
+        "strRin": "~~0.00,0"
+      },
+      "tags": [],
+      "filters": {
+        "bannerFilter": [
+          "PD"
+        ],
+        "boardingPoints": [
+          82,
+          41,
+          42,
+          43,
+          44,
+          3,
+          4,
+          18,
+          6,
+          19,
+          8,
+          9,
+          1,
+          21,
+          10,
+          22
+        ],
+        "droppingPoints": [
+          1,
+          111,
+          2,
+          3,
+          5,
+          31,
+          6,
+          10,
+          34,
+          8
+        ],
+        "amenities": []
+      },
+      "busTypeName": "AC Seater/Sleeper (2 + 1)",
+      "serviceKey": "Kottarakara To Bangalore ",
+      "travelerAgentName": "Krish Travels(jksn)",
+      "serviceName": "Reg",
+      "busServiceTypeName": "AC Seater/Sleeper (2 + 1)",
+      "busType": "",
+      "serviceNumber": "Service Number - 202608242493362",
+      "busTypeMapID": "1,3,4",
+      "operatorId": 111592,
+      "viaPlaces": "Coming from Kottarakara",
+      "busNo": "",
+      "rating": 3.4,
+      "noOfRatings": 0,
+      "discountMsg": "",
+      "serviceId": 4599217721,
+      "masterId": 4100193,
+      "originDateTime": "2026-08-24 04:30",
+      "seatStats": {
+        "availableSeats": 48,
+        "singleBerthsCount": 0,
+        "singleWindowSeatCount": 0,
+        "windowSeatCount": 0,
+        "femaleAvailableCount": 0,
+        "femaleBookedCount": 0,
+        "seatsCapacity": 48,
         "womenTravellerCount": 0
       }
     },

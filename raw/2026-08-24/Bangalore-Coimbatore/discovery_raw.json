@@ -999,7 +999,7 @@
       "logo": ""
     },
     "126980": {
-      "travelerAgentName": "Suthandiran Tours and Travels",
+      "travelerAgentName": "SUTHANDIRAN TOURS AND TRAVELS",
       "api": "5",
       "travelPartnerKey": "38115",
       "operatorId": "126980",
@@ -6487,24 +6487,24 @@
     },
     {
       "fares": {
-        "fare": 514,
-        "offerPrice": 400,
+        "fare": 624,
+        "offerPrice": 496,
         "fareList": [
-          514,
-          571,
-          671,
-          729,
-          944,
-          1295,
-          1352
+          624,
+          683,
+          816,
+          873,
+          1153,
+          1586,
+          1643
         ],
         "discounts": {
           "coFund": 50,
-          "edgeOffer": 64,
+          "edgeOffer": 78,
           "offerType": 1
         },
         "appliedOffers": {
-          "1": 64,
+          "1": 78,
           "101": 50
         },
         "featuredOffers": {},
@@ -6656,19 +6656,19 @@
       "busNo": "",
       "rating": 4.5,
       "noOfRatings": 79,
-      "discountMsg": "Save min ₹64 with Flash Offer",
+      "discountMsg": "Save min ₹78 with Flash Offer",
       "serviceId": 4565631212,
       "masterId": 551434,
       "originDateTime": "2026-08-24 21:00",
       "seatStats": {
-        "availableSeats": 31,
+        "availableSeats": 32,
         "singleBerthsCount": 8,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 23,
-        "femaleAvailableCount": 0,
-        "femaleBookedCount": 5,
+        "windowSeatCount": 22,
+        "femaleAvailableCount": 1,
+        "femaleBookedCount": 6,
         "seatsCapacity": 44,
-        "womenTravellerCount": 5,
+        "womenTravellerCount": 6,
         "womenRatingsAggregate": 4.7
       }
     },
@@ -14011,10 +14011,10 @@
     },
     {
       "fares": {
-        "fare": 2220,
-        "offerPrice": 2170,
+        "fare": 2230,
+        "offerPrice": 2180,
         "fareList": [
-          2220
+          2230
         ],
         "discounts": {
           "coFund": 50
@@ -15959,10 +15959,10 @@
     },
     {
       "fares": {
-        "fare": 2300,
-        "offerPrice": 2250,
+        "fare": 2270,
+        "offerPrice": 2220,
         "fareList": [
-          2300
+          2270
         ],
         "discounts": {
           "coFund": 50
@@ -17213,10 +17213,10 @@
     },
     {
       "fares": {
-        "fare": 2380,
-        "offerPrice": 2330,
+        "fare": 2350,
+        "offerPrice": 2300,
         "fareList": [
-          2380
+          2350
         ],
         "discounts": {
           "coFund": 50
@@ -21878,8 +21878,8 @@
     },
     {
       "fares": {
-        "fare": 741,
-        "offerPrice": 667,
+        "fare": 676,
+        "offerPrice": 608,
         "fareList": [
           818,
           1341,
@@ -21887,16 +21887,16 @@
           1559
         ],
         "discounts": {
-          "coFund": 74
+          "coFund": 68
         },
         "appliedOffers": {
-          "101": 74
+          "101": 68
         },
         "featuredOffers": {
-          "4": 74
+          "4": 67
         },
         "featuredOffersGuest": {
-          "4": 74
+          "4": 67
         }
       },
       "timings": {
@@ -29015,7 +29015,7 @@
       },
       "busTypeName": "Ashok Leyland NON-AC Seater/Sleeper (2 + 1)",
       "serviceKey": "BLR TO THIRISSUR 8.45PM",
-      "travelerAgentName": "Suthandiran Tours and Travels",
+      "travelerAgentName": "SUTHANDIRAN TOURS AND TRAVELS",
       "serviceName": "BLR TO THIRISSUR 8.45PM",
       "busServiceTypeName": "Ashok Leyland NON-AC Seater/Sleeper (2 + 1)",
       "busType": "",
@@ -29031,13 +29031,13 @@
       "masterId": 4099220,
       "originDateTime": "2026-08-24 20:45",
       "seatStats": {
-        "availableSeats": 39,
+        "availableSeats": 37,
         "singleBerthsCount": 0,
         "singleWindowSeatCount": 0,
         "windowSeatCount": 0,
         "femaleAvailableCount": 0,
         "femaleBookedCount": 0,
-        "seatsCapacity": 39,
+        "seatsCapacity": 37,
         "womenTravellerCount": 0
       }
     },
@@ -34271,9 +34271,9 @@
         "offerPrice": 500,
         "fareList": [
           556,
-          1025,
-          1177,
-          1221
+          1003,
+          1155,
+          1199
         ],
         "discounts": {
           "coFund": 56
@@ -34421,10 +34421,10 @@
       "masterId": 370516,
       "originDateTime": "2026-08-24 23:30",
       "seatStats": {
-        "availableSeats": 39,
+        "availableSeats": 38,
         "singleBerthsCount": 9,
         "singleWindowSeatCount": 0,
-        "windowSeatCount": 24,
+        "windowSeatCount": 23,
         "femaleAvailableCount": 0,
         "femaleBookedCount": 0,
         "seatsCapacity": 40,
@@ -45591,7 +45591,7 @@
     },
     {
       "filterID": 126980,
-      "filterName": "Suthandiran Tours and Travels",
+      "filterName": "SUTHANDIRAN TOURS AND TRAVELS",
       "filterStatus": false
     },
     {

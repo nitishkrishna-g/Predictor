@@ -12,7 +12,7 @@
   "lowerDividerRow": "3",
   "upperDividerRow": "3",
   "maxNumberOfSeats": 6,
-  "tentativeSeats": "1181^^696ac60e0151267cbcd8c907~~~~4.99^P^^0^op",
+  "tentativeSeats": "1490^^696ac60e0151267cbcd8c907~~~~4.99^P^^0^op",
   "TotalSeatList": {
     "lowerdeck_seat_nos": [
       "1, 1, 1, SS, Y, M, 1622, 0, 80.94, 0.00, 0, 0,h,1419",
@@ -63,8 +63,8 @@
       "UD17, 4, 11, UB, Y, M, 3226, 0, 160.98, 0.00, 0, 0,h,2822"
     ]
   },
-  "seatLayoutUniqueId": "1181^^696ac60e0151267cbcd8c907~~~~4.99^P^^0^op^ASSURED",
-  "isAcSeat": "1181^^696ac60e0151267cbcd8c907",
+  "seatLayoutUniqueId": "1490^^696ac60e0151267cbcd8c907~~~~4.99^P^^0^op^ASSURED",
+  "isAcSeat": "1490^^696ac60e0151267cbcd8c907",
   "titles": [
     "Seat Number",
     "Row ID",

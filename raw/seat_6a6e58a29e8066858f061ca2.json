@@ -12,7 +12,7 @@
   "lowerDividerRow": "3",
   "upperDividerRow": "3",
   "maxNumberOfSeats": 6,
-  "tentativeSeats": "264^^696ac60e0151267cbcd8c907~~~~4.95^P^^0^op",
+  "tentativeSeats": "320^^696ac60e0151267cbcd8c907~~~~4.95^P^^0^op",
   "TotalSeatList": {
     "lowerdeck_seat_nos": [
       "1, 1, 1, SS, N, M, 1210, 0, 59.90, 0.00, 0, 0,h,1058",
@@ -34,14 +34,14 @@
       "12, 2, 6, SS, N, F, 1714, 0, 84.84, 0.00, 0, 0,h,1499",
       "14, 2, 7, SS, N, M, 1332, 0, 65.93, 0.00, 0, 0,h,1165",
       "16, 2, 8, SS, N, F, 1408, 0, 69.70, 0.00, 0, 0,h,1232",
-      "18, 2, 9, SS, Y, F, 264, 0, 13.07, 0.00, 0, 0,h,264",
+      "18, 2, 9, SS, Y, F, 320, 0, 15.84, 0.00, 0, 0,h,280",
       "20, 2, 10, SS, N, M, 1646, 0, 81.48, 0.00, 0, 0,h,1440",
       "22, 2, 11, SS, N, M, 1738, 0, 86.03, 0.00, 0, 0,h,1520",
       "LD1, 4, 3, LB, N, M, 1086, 0, 53.76, 0.00, 0, 0,h,950",
       "LD2, 4, 5, LB, N, M, 1671, 0, 82.71, 0.00, 0, 0,h,1462",
       "LD3, 4, 7, LB, N, F, 1580, 0, 78.21, 0.00, 0, 0,h,1382",
       "LD4, 4, 9, LB, N, M, 1084, 0, 53.66, 0.00, 0, 0,h,948",
-      "LD5, 4, 11, LB, Y, M, 904, 0, 44.75, 0.00, 0, 0,h,791"
+      "LD5, 4, 11, LB, Y, M, 906, 0, 44.85, 0.00, 0, 0,h,792"
     ],
     "upperdeck_seat_nos": [
       "UD1, 1, 1, UB, N, M, 1000, 0, 49.50, 0.00, 0, 0,h,875",
@@ -52,19 +52,19 @@
       "UD15, 1, 11, UB, N, M, 989, 0, 48.96, 0.00, 0, 0,h,865",
       "UD2, 2, 1, UB, N, M, 1201, 0, 59.45, 0.00, 0, 0,h,1050",
       "UD4, 2, 3, UB, N, M, 1473, 0, 72.91, 0.00, 0, 0,h,1288",
-      "UD7, 2, 5, UB, Y, F, 468, 0, 23.17, 0.00, 0, 0,h,409",
+      "UD7, 2, 5, UB, Y, F, 379, 0, 18.76, 0.00, 0, 0,h,331",
       "UD10, 2, 7, UB, N, M, 1171, 0, 57.96, 0.00, 0, 0,h,1024",
-      "UD13, 2, 9, UB, Y, M, 468, 0, 23.17, 0.00, 0, 0,h,409",
+      "UD13, 2, 9, UB, Y, M, 379, 0, 18.76, 0.00, 0, 0,h,331",
       "UD16, 2, 11, UB, N, M, 1033, 0, 51.13, 0.00, 0, 0,h,903",
       "UD5, 4, 3, UB, N, F, 1381, 0, 68.36, 0.00, 0, 0,h,1208",
       "UD8, 4, 5, UB, N, M, 1038, 0, 51.38, 0.00, 0, 0,h,908",
       "UD11, 4, 7, UB, N, F, 1694, 0, 83.85, 0.00, 0, 0,h,1482",
       "UD14, 4, 9, UB, N, M, 1807, 0, 89.45, 0.00, 0, 0,h,1581",
-      "UD17, 4, 11, UB, Y, M, 729, 0, 36.09, 0.00, 0, 0,h,637"
+      "UD17, 4, 11, UB, Y, M, 715, 0, 35.39, 0.00, 0, 0,h,625"
     ]
   },
-  "seatLayoutUniqueId": "264^^696ac60e0151267cbcd8c907~~~~4.95^P^^0^op^ASSURED",
-  "isAcSeat": "264^^696ac60e0151267cbcd8c907",
+  "seatLayoutUniqueId": "320^^696ac60e0151267cbcd8c907~~~~4.95^P^^0^op^ASSURED",
+  "isAcSeat": "320^^696ac60e0151267cbcd8c907",
   "titles": [
     "Seat Number",
     "Row ID",
@@ -85,24 +85,6 @@
   ],
   "seatLayoutMessage": "",
   "boardingPoints": [
-    {
-      "placeName": "Majestic",
-      "placeTime": "09:00 PM",
-      "placeId": "67a4611456f9c3282139153e",
-      "landMark": "Opp KFCMajestic1, 8287009889",
-      "placeTimeTwfFormat": "21:00",
-      "dt": "2026-08-17 21:00",
-      "latlong": "12.974542, 77.570925"
-    },
-    {
-      "placeName": "Anand Rao Circle",
-      "placeTime": "09:10 PM",
-      "placeId": "629f6b125a80d6b6ab97ecde",
-      "landMark": "Anand Rao Circle New Congress Office Bus StopAnand Rao Circle, 8287009889",
-      "placeTimeTwfFormat": "21:10",
-      "dt": "2026-08-17 21:10",
-      "latlong": "12.98276265, 77.57630034"
-    },
     {
       "placeName": "Indira Nagar",
       "placeTime": "09:35 PM",
@@ -299,10 +281,10 @@
   ],
   "busStartDate": null,
   "faresList": [
-    "264",
-    "409",
-    "637",
-    "791",
+    "280",
+    "331",
+    "625",
+    "792",
     "847",
     "854",
     "865",
@@ -420,10 +402,10 @@
     }
   ],
   "fareListCount": {
-    "264": "1",
-    "791": "1",
-    "409": "2",
-    "637": "1"
+    "280": "1",
+    "792": "1",
+    "331": "2",
+    "625": "1"
   },
   "sourceStateName": null,
   "sourceStateCode": "",
@@ -433,27 +415,27 @@
   "busTypeName": "TATA A/C Semi-Sleeper/Sleeper (With Washroom) AC",
   "cancellationsPolicy": [
     {
-      "cc": "Rs. 184",
+      "cc": "Rs. 224",
       "rp": "70%",
-      "tl": "Rs 184 /- @ 70% refund",
+      "tl": "Rs 224 /- @ 70% refund",
       "con": "Before 14-Aug 21:00"
     },
     {
-      "cc": "Rs. 184",
+      "cc": "Rs. 224",
       "rp": "70%",
-      "tl": "Rs 184 /- @ 70% refund",
+      "tl": "Rs 224 /- @ 70% refund",
       "con": "Between 14-Aug 21:00 & 15-Aug 21:00"
     },
     {
-      "cc": "Rs. 132",
+      "cc": "Rs. 160",
       "rp": "50%",
-      "tl": "Rs 132 /- @ 50% refund",
+      "tl": "Rs 160 /- @ 50% refund",
       "con": "Between 15-Aug 21:00 & 16-Aug 21:00"
     },
     {
-      "cc": "Rs. 52",
+      "cc": "Rs. 64",
       "rp": "20%",
-      "tl": "Rs 52 /- @ 20% refund",
+      "tl": "Rs 64 /- @ 20% refund",
       "con": "Between 16-Aug 21:00 & 17-Aug 09:00"
     },
     {
@@ -541,8 +523,8 @@
       "discountedFare": "1232"
     },
     {
-      "fare": "264",
-      "discountedFare": "264"
+      "fare": "320",
+      "discountedFare": "280"
     },
     {
       "fare": "1646",
@@ -569,8 +551,8 @@
       "discountedFare": "948"
     },
     {
-      "fare": "904",
-      "discountedFare": "791"
+      "fare": "906",
+      "discountedFare": "792"
     },
     {
       "fare": "1000",
@@ -605,8 +587,8 @@
       "discountedFare": "1288"
     },
     {
-      "fare": "468",
-      "discountedFare": "409"
+      "fare": "379",
+      "discountedFare": "331"
     },
     {
       "fare": "1171",
@@ -633,8 +615,8 @@
       "discountedFare": "1581"
     },
     {
-      "fare": "729",
-      "discountedFare": "637"
+      "fare": "715",
+      "discountedFare": "625"
     }
   ],
   "isRTC": "0",

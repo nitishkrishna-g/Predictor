@@ -698,8 +698,8 @@
   "enableFreeCancellation": "0",
   "restRoomSeats": [],
   "applicableAbsCancellationFee": "15",
-  "applicableCancPolicyIndex": 1,
-  "applicableCancPolicyPercentage": "70",
+  "applicableCancPolicyIndex": 2,
+  "applicableCancPolicyPercentage": "50",
   "assuredPartnerInfo": {
     "isEnable": "1",
     "autoselect": "1",
@@ -707,8 +707,8 @@
     "isLoginRequired": "0",
     "addTime": "360",
     "calcOnBaseFare": "1",
-    "amount": "10.5",
-    "strikeoffAmount": "10.5",
+    "amount": "10",
+    "strikeoffAmount": "10",
     "text": "Assured Benefits at",
     "benefits": [
       {
