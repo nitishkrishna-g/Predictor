@@ -2,7 +2,7 @@
   "SourceStationID": "1064",
   "DestinationStationID": "2318",
   "Route": "Coimbatore-Bangalore",
-  "JourneyDate": "2026-08-24",
+  "JourneyDate": "2026-08-17",
   "ServiceID": "19681968",
   "SeatLayoutID": "HYBRID (20 BERTH + 20 SEAT)- AC",
   "upperTotalRows": "5",
@@ -12,54 +12,54 @@
   "lowerDividerRow": "3",
   "upperDividerRow": "3",
   "maxNumberOfSeats": 6,
-  "tentativeSeats": "~~~~33.45^P^927~16.69~~839~15.10~~556~10.01~~1036~18.65^0^op",
+  "tentativeSeats": "~~~~26.98^P^741~13.34~~567~10.21~~850~15.30^0^op",
   "TotalSeatList": {
     "lowerdeck_seat_nos": [
-      "1, 1, 1, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "3, 1, 2, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "5, 1, 3, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "7, 1, 4, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "9, 1, 5, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "11, 1, 6, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "13, 1, 7, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "15, 1, 8, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "17, 1, 9, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "19, 1, 10, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "2, 2, 1, SS, N, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "4, 2, 2, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "6, 2, 3, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "8, 2, 4, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "10, 2, 5, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "12, 2, 6, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "14, 2, 7, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "16, 2, 8, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "18, 2, 9, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "20, 2, 10, SS, Y, M, 556, 0, 100.00, 0.00, 0, 0,h,556",
-      "3L, 4, 1, LB, N, M, 1036, 0, 186.00, 0.00, 0, 0,h,1036",
-      "6L, 4, 3, LB, Y, M, 1036, 0, 186.00, 0.00, 0, 0,h,1036",
-      "9L, 4, 5, LB, Y, M, 1036, 0, 186.00, 0.00, 0, 0,h,1036",
-      "12L, 4, 7, LB, Y, M, 1036, 0, 186.00, 0.00, 0, 0,h,1036",
-      "15L, 4, 9, LB, Y, M, 1036, 0, 186.00, 0.00, 0, 0,h,1036"
+      "1, 1, 1, SS, N, F, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "3, 1, 2, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "5, 1, 3, SS, N, F, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "7, 1, 4, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "9, 1, 5, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "11, 1, 6, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "13, 1, 7, SS, N, F, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "15, 1, 8, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "17, 1, 9, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "19, 1, 10, SS, N, F, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "2, 2, 1, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "4, 2, 2, SS, N, F, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "6, 2, 3, SS, N, F, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "8, 2, 4, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "10, 2, 5, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "12, 2, 6, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "14, 2, 7, SS, Y, F, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "16, 2, 8, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "18, 2, 9, SS, N, M, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "20, 2, 10, SS, Y, F, 567, 0, 102.00, 0.00, 0, 0,h,567",
+      "3L, 4, 1, LB, N, M, 850, 0, 153.00, 0.00, 0, 0,h,850",
+      "6L, 4, 3, LB, N, F, 850, 0, 153.00, 0.00, 0, 0,h,850",
+      "9L, 4, 5, LB, N, F, 850, 0, 153.00, 0.00, 0, 0,h,850",
+      "12L, 4, 7, LB, N, M, 850, 0, 153.00, 0.00, 0, 0,h,850",
+      "15L, 4, 9, LB, Y, M, 850, 0, 153.00, 0.00, 0, 0,h,850"
     ],
     "upperdeck_seat_nos": [
-      "1U, 1, 1, UB, Y, M, 927, 0, 167.00, 0.00, 0, 0,h,927",
-      "4U, 1, 3, UB, Y, M, 927, 0, 167.00, 0.00, 0, 0,h,927",
-      "7U, 1, 5, UB, Y, M, 927, 0, 167.00, 0.00, 0, 0,h,927",
-      "10U, 1, 7, UB, Y, M, 927, 0, 167.00, 0.00, 0, 0,h,927",
-      "13U, 1, 9, UB, Y, M, 839, 0, 151.00, 0.00, 0, 0,h,839",
-      "2U, 2, 1, UB, Y, M, 927, 0, 167.00, 0.00, 0, 0,h,927",
-      "5U, 2, 3, UB, Y, M, 927, 0, 167.00, 0.00, 0, 0,h,927",
-      "8U, 2, 5, UB, Y, M, 927, 0, 167.00, 0.00, 0, 0,h,927",
-      "11U, 2, 7, UB, Y, M, 927, 0, 167.00, 0.00, 0, 0,h,927",
-      "14U, 2, 9, UB, Y, M, 839, 0, 151.00, 0.00, 0, 0,h,839",
-      "3U, 5, 1, UB, Y, M, 1036, 0, 186.00, 0.00, 0, 0,h,1036",
-      "6U, 5, 3, UB, Y, M, 1036, 0, 186.00, 0.00, 0, 0,h,1036",
-      "9U, 5, 5, UB, Y, M, 1036, 0, 186.00, 0.00, 0, 0,h,1036",
-      "12U, 5, 7, UB, Y, M, 1036, 0, 186.00, 0.00, 0, 0,h,1036",
-      "15U, 5, 9, UB, Y, M, 1036, 0, 186.00, 0.00, 0, 0,h,1036"
+      "1U, 1, 1, UB, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "4U, 1, 3, UB, N, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "7U, 1, 5, UB, N, F, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "10U, 1, 7, UB, N, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "13U, 1, 9, UB, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "2U, 2, 1, UB, N, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "5U, 2, 3, UB, N, F, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "8U, 2, 5, UB, N, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "11U, 2, 7, UB, N, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "14U, 2, 9, UB, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "3U, 5, 1, UB, N, M, 850, 0, 153.00, 0.00, 0, 0,h,850",
+      "6U, 5, 3, UB, N, M, 850, 0, 153.00, 0.00, 0, 0,h,850",
+      "9U, 5, 5, UB, N, M, 850, 0, 153.00, 0.00, 0, 0,h,850",
+      "12U, 5, 7, UB, N, M, 850, 0, 153.00, 0.00, 0, 0,h,850",
+      "15U, 5, 9, UB, Y, M, 850, 0, 153.00, 0.00, 0, 0,h,850"
     ]
   },
-  "seatLayoutUniqueId": "~~~~33.45^P^927~16.69~~839~15.10~~556~10.01~~1036~18.65^0^op^ASSURED",
+  "seatLayoutUniqueId": "~~~~26.98^P^741~13.34~~567~10.21~~850~15.30^0^op^ASSURED",
   "isAcSeat": null,
   "titles": [
     "Seat Number",
@@ -87,7 +87,7 @@
       "placeId": "474",
       "landMark": "Near Indian Petrol Bunk, Saibaba Koil-18002679001",
       "placeTimeTwfFormat": "22:25",
-      "dt": "2026-08-24 22:25",
+      "dt": "2026-08-17 22:25",
       "latlong": null
     },
     {
@@ -96,7 +96,7 @@
       "placeId": "472",
       "landMark": "Mathibala Travels, Omni Bus Stand, Gandhipuram-18002679001",
       "placeTimeTwfFormat": "22:45",
-      "dt": "2026-08-24 22:45",
+      "dt": "2026-08-17 22:45",
       "latlong": null
     },
     {
@@ -105,7 +105,7 @@
       "placeId": "465",
       "landMark": "Near Adyar Ananda Bhavan - A2B Bharathiyar Rd, Siddhapudur-18002679001",
       "placeTimeTwfFormat": "23:00",
-      "dt": "2026-08-24 23:00",
+      "dt": "2026-08-17 23:00",
       "latlong": null
     },
     {
@@ -114,7 +114,7 @@
       "placeId": "470",
       "landMark": "Near Axis Bank, PN Palayam-18002679001",
       "placeTimeTwfFormat": "23:05",
-      "dt": "2026-08-24 23:05",
+      "dt": "2026-08-17 23:05",
       "latlong": null
     },
     {
@@ -123,7 +123,7 @@
       "placeId": "473",
       "landMark": "PSG Tech Bridge, Avinashi Rd, Peelamedu-18002679001",
       "placeTimeTwfFormat": "23:10",
-      "dt": "2026-08-24 23:10",
+      "dt": "2026-08-17 23:10",
       "latlong": null
     },
     {
@@ -132,7 +132,7 @@
       "placeId": "468",
       "landMark": "Near TIDEL Park Turning Board, Avinashi Rd, Peelamedu, Civil Aerodrome Post-18002679001",
       "placeTimeTwfFormat": "23:15",
-      "dt": "2026-08-24 23:15",
+      "dt": "2026-08-17 23:15",
       "latlong": null
     },
     {
@@ -141,7 +141,7 @@
       "placeId": "467",
       "landMark": "Passport Office Bus Stop, Indira Nagar, Civil Aerodrome-18002679001",
       "placeTimeTwfFormat": "23:25",
-      "dt": "2026-08-24 23:25",
+      "dt": "2026-08-17 23:25",
       "latlong": null
     },
     {
@@ -150,7 +150,7 @@
       "placeId": "471",
       "landMark": "Near Dindigul Thalappakatti, Avinashi Rd, NPS Nagar,-18002679001",
       "placeTimeTwfFormat": "23:35",
-      "dt": "2026-08-24 23:35",
+      "dt": "2026-08-17 23:35",
       "latlong": null
     },
     {
@@ -159,7 +159,7 @@
       "placeId": "469",
       "landMark": "Near Toll Gate-18002679001",
       "placeTimeTwfFormat": "23:45",
-      "dt": "2026-08-24 23:45",
+      "dt": "2026-08-17 23:45",
       "latlong": null
     }
   ],
@@ -185,12 +185,11 @@
   ],
   "busStartDate": null,
   "faresList": [
-    "556",
-    "839",
-    "927",
-    "1036"
+    "567",
+    "741",
+    "850"
   ],
-  "serviceNo": "1010#1064#2318#1968#1968#12780#24082026#11:00 PM#11:00 PM#2",
+  "serviceNo": "1010#1064#2318#1968#1968#12780#17082026#11:00 PM#11:00 PM#2",
   "isToShowSeatTypes": "1",
   "droppingPoints": [
     {
@@ -198,7 +197,7 @@
       "placeTime": "05:45 AM",
       "placeId": "394",
       "placeTimeTwfFormat": "05:45",
-      "dt": "2026-08-25 05:45",
+      "dt": "2026-08-18 05:45",
       "landMark": "",
       "latlong": ""
     },
@@ -207,7 +206,7 @@
       "placeTime": "05:55 AM",
       "placeId": "393",
       "placeTimeTwfFormat": "05:55",
-      "dt": "2026-08-25 05:55",
+      "dt": "2026-08-18 05:55",
       "landMark": "",
       "latlong": ""
     },
@@ -216,7 +215,7 @@
       "placeTime": "06:00 AM",
       "placeId": "400",
       "placeTimeTwfFormat": "06:00",
-      "dt": "2026-08-25 06:00",
+      "dt": "2026-08-18 06:00",
       "landMark": "",
       "latlong": ""
     },
@@ -225,7 +224,7 @@
       "placeTime": "06:05 AM",
       "placeId": "392",
       "placeTimeTwfFormat": "06:05",
-      "dt": "2026-08-25 06:05",
+      "dt": "2026-08-18 06:05",
       "landMark": "",
       "latlong": ""
     },
@@ -234,7 +233,7 @@
       "placeTime": "06:10 AM",
       "placeId": "391",
       "placeTimeTwfFormat": "06:10",
-      "dt": "2026-08-25 06:10",
+      "dt": "2026-08-18 06:10",
       "landMark": "",
       "latlong": ""
     },
@@ -243,7 +242,7 @@
       "placeTime": "06:30 AM",
       "placeId": "204",
       "placeTimeTwfFormat": "06:30",
-      "dt": "2026-08-25 06:30",
+      "dt": "2026-08-18 06:30",
       "landMark": "",
       "latlong": ""
     },
@@ -252,7 +251,7 @@
       "placeTime": "06:45 AM",
       "placeId": "150",
       "placeTimeTwfFormat": "06:45",
-      "dt": "2026-08-25 06:45",
+      "dt": "2026-08-18 06:45",
       "landMark": "",
       "latlong": ""
     },
@@ -261,65 +260,60 @@
       "placeTime": "07:00 AM",
       "placeId": "146",
       "placeTimeTwfFormat": "07:00",
-      "dt": "2026-08-25 07:00",
+      "dt": "2026-08-18 07:00",
       "landMark": "",
       "latlong": ""
     }
   ],
   "fareListCount": {
-    "556": "19",
-    "1036": "9",
-    "927": "8",
-    "839": "2"
+    "567": "2",
+    "850": "2",
+    "741": "3"
   },
   "sourceStateName": null,
   "sourceStateCode": "",
   "travelerAgentName": "NueGo",
-  "startTimeDateFormat": "2026-08-24 23:00",
+  "startTimeDateFormat": "2026-08-17 23:00",
   "servicesKey": null,
   "busTypeName": "HYBRID (20 BERTH + 20 SEAT)- AC",
   "cancellationsPolicy": [
     {
-      "cc": "Rs. 417",
+      "cc": "Rs. 425",
       "rp": "75%",
-      "tl": "Rs 417 /- @ 75% refund",
-      "con": "Before 24-Aug 10:25"
+      "tl": "Rs 425 /- @ 75% refund",
+      "con": "Before 17-Aug 10:25"
     },
     {
-      "cc": "Rs. 278",
+      "cc": "Rs. 283",
       "rp": "50%",
-      "tl": "Rs 278 /- @ 50% refund",
-      "con": "Between 24-Aug 10:25 & 24-Aug 14:25"
+      "tl": "Rs 283 /- @ 50% refund",
+      "con": "Between 17-Aug 10:25 & 17-Aug 14:25"
     },
     {
       "cc": "Rs. 0",
       "rp": "0%",
       "tl": "Rs 0 /- @ 0% refund",
-      "con": "Between 24-Aug 14:25 & 24-Aug 22:23"
+      "con": "Between 17-Aug 14:25 & 17-Aug 22:23"
     },
     {
       "cc": "Rs. 0",
       "rp": "0%",
       "tl": "Rs 0 /- @ 0% refund",
-      "con": "After 24-Aug 14:25"
+      "con": "After 17-Aug 14:25"
     }
   ],
   "offerFaresList": [
     {
-      "fare": "556",
-      "discountedFare": "556"
+      "fare": "567",
+      "discountedFare": "567"
     },
     {
-      "fare": "1036",
-      "discountedFare": "1036"
+      "fare": "850",
+      "discountedFare": "850"
     },
     {
-      "fare": "927",
-      "discountedFare": "927"
-    },
-    {
-      "fare": "839",
-      "discountedFare": "839"
+      "fare": "741",
+      "discountedFare": "741"
     }
   ],
   "isRTC": "0",
@@ -410,14 +404,14 @@
     }
   ],
   "gentsSeats": [
-    "1"
+    "1U"
   ],
   "enableWhatsApp": "0",
   "enableFreeCancellation": "0",
   "restRoomSeats": [],
   "applicableAbsCancellationFee": "15",
-  "applicableCancPolicyIndex": 0,
-  "applicableCancPolicyPercentage": "75",
+  "applicableCancPolicyIndex": 2,
+  "applicableCancPolicyPercentage": "0",
   "assuredPartnerInfo": {
     "isEnable": "1",
     "autoselect": "1",
@@ -425,8 +419,8 @@
     "isLoginRequired": "0",
     "addTime": "360",
     "calcOnBaseFare": "1",
-    "amount": "10.5",
-    "strikeoffAmount": "10.5",
+    "amount": "5",
+    "strikeoffAmount": "5",
     "text": "Assured Benefits at",
     "benefits": [
       {
@@ -467,27 +461,19 @@
     ],
     "assuredSubTitles": [
       "150% refund on Bus Cancellations*",
-      "100% refund on Bus Delays & Plan Changes"
+      "100% refund on Bus Delays"
     ],
-    "expandTitle": "Secure your trip with Free Cancellation & instant refunds",
+    "expandTitle": "Secure your trip with instant refunds & 24/7 Customer service",
     "collapsedTitle": "Trip secured with Abhi Assured",
     "userCountTitle": "27 Lakh+ users secured their trip!",
     "userCountMessage": "1 Lakh+ travellers got 100% refund with AbhiAssured",
-    "addBenefitWidgetTitle": "Get Free Cancellation & instant refunds.",
-    "benefitDetailTitle": "Pay no charges when ticket is cancelled",
+    "addBenefitWidgetTitle": "Get Instant refunds & 24/7 Customer service.",
+    "benefitDetailTitle": "Get 150% refund* on Bus Service Cancellation",
     "benefitDetailSubTitle": "Refund : Upto 150% on Total Fare",
     "headerLogo": "https://static.abhibus.com/assured_lte_psngr/assured_lte_psngr.json",
     "successMessage": "Congrats. Your choice will be automatically applied to your future bookings",
     "preSelectedSuccessMsg": "This option is added as per your preference settings",
     "addonBenefits": [
-      {
-        "imageUrl": "https://static.abhibus.com/zeroassured/zeroassured.webp",
-        "title": "Zero Cancellation charges",
-        "subtitle": "if cancelled by you",
-        "refundMultiplier": 1,
-        "amountLabel": "100% refund",
-        "defaultIcon": "ic_0blue"
-      },
       {
         "imageUrl": "https://static.abhibus.com/1.5xassured/1.5xassured.5xassured",
         "title": "Travel Guarantee or 1.5x Refund",
@@ -539,13 +525,13 @@
   "freeCancellation": {
     "title": "Free Cancellation",
     "type": "P",
-    "addTime": 360,
+    "addTime": 240,
     "calcOnBaseFare": "1",
-    "amount": "9",
-    "description": "Get Full Refund upon cancellation before 6 hours of bus start time",
+    "amount": "12",
+    "description": "Get Full Refund upon cancellation before 4 hours of bus start time",
     "autoselect": "1",
     "text": "FREE CANCELLATION AT ",
-    "subText": "Cancel 6hrs before the Bus starting time & Get Full Refund. NO QUESTIONS ASKED!",
+    "subText": "Cancel 4hrs before the Bus starting time & Get Full Refund. NO QUESTIONS ASKED!",
     "benefits": [
       {
         "title": "Refund on cancellation",

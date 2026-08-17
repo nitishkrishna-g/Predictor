@@ -12,59 +12,59 @@
   "lowerDividerRow": "3",
   "upperDividerRow": "3",
   "maxNumberOfSeats": 6,
-  "tentativeSeats": "704^^696ac89bdff7dd1cfa17edc1~~~~5.04^P^^0^op",
+  "tentativeSeats": "664^^696ac89bdff7dd1cfa17edc1~~~~4.94^P^^0^op",
   "TotalSeatList": {
     "lowerdeck_seat_nos": [
-      "1, 1, 1, SS, Y, M, 761, 0, 38.35, 0.00, 0, 0,h,665",
-      "3, 1, 2, SS, Y, M, 818, 0, 41.23, 0.00, 0, 0,h,715",
-      "5, 1, 3, SS, Y, M, 818, 0, 41.23, 0.00, 0, 0,h,715",
-      "7, 1, 4, SS, Y, M, 818, 0, 41.23, 0.00, 0, 0,h,715",
-      "9, 1, 5, SS, Y, M, 818, 0, 41.23, 0.00, 0, 0,h,715",
-      "11, 1, 6, SS, Y, M, 818, 0, 41.23, 0.00, 0, 0,h,715",
-      "13, 1, 7, SS, N, M, 1004, 0, 50.60, 0.00, 0, 0,h,878",
-      "15, 1, 8, SS, Y, M, 704, 0, 35.48, 0.00, 0, 0,h,616",
-      "17, 1, 9, SS, N, M, 1822, 0, 91.83, 0.00, 0, 0,h,1594",
-      "19, 1, 10, SS, Y, M, 710, 0, 35.78, 0.00, 0, 0,h,621",
-      "21, 1, 11, SS, N, M, 1783, 0, 89.86, 0.00, 0, 0,h,1560",
-      "2, 2, 1, SS, Y, M, 761, 0, 38.35, 0.00, 0, 0,h,665",
-      "4, 2, 2, SS, Y, M, 818, 0, 41.23, 0.00, 0, 0,h,715",
-      "6, 2, 3, SS, Y, M, 818, 0, 41.23, 0.00, 0, 0,h,715",
-      "8, 2, 4, SS, Y, M, 818, 0, 41.23, 0.00, 0, 0,h,715",
-      "10, 2, 5, SS, Y, M, 818, 0, 41.23, 0.00, 0, 0,h,715",
-      "12, 2, 6, SS, Y, M, 818, 0, 41.23, 0.00, 0, 0,h,715",
-      "14, 2, 7, SS, N, M, 1162, 0, 58.56, 0.00, 0, 0,h,1016",
-      "16, 2, 8, SS, N, M, 1409, 0, 71.01, 0.00, 0, 0,h,1232",
-      "18, 2, 9, SS, Y, M, 704, 0, 35.48, 0.00, 0, 0,h,616",
-      "20, 2, 10, SS, N, M, 1587, 0, 79.98, 0.00, 0, 0,h,1388",
-      "22, 2, 11, SS, N, M, 1790, 0, 90.22, 0.00, 0, 0,h,1566",
-      "LD1, 4, 3, LB, Y, M, 1647, 0, 83.01, 0.00, 0, 0,h,1441",
-      "LD2, 4, 5, LB, N, M, 1625, 0, 81.90, 0.00, 0, 0,h,1421",
-      "LD3, 4, 7, LB, N, M, 1904, 0, 95.96, 0.00, 0, 0,h,1666",
-      "LD4, 4, 9, LB, N, M, 1387, 0, 69.90, 0.00, 0, 0,h,1213",
-      "LD5, 4, 11, LB, Y, M, 1647, 0, 83.01, 0.00, 0, 0,h,1441"
+      "1, 1, 1, SS, N, F, 1578, 0, 77.95, 0.00, 0, 0,h,1380",
+      "3, 1, 2, SS, N, F, 1801, 0, 88.97, 0.00, 0, 0,h,1575",
+      "5, 1, 3, SS, Y, M, 731, 0, 36.11, 0.00, 0, 0,h,639",
+      "7, 1, 4, SS, N, M, 1477, 0, 72.96, 0.00, 0, 0,h,1292",
+      "9, 1, 5, SS, N, M, 1544, 0, 76.27, 0.00, 0, 0,h,1351",
+      "11, 1, 6, SS, N, M, 1870, 0, 92.38, 0.00, 0, 0,h,1636",
+      "13, 1, 7, SS, N, M, 1004, 0, 49.60, 0.00, 0, 0,h,878",
+      "15, 1, 8, SS, N, M, 1500, 0, 74.10, 0.00, 0, 0,h,1312",
+      "17, 1, 9, SS, N, M, 1822, 0, 90.01, 0.00, 0, 0,h,1594",
+      "19, 1, 10, SS, N, M, 1011, 0, 49.94, 0.00, 0, 0,h,884",
+      "21, 1, 11, SS, N, M, 1783, 0, 88.08, 0.00, 0, 0,h,1560",
+      "2, 2, 1, SS, Y, F, 664, 0, 32.80, 0.00, 0, 0,h,581",
+      "4, 2, 2, SS, Y, F, 731, 0, 36.11, 0.00, 0, 0,h,639",
+      "6, 2, 3, SS, Y, M, 731, 0, 36.11, 0.00, 0, 0,h,639",
+      "8, 2, 4, SS, Y, M, 731, 0, 36.11, 0.00, 0, 0,h,639",
+      "10, 2, 5, SS, Y, M, 731, 0, 36.11, 0.00, 0, 0,h,639",
+      "12, 2, 6, SS, Y, M, 731, 0, 36.11, 0.00, 0, 0,h,639",
+      "14, 2, 7, SS, N, M, 1162, 0, 57.40, 0.00, 0, 0,h,1016",
+      "16, 2, 8, SS, N, M, 1409, 0, 69.60, 0.00, 0, 0,h,1232",
+      "18, 2, 9, SS, N, M, 1835, 0, 90.65, 0.00, 0, 0,h,1605",
+      "20, 2, 10, SS, N, M, 1587, 0, 78.40, 0.00, 0, 0,h,1388",
+      "22, 2, 11, SS, N, M, 1790, 0, 88.43, 0.00, 0, 0,h,1566",
+      "LD1, 4, 3, LB, N, M, 1071, 0, 52.91, 0.00, 0, 0,h,937",
+      "LD2, 4, 5, LB, N, M, 1625, 0, 80.28, 0.00, 0, 0,h,1421",
+      "LD3, 4, 7, LB, N, M, 1904, 0, 94.06, 0.00, 0, 0,h,1666",
+      "LD4, 4, 9, LB, N, M, 1387, 0, 68.52, 0.00, 0, 0,h,1213",
+      "LD5, 4, 11, LB, Y, M, 1131, 0, 55.87, 0.00, 0, 0,h,989"
     ],
     "upperdeck_seat_nos": [
-      "UD1, 1, 1, UB, Y, M, 1092, 0, 55.04, 0.00, 0, 0,h,955",
-      "UD3, 1, 3, UB, N, F, 1592, 0, 80.24, 0.00, 0, 0,h,1393",
-      "UD6, 1, 5, UB, N, M, 1358, 0, 68.44, 0.00, 0, 0,h,1188",
-      "UD9, 1, 7, UB, N, M, 1044, 0, 52.62, 0.00, 0, 0,h,913",
-      "UD12, 1, 9, UB, Y, M, 1092, 0, 55.04, 0.00, 0, 0,h,955",
-      "UD15, 1, 11, UB, Y, M, 1092, 0, 55.04, 0.00, 0, 0,h,955",
-      "UD2, 2, 1, UB, Y, M, 1092, 0, 55.04, 0.00, 0, 0,h,955",
-      "UD4, 2, 3, UB, Y, F, 1092, 0, 55.04, 0.00, 0, 0,h,955",
-      "UD7, 2, 5, UB, N, F, 1894, 0, 95.46, 0.00, 0, 0,h,1657",
-      "UD10, 2, 7, UB, N, F, 1103, 0, 55.59, 0.00, 0, 0,h,965",
-      "UD13, 2, 9, UB, Y, M, 1092, 0, 55.04, 0.00, 0, 0,h,955",
-      "UD16, 2, 11, UB, Y, M, 1092, 0, 55.04, 0.00, 0, 0,h,955",
-      "UD5, 4, 3, UB, N, M, 1167, 0, 58.82, 0.00, 0, 0,h,1021",
-      "UD8, 4, 5, UB, Y, M, 1429, 0, 72.02, 0.00, 0, 0,h,1250",
-      "UD11, 4, 7, UB, Y, M, 1429, 0, 72.02, 0.00, 0, 0,h,1250",
-      "UD14, 4, 9, UB, Y, M, 1429, 0, 72.02, 0.00, 0, 0,h,1250",
-      "UD17, 4, 11, UB, Y, M, 1429, 0, 72.02, 0.00, 0, 0,h,1250"
+      "UD1, 1, 1, UB, N, M, 1614, 0, 79.73, 0.00, 0, 0,h,1412",
+      "UD3, 1, 3, UB, N, F, 1592, 0, 78.64, 0.00, 0, 0,h,1393",
+      "UD6, 1, 5, UB, N, M, 1358, 0, 67.09, 0.00, 0, 0,h,1188",
+      "UD9, 1, 7, UB, N, M, 1044, 0, 51.57, 0.00, 0, 0,h,913",
+      "UD12, 1, 9, UB, N, M, 1749, 0, 86.40, 0.00, 0, 0,h,1530",
+      "UD15, 1, 11, UB, Y, M, 789, 0, 38.98, 0.00, 0, 0,h,690",
+      "UD2, 2, 1, UB, Y, M, 789, 0, 38.98, 0.00, 0, 0,h,690",
+      "UD4, 2, 3, UB, Y, F, 789, 0, 38.98, 0.00, 0, 0,h,690",
+      "UD7, 2, 5, UB, N, F, 1894, 0, 93.56, 0.00, 0, 0,h,1657",
+      "UD10, 2, 7, UB, N, F, 1103, 0, 54.49, 0.00, 0, 0,h,965",
+      "UD13, 2, 9, UB, N, M, 1778, 0, 87.83, 0.00, 0, 0,h,1555",
+      "UD16, 2, 11, UB, Y, M, 789, 0, 38.98, 0.00, 0, 0,h,690",
+      "UD5, 4, 3, UB, N, M, 1167, 0, 57.65, 0.00, 0, 0,h,1021",
+      "UD8, 4, 5, UB, N, M, 1545, 0, 76.32, 0.00, 0, 0,h,1351",
+      "UD11, 4, 7, UB, N, M, 1803, 0, 89.07, 0.00, 0, 0,h,1577",
+      "UD14, 4, 9, UB, N, M, 1073, 0, 53.01, 0.00, 0, 0,h,938",
+      "UD17, 4, 11, UB, N, F, 1418, 0, 70.05, 0.00, 0, 0,h,1240"
     ]
   },
-  "seatLayoutUniqueId": "704^^696ac89bdff7dd1cfa17edc1~~~~5.04^P^^0^op^ASSURED",
-  "isAcSeat": "704^^696ac89bdff7dd1cfa17edc1",
+  "seatLayoutUniqueId": "664^^696ac89bdff7dd1cfa17edc1~~~~4.94^P^^0^op^ASSURED",
+  "isAcSeat": "664^^696ac89bdff7dd1cfa17edc1",
   "titles": [
     "Seat Number",
     "Row ID",
@@ -245,27 +245,39 @@
   ],
   "busStartDate": null,
   "faresList": [
-    "616",
-    "621",
-    "665",
-    "715",
+    "581",
+    "639",
+    "690",
     "878",
+    "884",
     "913",
-    "955",
+    "937",
+    "938",
     "965",
+    "989",
     "1016",
     "1021",
     "1188",
     "1213",
     "1232",
-    "1250",
+    "1240",
+    "1292",
+    "1312",
+    "1351",
+    "1380",
     "1388",
     "1393",
+    "1412",
     "1421",
-    "1441",
+    "1530",
+    "1555",
     "1560",
     "1566",
+    "1575",
+    "1577",
     "1594",
+    "1605",
+    "1636",
     "1657",
     "1666"
   ],
@@ -409,13 +421,10 @@
     }
   ],
   "fareListCount": {
-    "665": "2",
-    "715": "10",
-    "616": "2",
-    "621": "1",
-    "1441": "2",
-    "955": "7",
-    "1250": "4"
+    "639": "6",
+    "581": "1",
+    "989": "1",
+    "690": "4"
   },
   "sourceStateName": null,
   "sourceStateCode": "",
@@ -425,27 +434,27 @@
   "busTypeName": "TATA A/C Semi-Sleeper/Sleeper (With Washroom) AC",
   "cancellationsPolicy": [
     {
-      "cc": "Rs. 492",
+      "cc": "Rs. 464",
       "rp": "70%",
-      "tl": "Rs 492 /- @ 70% refund",
+      "tl": "Rs 464 /- @ 70% refund",
       "con": "Before 14-Aug 22:00"
     },
     {
-      "cc": "Rs. 492",
+      "cc": "Rs. 464",
       "rp": "70%",
-      "tl": "Rs 492 /- @ 70% refund",
+      "tl": "Rs 464 /- @ 70% refund",
       "con": "Between 14-Aug 22:00 & 15-Aug 22:00"
     },
     {
-      "cc": "Rs. 352",
+      "cc": "Rs. 332",
       "rp": "50%",
-      "tl": "Rs 352 /- @ 50% refund",
+      "tl": "Rs 332 /- @ 50% refund",
       "con": "Between 15-Aug 22:00 & 16-Aug 22:00"
     },
     {
-      "cc": "Rs. 140",
+      "cc": "Rs. 132",
       "rp": "20%",
-      "tl": "Rs 140 /- @ 20% refund",
+      "tl": "Rs 132 /- @ 20% refund",
       "con": "Between 16-Aug 22:00 & 17-Aug 10:00"
     },
     {
@@ -457,32 +466,52 @@
   ],
   "offerFaresList": [
     {
-      "fare": "761",
-      "discountedFare": "665"
+      "fare": "1578",
+      "discountedFare": "1380"
     },
     {
-      "fare": "818",
-      "discountedFare": "715"
+      "fare": "1801",
+      "discountedFare": "1575"
+    },
+    {
+      "fare": "731",
+      "discountedFare": "639"
+    },
+    {
+      "fare": "1477",
+      "discountedFare": "1292"
+    },
+    {
+      "fare": "1544",
+      "discountedFare": "1351"
+    },
+    {
+      "fare": "1870",
+      "discountedFare": "1636"
     },
     {
       "fare": "1004",
       "discountedFare": "878"
     },
     {
-      "fare": "704",
-      "discountedFare": "616"
+      "fare": "1500",
+      "discountedFare": "1312"
     },
     {
       "fare": "1822",
       "discountedFare": "1594"
     },
     {
-      "fare": "710",
-      "discountedFare": "621"
+      "fare": "1011",
+      "discountedFare": "884"
     },
     {
       "fare": "1783",
       "discountedFare": "1560"
+    },
+    {
+      "fare": "664",
+      "discountedFare": "581"
     },
     {
       "fare": "1162",
@@ -493,6 +522,10 @@
       "discountedFare": "1232"
     },
     {
+      "fare": "1835",
+      "discountedFare": "1605"
+    },
+    {
       "fare": "1587",
       "discountedFare": "1388"
     },
@@ -501,8 +534,8 @@
       "discountedFare": "1566"
     },
     {
-      "fare": "1647",
-      "discountedFare": "1441"
+      "fare": "1071",
+      "discountedFare": "937"
     },
     {
       "fare": "1625",
@@ -517,8 +550,12 @@
       "discountedFare": "1213"
     },
     {
-      "fare": "1092",
-      "discountedFare": "955"
+      "fare": "1131",
+      "discountedFare": "989"
+    },
+    {
+      "fare": "1614",
+      "discountedFare": "1412"
     },
     {
       "fare": "1592",
@@ -533,6 +570,14 @@
       "discountedFare": "913"
     },
     {
+      "fare": "1749",
+      "discountedFare": "1530"
+    },
+    {
+      "fare": "789",
+      "discountedFare": "690"
+    },
+    {
       "fare": "1894",
       "discountedFare": "1657"
     },
@@ -541,12 +586,28 @@
       "discountedFare": "965"
     },
     {
+      "fare": "1778",
+      "discountedFare": "1555"
+    },
+    {
       "fare": "1167",
       "discountedFare": "1021"
     },
     {
-      "fare": "1429",
-      "discountedFare": "1250"
+      "fare": "1545",
+      "discountedFare": "1351"
+    },
+    {
+      "fare": "1803",
+      "discountedFare": "1577"
+    },
+    {
+      "fare": "1073",
+      "discountedFare": "938"
+    },
+    {
+      "fare": "1418",
+      "discountedFare": "1240"
     }
   ],
   "isRTC": "0",
@@ -669,16 +730,17 @@
     }
   ],
   "gentsSeats": [
-    "15",
-    "19",
-    "18"
+    "8",
+    "10",
+    "12",
+    "UD2"
   ],
   "enableWhatsApp": "0",
   "enableFreeCancellation": "0",
   "restRoomSeats": [],
   "applicableAbsCancellationFee": "15",
-  "applicableCancPolicyIndex": 3,
-  "applicableCancPolicyPercentage": "20",
+  "applicableCancPolicyIndex": 4,
+  "applicableCancPolicyPercentage": "0",
   "assuredPartnerInfo": {
     "isEnable": "1",
     "autoselect": "1",
@@ -686,8 +748,8 @@
     "isLoginRequired": "0",
     "addTime": "360",
     "calcOnBaseFare": "1",
-    "amount": "9.5",
-    "strikeoffAmount": "9.5",
+    "amount": "3",
+    "strikeoffAmount": "3",
     "text": "Assured Benefits at",
     "benefits": [
       {
@@ -728,27 +790,19 @@
     ],
     "assuredSubTitles": [
       "150% refund on Bus Cancellations*",
-      "100% refund on Bus Delays & Plan Changes"
+      "100% refund on Bus Delays"
     ],
-    "expandTitle": "Secure your trip with Free Cancellation & instant refunds",
+    "expandTitle": "Secure your trip with instant refunds & 24/7 Customer service",
     "collapsedTitle": "Trip secured with Abhi Assured",
     "userCountTitle": "27 Lakh+ users secured their trip!",
     "userCountMessage": "1 Lakh+ travellers got 100% refund with AbhiAssured",
-    "addBenefitWidgetTitle": "Get Free Cancellation & instant refunds.",
-    "benefitDetailTitle": "Pay no charges when ticket is cancelled",
+    "addBenefitWidgetTitle": "Get Instant refunds & 24/7 Customer service.",
+    "benefitDetailTitle": "Get 150% refund* on Bus Service Cancellation",
     "benefitDetailSubTitle": "Refund : Upto 150% on Total Fare",
     "headerLogo": "https://static.abhibus.com/assured_lte_psngr/assured_lte_psngr.json",
     "successMessage": "Congrats. Your choice will be automatically applied to your future bookings",
     "preSelectedSuccessMsg": "This option is added as per your preference settings",
     "addonBenefits": [
-      {
-        "imageUrl": "https://static.abhibus.com/zeroassured/zeroassured.webp",
-        "title": "Zero Cancellation charges",
-        "subtitle": "if cancelled by you",
-        "refundMultiplier": 1,
-        "amountLabel": "100% refund",
-        "defaultIcon": "ic_0blue"
-      },
       {
         "imageUrl": "https://static.abhibus.com/1.5xassured/1.5xassured.5xassured",
         "title": "Travel Guarantee or 1.5x Refund",

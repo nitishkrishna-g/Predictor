@@ -2,7 +2,7 @@
   "SourceStationID": "2318",
   "DestinationStationID": "1064",
   "Route": "Bangalore-Coimbatore",
-  "JourneyDate": "2026-08-20",
+  "JourneyDate": "2026-08-24",
   "ServiceID": "15661566",
   "SeatLayoutID": "HYBRID (20 BERTH x 20 SEAT)- AC",
   "upperTotalRows": "5",
@@ -12,54 +12,54 @@
   "lowerDividerRow": "3",
   "upperDividerRow": "3",
   "maxNumberOfSeats": 6,
-  "tentativeSeats": "~~~~32.14^P^1134~20.41~~700~12.60~~1357~24.43~~1251~22.52^0^op",
+  "tentativeSeats": "~~~~26.18^P^970~17.46~~741~13.34~~1188~21.38~~1079~19.42^0^op",
   "TotalSeatList": {
     "lowerdeck_seat_nos": [
-      "1, 1, 1, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "3, 1, 2, SS, N, F, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "5, 1, 3, SS, N, F, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "7, 1, 4, SS, N, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "9, 1, 5, SS, N, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "11, 1, 6, SS, N, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "13, 1, 7, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "15, 1, 8, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "17, 1, 9, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "19, 1, 10, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "2, 2, 1, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "4, 2, 2, SS, N, F, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "6, 2, 3, SS, Y, F, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "8, 2, 4, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "10, 2, 5, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "12, 2, 6, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "14, 2, 7, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "16, 2, 8, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "18, 2, 9, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "20, 2, 10, SS, Y, M, 700, 0, 126.00, 0.00, 0, 0,h,700",
-      "3L, 4, 1, LB, N, M, 1357, 0, 244.00, 0.00, 0, 0,h,1357",
-      "6L, 4, 3, LB, N, F, 1357, 0, 244.00, 0.00, 0, 0,h,1357",
-      "9L, 4, 5, LB, Y, M, 1357, 0, 244.00, 0.00, 0, 0,h,1357",
-      "12L, 4, 7, LB, Y, M, 1357, 0, 244.00, 0.00, 0, 0,h,1357",
-      "15L, 4, 9, LB, Y, M, 1357, 0, 244.00, 0.00, 0, 0,h,1357"
+      "1, 1, 1, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "3, 1, 2, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "5, 1, 3, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "7, 1, 4, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "9, 1, 5, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "11, 1, 6, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "13, 1, 7, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "15, 1, 8, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "17, 1, 9, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "19, 1, 10, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "2, 2, 1, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "4, 2, 2, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "6, 2, 3, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "8, 2, 4, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "10, 2, 5, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "12, 2, 6, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "14, 2, 7, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "16, 2, 8, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "18, 2, 9, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "20, 2, 10, SS, Y, M, 741, 0, 133.00, 0.00, 0, 0,h,741",
+      "3L, 4, 1, LB, N, M, 1188, 0, 214.00, 0.00, 0, 0,h,1188",
+      "6L, 4, 3, LB, Y, M, 1188, 0, 214.00, 0.00, 0, 0,h,1188",
+      "9L, 4, 5, LB, Y, M, 1188, 0, 214.00, 0.00, 0, 0,h,1188",
+      "12L, 4, 7, LB, Y, M, 1188, 0, 214.00, 0.00, 0, 0,h,1188",
+      "15L, 4, 9, LB, Y, M, 1188, 0, 214.00, 0.00, 0, 0,h,1188"
     ],
     "upperdeck_seat_nos": [
-      "1U, 1, 1, UB, Y, M, 1134, 0, 204.00, 0.00, 0, 0,h,1134",
-      "4U, 1, 3, UB, Y, M, 1134, 0, 204.00, 0.00, 0, 0,h,1134",
-      "7U, 1, 5, UB, Y, M, 1134, 0, 204.00, 0.00, 0, 0,h,1134",
-      "10U, 1, 7, UB, Y, M, 1134, 0, 204.00, 0.00, 0, 0,h,1134",
-      "13U, 1, 9, UB, Y, M, 1134, 0, 204.00, 0.00, 0, 0,h,1134",
-      "2U, 2, 1, UB, Y, M, 1134, 0, 204.00, 0.00, 0, 0,h,1134",
-      "5U, 2, 3, UB, Y, M, 1134, 0, 204.00, 0.00, 0, 0,h,1134",
-      "8U, 2, 5, UB, Y, M, 1134, 0, 204.00, 0.00, 0, 0,h,1134",
-      "11U, 2, 7, UB, Y, M, 1134, 0, 204.00, 0.00, 0, 0,h,1134",
-      "14U, 2, 9, UB, Y, M, 1134, 0, 204.00, 0.00, 0, 0,h,1134",
-      "3U, 5, 1, UB, Y, M, 1251, 0, 225.00, 0.00, 0, 0,h,1251",
-      "6U, 5, 3, UB, Y, M, 1251, 0, 225.00, 0.00, 0, 0,h,1251",
-      "9U, 5, 5, UB, Y, M, 1251, 0, 225.00, 0.00, 0, 0,h,1251",
-      "12U, 5, 7, UB, Y, M, 1251, 0, 225.00, 0.00, 0, 0,h,1251",
-      "15U, 5, 9, UB, Y, M, 1251, 0, 225.00, 0.00, 0, 0,h,1251"
+      "1U, 1, 1, UB, Y, M, 970, 0, 175.00, 0.00, 0, 0,h,970",
+      "4U, 1, 3, UB, Y, M, 970, 0, 175.00, 0.00, 0, 0,h,970",
+      "7U, 1, 5, UB, Y, M, 970, 0, 175.00, 0.00, 0, 0,h,970",
+      "10U, 1, 7, UB, Y, M, 970, 0, 175.00, 0.00, 0, 0,h,970",
+      "13U, 1, 9, UB, Y, M, 970, 0, 175.00, 0.00, 0, 0,h,970",
+      "2U, 2, 1, UB, Y, M, 970, 0, 175.00, 0.00, 0, 0,h,970",
+      "5U, 2, 3, UB, Y, M, 970, 0, 175.00, 0.00, 0, 0,h,970",
+      "8U, 2, 5, UB, Y, M, 970, 0, 175.00, 0.00, 0, 0,h,970",
+      "11U, 2, 7, UB, Y, M, 970, 0, 175.00, 0.00, 0, 0,h,970",
+      "14U, 2, 9, UB, Y, M, 970, 0, 175.00, 0.00, 0, 0,h,970",
+      "3U, 5, 1, UB, Y, M, 1079, 0, 194.00, 0.00, 0, 0,h,1079",
+      "6U, 5, 3, UB, Y, M, 1079, 0, 194.00, 0.00, 0, 0,h,1079",
+      "9U, 5, 5, UB, N, M, 1079, 0, 194.00, 0.00, 0, 0,h,1079",
+      "12U, 5, 7, UB, Y, M, 1079, 0, 194.00, 0.00, 0, 0,h,1079",
+      "15U, 5, 9, UB, Y, M, 1079, 0, 194.00, 0.00, 0, 0,h,1079"
     ]
   },
-  "seatLayoutUniqueId": "~~~~32.14^P^1134~20.41~~700~12.60~~1357~24.43~~1251~22.52^0^op^ASSURED",
+  "seatLayoutUniqueId": "~~~~26.18^P^970~17.46~~741~13.34~~1188~21.38~~1079~19.42^0^op^ASSURED",
   "isAcSeat": null,
   "titles": [
     "Seat Number",
@@ -87,7 +87,7 @@
       "placeId": "901",
       "landMark": "Near Bus stop, Green line Metro-18002679001",
       "placeTimeTwfFormat": "20:26",
-      "dt": "2026-08-20 20:26",
+      "dt": "2026-08-24 20:26",
       "latlong": null
     },
     {
@@ -96,7 +96,7 @@
       "placeId": "146",
       "landMark": "Metro Station Main Gate-18002679001",
       "placeTimeTwfFormat": "20:35",
-      "dt": "2026-08-20 20:35",
+      "dt": "2026-08-24 20:35",
       "latlong": null
     },
     {
@@ -105,7 +105,7 @@
       "placeId": "866",
       "landMark": "Near Metro Entrance-18002679001",
       "placeTimeTwfFormat": "20:40",
-      "dt": "2026-08-20 20:40",
+      "dt": "2026-08-24 20:40",
       "latlong": null
     },
     {
@@ -114,7 +114,7 @@
       "placeId": "495",
       "landMark": "After Hebbal Flyover, Srvc Rd, Vayunandana Layout, Hebbal Kempapura-18002679001",
       "placeTimeTwfFormat": "21:15",
-      "dt": "2026-08-20 21:15",
+      "dt": "2026-08-24 21:15",
       "latlong": null
     },
     {
@@ -123,7 +123,7 @@
       "placeId": "496",
       "landMark": "Indian Oil Petrol Bunk, Manyata Tech Park, Nagavara-18002679001",
       "placeTimeTwfFormat": "21:25",
-      "dt": "2026-08-20 21:25",
+      "dt": "2026-08-24 21:25",
       "latlong": null
     },
     {
@@ -132,7 +132,7 @@
       "placeId": "498",
       "landMark": "Near Ramamurthy Nagar Skywalk-18002679001",
       "placeTimeTwfFormat": "21:40",
-      "dt": "2026-08-20 21:40",
+      "dt": "2026-08-24 21:40",
       "latlong": null
     },
     {
@@ -141,7 +141,7 @@
       "placeId": "154",
       "landMark": "NH 44, Krishna Reddy Industrial Estat-18002679001",
       "placeTimeTwfFormat": "21:45",
-      "dt": "2026-08-20 21:45",
+      "dt": "2026-08-24 21:45",
       "latlong": null
     },
     {
@@ -150,7 +150,7 @@
       "placeId": "516",
       "landMark": "Near Railway Station Bus Stop, Below Flyover, Dooravani Nagar-18002679001",
       "placeTimeTwfFormat": "21:55",
-      "dt": "2026-08-20 21:55",
+      "dt": "2026-08-24 21:55",
       "latlong": null
     },
     {
@@ -159,7 +159,7 @@
       "placeId": "500",
       "landMark": "Near Kalamandir, Marathahalli-Sarjapur ORR-18002679001",
       "placeTimeTwfFormat": "22:15",
-      "dt": "2026-08-20 22:15",
+      "dt": "2026-08-24 22:15",
       "latlong": null
     },
     {
@@ -168,7 +168,7 @@
       "placeId": "502",
       "landMark": "Near Ecospace Skywalk, Adarsh Palm Retreat, Bellandur-18002679001",
       "placeTimeTwfFormat": "22:30",
-      "dt": "2026-08-20 22:30",
+      "dt": "2026-08-24 22:30",
       "latlong": null
     },
     {
@@ -177,7 +177,7 @@
       "placeId": "391",
       "landMark": "Near Dargah, Besides Happiest Mind Bldg-18002679001",
       "placeTimeTwfFormat": "23:00",
-      "dt": "2026-08-20 23:00",
+      "dt": "2026-08-24 23:00",
       "latlong": null
     },
     {
@@ -186,7 +186,7 @@
       "placeId": "392",
       "landMark": "Silk Board Skywalk Bridge Rupana Agrahara Bus stop-18002679001",
       "placeTimeTwfFormat": "23:05",
-      "dt": "2026-08-20 23:05",
+      "dt": "2026-08-24 23:05",
       "latlong": null
     },
     {
@@ -195,7 +195,7 @@
       "placeId": "400",
       "landMark": "Near Electronic City Toll Gate-18002679001",
       "placeTimeTwfFormat": "23:15",
-      "dt": "2026-08-20 23:15",
+      "dt": "2026-08-24 23:15",
       "latlong": null
     },
     {
@@ -204,7 +204,7 @@
       "placeId": "393",
       "landMark": "Tranquil City, Bommasandra Village-18002679001",
       "placeTimeTwfFormat": "23:30",
-      "dt": "2026-08-20 23:30",
+      "dt": "2026-08-24 23:30",
       "latlong": null
     },
     {
@@ -213,7 +213,7 @@
       "placeId": "394",
       "landMark": "Near Toll Plaza-18002679001",
       "placeTimeTwfFormat": "23:40",
-      "dt": "2026-08-20 23:40",
+      "dt": "2026-08-24 23:40",
       "latlong": null
     }
   ],
@@ -239,12 +239,12 @@
   ],
   "busStartDate": null,
   "faresList": [
-    "700",
-    "1134",
-    "1251",
-    "1357"
+    "741",
+    "970",
+    "1079",
+    "1188"
   ],
-  "serviceNo": "1010#2318#1064#1566#1566#12791#20082026#11:00 PM#11:00 PM#2",
+  "serviceNo": "1010#2318#1064#1566#1566#12791#24082026#11:00 PM#11:00 PM#2",
   "isToShowSeatTypes": "1",
   "droppingPoints": [
     {
@@ -252,7 +252,7 @@
       "placeTime": "05:42 AM",
       "placeId": "469",
       "placeTimeTwfFormat": "05:42",
-      "dt": "2026-08-21 05:42",
+      "dt": "2026-08-25 05:42",
       "landMark": "",
       "latlong": ""
     },
@@ -261,7 +261,7 @@
       "placeTime": "05:50 AM",
       "placeId": "471",
       "placeTimeTwfFormat": "05:50",
-      "dt": "2026-08-21 05:50",
+      "dt": "2026-08-25 05:50",
       "landMark": "",
       "latlong": ""
     },
@@ -270,7 +270,7 @@
       "placeTime": "05:55 AM",
       "placeId": "467",
       "placeTimeTwfFormat": "05:55",
-      "dt": "2026-08-21 05:55",
+      "dt": "2026-08-25 05:55",
       "landMark": "",
       "latlong": ""
     },
@@ -279,7 +279,7 @@
       "placeTime": "05:58 AM",
       "placeId": "468",
       "placeTimeTwfFormat": "05:58",
-      "dt": "2026-08-21 05:58",
+      "dt": "2026-08-25 05:58",
       "landMark": "",
       "latlong": ""
     },
@@ -288,7 +288,7 @@
       "placeTime": "06:01 AM",
       "placeId": "473",
       "placeTimeTwfFormat": "06:01",
-      "dt": "2026-08-21 06:01",
+      "dt": "2026-08-25 06:01",
       "landMark": "",
       "latlong": ""
     },
@@ -297,7 +297,7 @@
       "placeTime": "06:04 AM",
       "placeId": "470",
       "placeTimeTwfFormat": "06:04",
-      "dt": "2026-08-21 06:04",
+      "dt": "2026-08-25 06:04",
       "landMark": "",
       "latlong": ""
     },
@@ -306,7 +306,7 @@
       "placeTime": "06:10 AM",
       "placeId": "465",
       "placeTimeTwfFormat": "06:10",
-      "dt": "2026-08-21 06:10",
+      "dt": "2026-08-25 06:10",
       "landMark": "",
       "latlong": ""
     },
@@ -315,65 +315,65 @@
       "placeTime": "06:13 AM",
       "placeId": "472",
       "placeTimeTwfFormat": "06:13",
-      "dt": "2026-08-21 06:13",
+      "dt": "2026-08-25 06:13",
       "landMark": "",
       "latlong": ""
     }
   ],
   "fareListCount": {
-    "700": "14",
-    "1357": "3",
-    "1134": "10",
-    "1251": "5"
+    "741": "20",
+    "1188": "4",
+    "970": "10",
+    "1079": "4"
   },
   "sourceStateName": null,
   "sourceStateCode": "",
   "travelerAgentName": "NueGo",
-  "startTimeDateFormat": "2026-08-20 23:00",
+  "startTimeDateFormat": "2026-08-24 23:00",
   "servicesKey": null,
   "busTypeName": "HYBRID (20 BERTH x 20 SEAT)- AC",
   "cancellationsPolicy": [
     {
-      "cc": "Rs. 525",
+      "cc": "Rs. 556",
       "rp": "75%",
-      "tl": "Rs 525 /- @ 75% refund",
-      "con": "Before 20-Aug 08:26"
+      "tl": "Rs 556 /- @ 75% refund",
+      "con": "Before 24-Aug 08:26"
     },
     {
-      "cc": "Rs. 350",
+      "cc": "Rs. 371",
       "rp": "50%",
-      "tl": "Rs 350 /- @ 50% refund",
-      "con": "Between 20-Aug 08:26 & 20-Aug 12:26"
+      "tl": "Rs 371 /- @ 50% refund",
+      "con": "Between 24-Aug 08:26 & 24-Aug 12:26"
     },
     {
       "cc": "Rs. 0",
       "rp": "0%",
       "tl": "Rs 0 /- @ 0% refund",
-      "con": "Between 20-Aug 12:26 & 20-Aug 20:24"
+      "con": "Between 24-Aug 12:26 & 24-Aug 20:24"
     },
     {
       "cc": "Rs. 0",
       "rp": "0%",
       "tl": "Rs 0 /- @ 0% refund",
-      "con": "After 20-Aug 12:26"
+      "con": "After 24-Aug 12:26"
     }
   ],
   "offerFaresList": [
     {
-      "fare": "700",
-      "discountedFare": "700"
+      "fare": "741",
+      "discountedFare": "741"
     },
     {
-      "fare": "1357",
-      "discountedFare": "1357"
+      "fare": "1188",
+      "discountedFare": "1188"
     },
     {
-      "fare": "1134",
-      "discountedFare": "1134"
+      "fare": "970",
+      "discountedFare": "970"
     },
     {
-      "fare": "1251",
-      "discountedFare": "1251"
+      "fare": "1079",
+      "discountedFare": "1079"
     }
   ],
   "isRTC": "0",
@@ -463,11 +463,7 @@
       "insuranceIcon": "https://static.abhibus.com/tata_aig_global/tata_aig_global.webp"
     }
   ],
-  "gentsSeats": [
-    "8",
-    "10",
-    "12"
-  ],
+  "gentsSeats": [],
   "enableWhatsApp": "0",
   "enableFreeCancellation": "0",
   "restRoomSeats": [],

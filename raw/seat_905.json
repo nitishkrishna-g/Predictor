@@ -2,7 +2,7 @@
   "SourceStationID": "14",
   "DestinationStationID": "7",
   "Route": "COIMBATORE-Bangalore",
-  "JourneyDate": "2026-08-24",
+  "JourneyDate": "2026-08-18",
   "ServiceID": "905",
   "SeatLayoutID": "AC Sleeper/Seater (2+1)",
   "upperTotalRows": "4",
@@ -15,51 +15,51 @@
   "tentativeSeats": "~~~~5^P^^0^op",
   "TotalSeatList": {
     "lowerdeck_seat_nos": [
-      "1, 1, 1, SS, Y, M, 659, 0, 32.95, 0.00, 0, 0,h,593",
-      "3, 1, 2, SS, Y, M, 659, 0, 32.95, 0.00, 0, 0,h,593",
-      "5, 1, 3, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
-      "7, 1, 4, SS, N, M, 0, 0, 0.00, 0.00, 0, 0,h,0",
-      "9, 1, 5, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
+      "1, 1, 1, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "3, 1, 2, SS, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "5, 1, 3, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "7, 1, 4, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "9, 1, 5, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
       "11, 1, 6, SS, N, M, 0, 0, 0.00, 0.00, 0, 0,h,0",
-      "13, 1, 7, SS, N, M, 0, 0, 0.00, 0.00, 0, 0,h,0",
-      "15, 1, 8, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
-      "17, 1, 9, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
-      "19, 1, 10, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
-      "21, 1, 11, SS, Y, M, 569, 0, 28.45, 0.00, 0, 0,h,512",
-      "2, 2, 1, SS, Y, M, 659, 0, 32.95, 0.00, 0, 0,h,593",
-      "4, 2, 2, SS, Y, M, 659, 0, 32.95, 0.00, 0, 0,h,593",
-      "6, 2, 3, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
-      "8, 2, 4, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
-      "10, 2, 5, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
-      "12, 2, 6, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
-      "14, 2, 7, SS, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
-      "16, 2, 8, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
-      "18, 2, 9, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
-      "20, 2, 10, SS, Y, M, 719, 0, 35.95, 0.00, 0, 0,h,647",
-      "22, 2, 11, SS, Y, M, 569, 0, 28.45, 0.00, 0, 0,h,512",
-      "1L, 4, 1, LB, Y, M, 1199, 0, 59.95, 0.00, 0, 0,h,1079",
-      "2L, 4, 3, LB, Y, M, 1199, 0, 59.95, 0.00, 0, 0,h,1079",
-      "3L, 4, 5, LB, Y, M, 1199, 0, 59.95, 0.00, 0, 0,h,1079",
-      "4L, 4, 7, LB, Y, M, 1199, 0, 59.95, 0.00, 0, 0,h,1079",
-      "5L, 4, 9, LB, Y, M, 1119, 0, 55.95, 0.00, 0, 0,h,1007",
+      "13, 1, 7, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "15, 1, 8, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "17, 1, 9, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "19, 1, 10, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "21, 1, 11, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "2, 2, 1, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "4, 2, 2, SS, N, M, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "6, 2, 3, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "8, 2, 4, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "10, 2, 5, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "12, 2, 6, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "14, 2, 7, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "16, 2, 8, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "18, 2, 9, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "20, 2, 10, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "22, 2, 11, SS, Y, M, 443, 0, 22.15, 0.00, 0, 0,h,398",
+      "1L, 4, 1, LB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "2L, 4, 3, LB, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "3L, 4, 5, LB, N, M, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "4L, 4, 7, LB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "5L, 4, 9, LB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
       "23, 4, 11, SS, N, M, 0, 0, 0.00, 0.00, 0, 0,h,0"
     ],
     "upperdeck_seat_nos": [
-      "3U, 1, 1, UB, Y, M, 949, 0, 47.45, 0.00, 0, 0,h,854",
-      "6U, 1, 3, UB, Y, M, 1029, 0, 51.45, 0.00, 0, 0,h,926",
-      "9U, 1, 5, UB, Y, M, 1029, 0, 51.45, 0.00, 0, 0,h,926",
-      "12U, 1, 7, UB, Y, M, 949, 0, 47.45, 0.00, 0, 0,h,854",
-      "15U, 1, 9, UB, Y, M, 859, 0, 42.95, 0.00, 0, 0,h,773",
-      "2U, 2, 1, UB, Y, M, 949, 0, 47.45, 0.00, 0, 0,h,854",
-      "5U, 2, 3, UB, Y, M, 1029, 0, 51.45, 0.00, 0, 0,h,926",
-      "8U, 2, 5, UB, Y, M, 1029, 0, 51.45, 0.00, 0, 0,h,926",
-      "11U, 2, 7, UB, Y, M, 949, 0, 47.45, 0.00, 0, 0,h,854",
-      "14U, 2, 9, UB, Y, M, 859, 0, 42.95, 0.00, 0, 0,h,773",
-      "1U, 4, 1, UB, Y, M, 1119, 0, 55.95, 0.00, 0, 0,h,1007",
-      "4U, 4, 3, UB, Y, M, 1119, 0, 55.95, 0.00, 0, 0,h,1007",
-      "7U, 4, 5, UB, Y, M, 1119, 0, 55.95, 0.00, 0, 0,h,1007",
-      "10U, 4, 7, UB, Y, M, 1119, 0, 55.95, 0.00, 0, 0,h,1007",
-      "13U, 4, 9, UB, Y, M, 1029, 0, 51.45, 0.00, 0, 0,h,926"
+      "3U, 1, 1, UB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "6U, 1, 3, UB, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "9U, 1, 5, UB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "12U, 1, 7, UB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "15U, 1, 9, UB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "2U, 2, 1, UB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "5U, 2, 3, UB, N, M, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "8U, 2, 5, UB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "11U, 2, 7, UB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "14U, 2, 9, UB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "1U, 4, 1, UB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "4U, 4, 3, UB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "7U, 4, 5, UB, N, F, 0, 0, 0.00, 0.00, 0, 0,h,0",
+      "10U, 4, 7, UB, Y, M, 632, 0, 31.60, 0.00, 0, 0,h,568",
+      "13U, 4, 9, UB, N, M, 0, 0, 0.00, 0.00, 0, 0,h,0"
     ]
   },
   "seatLayoutUniqueId": "~~~~5^P^^0^op^ASSURED",
@@ -90,7 +90,7 @@
       "placeId": "2476",
       "landMark": "Infront of Damro Furniture showroom, Opp to Omni Bus Stand-7075511729",
       "placeTimeTwfFormat": "08:45",
-      "dt": "2026-08-24 08:45",
+      "dt": "2026-08-18 08:45",
       "latlong": "11.023253, 76.972312"
     },
     {
@@ -99,7 +99,7 @@
       "placeId": "2725",
       "landMark": "Infront Of TTDC Hotel Tamilnadu Covai,(Opposite to Central Bus stand)-7075511729",
       "placeTimeTwfFormat": "08:50",
-      "dt": "2026-08-24 08:50",
+      "dt": "2026-08-18 08:50",
       "latlong": "11.01379, 76.967867"
     },
     {
@@ -108,7 +108,7 @@
       "placeId": "2726",
       "landMark": "Near Airtel Office-7075511729",
       "placeTimeTwfFormat": "08:55",
-      "dt": "2026-08-24 08:55",
+      "dt": "2026-08-18 08:55",
       "latlong": "11.0142851, 76.987537"
     },
     {
@@ -117,7 +117,7 @@
       "placeId": "2727",
       "landMark": "Infront of KTM Showroom-7075511729",
       "placeTimeTwfFormat": "09:00",
-      "dt": "2026-08-24 09:00",
+      "dt": "2026-08-18 09:00",
       "latlong": "11.0210789, 76.9936147"
     },
     {
@@ -126,7 +126,7 @@
       "placeId": "2478",
       "landMark": "Near Pillar No 97-7075511729",
       "placeTimeTwfFormat": "09:05",
-      "dt": "2026-08-24 09:05",
+      "dt": "2026-08-18 09:05",
       "latlong": "11.0271532, 77.0226788"
     },
     {
@@ -135,7 +135,7 @@
       "placeId": "2479",
       "landMark": "In Kalapatti Road Junction, Opp Coimbatore Airport Road-7075511729",
       "placeTimeTwfFormat": "09:10",
-      "dt": "2026-08-24 09:10",
+      "dt": "2026-08-18 09:10",
       "latlong": "11.0385, 77.0378"
     },
     {
@@ -144,7 +144,7 @@
       "placeId": "2480",
       "landMark": "Infront of Sri Sri Pazhamudir Nilayam, Next to KMCH Hospital-7075511729",
       "placeTimeTwfFormat": "09:15",
-      "dt": "2026-08-24 09:15",
+      "dt": "2026-08-18 09:15",
       "latlong": "11.0421, 77.0425"
     },
     {
@@ -153,7 +153,7 @@
       "placeId": "2481",
       "landMark": "Near Bus Stop-7075511729",
       "placeTimeTwfFormat": "09:20",
-      "dt": "2026-08-24 09:20",
+      "dt": "2026-08-18 09:20",
       "latlong": "11.055, 77.0647"
     },
     {
@@ -162,7 +162,7 @@
       "placeId": "2482",
       "landMark": "Infront of Dindigul Thalappakatti Biriyani-7075511729",
       "placeTimeTwfFormat": "09:25",
-      "dt": "2026-08-24 09:25",
+      "dt": "2026-08-18 09:25",
       "latlong": "11.0615, 77.0866"
     },
     {
@@ -171,7 +171,7 @@
       "placeId": "2483",
       "landMark": "After Kaniyur Toll Plaza, Near Public Toilet-7075511729",
       "placeTimeTwfFormat": "09:35",
-      "dt": "2026-08-24 09:35",
+      "dt": "2026-08-18 09:35",
       "latlong": "11.0959, 77.1524"
     }
   ],
@@ -258,16 +258,10 @@
       "image": "https://static.abhibus.com/img/app/GPS_Tracking.png"
     }
   ],
-  "busStartDate": "1~&~0=+35.95& +719.00=+35.95& +1199.00=+59.95& +659.00=+32.95& +569.00=+28.45& +1119.00=0& +949.00=0& +1029.00=0& +859.00=0",
+  "busStartDate": "1~&~+443.00=+22.15& 0=0& +632.00=0",
   "faresList": [
-    "512",
-    "593",
-    "647",
-    "773",
-    "854",
-    "926",
-    "1007",
-    "1079"
+    "398",
+    "568"
   ],
   "serviceNo": "CBE-BNG-AC-SE/SL-0845",
   "isToShowSeatTypes": "1",
@@ -277,7 +271,7 @@
       "placeTime": "04:40 PM",
       "placeId": "716",
       "placeTimeTwfFormat": "16:40",
-      "dt": "2026-08-24 16:40",
+      "dt": "2026-08-18 16:40",
       "landMark": "Near NR Hospital towards Electronic City-7075511729",
       "latlong": "12.776727, 77.776891"
     },
@@ -286,7 +280,7 @@
       "placeTime": "05:00 PM",
       "placeId": "1478",
       "placeTimeTwfFormat": "17:00",
-      "dt": "2026-08-24 17:00",
+      "dt": "2026-08-18 17:00",
       "landMark": "Infront of Adyar Ananda Bhavan Hotel-7075511729",
       "latlong": "12.807407, 77.698233"
     },
@@ -295,7 +289,7 @@
       "placeTime": "05:10 PM",
       "placeId": "717",
       "placeTimeTwfFormat": "17:10",
-      "dt": "2026-08-24 17:10",
+      "dt": "2026-08-18 17:10",
       "landMark": "Near Skywalk-7075511729",
       "latlong": "12.847216, 77.671013"
     },
@@ -304,7 +298,7 @@
       "placeTime": "05:20 PM",
       "placeId": "718",
       "placeTimeTwfFormat": "17:20",
-      "dt": "2026-08-24 17:20",
+      "dt": "2026-08-18 17:20",
       "landMark": "Infront of Mahindra Showroom-7075511729",
       "latlong": "12.912277, 77.625496"
     },
@@ -313,7 +307,7 @@
       "placeTime": "05:25 PM",
       "placeId": "719",
       "placeTimeTwfFormat": "17:25",
-      "dt": "2026-08-24 17:25",
+      "dt": "2026-08-18 17:25",
       "landMark": "Infront of Savoury Business Hotel-7075511729",
       "latlong": "12.926004, 77.617152"
     },
@@ -322,7 +316,7 @@
       "placeTime": "05:30 PM",
       "placeId": "1479",
       "placeTimeTwfFormat": "17:30",
-      "dt": "2026-08-24 17:30",
+      "dt": "2026-08-18 17:30",
       "landMark": "Infront of St Anthony s Friary Church-7075511729",
       "latlong": "12.930173, 77.614636"
     },
@@ -331,7 +325,7 @@
       "placeTime": "06:05 PM",
       "placeId": "59",
       "placeTimeTwfFormat": "18:05",
-      "dt": "2026-08-24 18:05",
+      "dt": "2026-08-18 18:05",
       "landMark": "Infront of Shantala Silk and Sarees, OPP to Kempegowda Bus Station Terminal 3-7075511729",
       "latlong": "12.974229574033208, 77.5714494773302"
     },
@@ -340,7 +334,7 @@
       "placeTime": "06:35 PM",
       "placeId": "2078",
       "placeTimeTwfFormat": "18:35",
-      "dt": "2026-08-24 18:35",
+      "dt": "2026-08-18 18:35",
       "landMark": "Near Pillar No 243, Rajaji Nagar Metro Station-7075511729",
       "latlong": "12.999473, 77.5499204"
     },
@@ -349,7 +343,7 @@
       "placeTime": "06:45 PM",
       "placeId": "2077",
       "placeTimeTwfFormat": "18:45",
-      "dt": "2026-08-24 18:45",
+      "dt": "2026-08-18 18:45",
       "landMark": "Near PIllar No 337, Yeswawntapura Metro Station-7075511729",
       "latlong": "13.0228744, 77.5506509"
     },
@@ -358,7 +352,7 @@
       "placeTime": "06:50 PM",
       "placeId": "2076",
       "placeTimeTwfFormat": "18:50",
-      "dt": "2026-08-24 18:50",
+      "dt": "2026-08-18 18:50",
       "landMark": "Near Pillar No 373, Goraguntepalya Metro Station-7075511729",
       "latlong": "13.0277983, 77.5416016"
     },
@@ -367,7 +361,7 @@
       "placeTime": "07:00 PM",
       "placeId": "2075",
       "placeTimeTwfFormat": "19:00",
-      "dt": "2026-08-24 19:00",
+      "dt": "2026-08-18 19:00",
       "landMark": "Near HP Petrol Station-7075511729",
       "latlong": "13.0333461, 77.5319219"
     },
@@ -376,89 +370,59 @@
       "placeTime": "07:05 PM",
       "placeId": "2074",
       "placeTimeTwfFormat": "19:05",
-      "dt": "2026-08-24 19:05",
+      "dt": "2026-08-18 19:05",
       "landMark": "Opp Pillar No 431, Peenya Industry Metro Station-7075511729",
       "latlong": "13.0357087, 77.525994"
     }
   ],
   "fareListCount": {
-    "593": "4",
-    "647": "12",
-    "512": "2",
-    "1079": "4",
-    "1007": "5",
-    "854": "4",
-    "926": "5",
-    "773": "2"
+    "398": "19",
+    "568": "14"
   },
   "sourceStateName": null,
   "sourceStateCode": "",
   "travelerAgentName": "Fresh Bus Electric",
-  "startTimeDateFormat": "2026-08-24 09:10",
+  "startTimeDateFormat": "2026-08-18 09:10",
   "servicesKey": null,
   "busTypeName": "AC Sleeper/Seater (2+1)",
   "cancellationsPolicy": [
     {
-      "cc": "Rs. 484",
+      "cc": "Rs. 377",
       "rp": "85%",
-      "tl": "Rs 484 /- @ 85% refund",
-      "con": "Before 23-Aug 08:45"
+      "tl": "Rs 377 /- @ 85% refund",
+      "con": "Before 17-Aug 08:45"
     },
     {
-      "cc": "Rs. 455",
+      "cc": "Rs. 354",
       "rp": "80%",
-      "tl": "Rs 455 /- @ 80% refund",
-      "con": "Between 23-Aug 08:45 & 23-Aug 20:45"
+      "tl": "Rs 354 /- @ 80% refund",
+      "con": "Between 17-Aug 08:45 & 17-Aug 20:45"
     },
     {
-      "cc": "Rs. 285",
+      "cc": "Rs. 222",
       "rp": "50%",
-      "tl": "Rs 285 /- @ 50% refund",
-      "con": "Between 23-Aug 20:45 & 24-Aug 02:45"
+      "tl": "Rs 222 /- @ 50% refund",
+      "con": "Between 17-Aug 20:45 & 18-Aug 02:45"
     },
     {
       "cc": "Rs. 0",
       "rp": "0%",
       "tl": "Rs 0 /- @ 0% refund",
-      "con": "After 24-Aug 02:45"
+      "con": "After 18-Aug 02:45"
     }
   ],
   "offerFaresList": [
     {
-      "fare": "659",
-      "discountedFare": "593"
-    },
-    {
-      "fare": "719",
-      "discountedFare": "647"
+      "fare": "443",
+      "discountedFare": "398"
     },
     {
       "fare": "0",
       "discountedFare": "0"
     },
     {
-      "fare": "569",
-      "discountedFare": "512"
-    },
-    {
-      "fare": "1199",
-      "discountedFare": "1079"
-    },
-    {
-      "fare": "1119",
-      "discountedFare": "1007"
-    },
-    {
-      "fare": "949",
-      "discountedFare": "854"
-    },
-    {
-      "fare": "1029",
-      "discountedFare": "926"
-    },
-    {
-      "fare": "859",
-      "discountedFare": "773"
+      "fare": "632",
+      "discountedFare": "568"
     }
   ],
   "isRTC": "0",
@@ -586,7 +550,6 @@
   ],
   "gentsSeats": [
     "21",
-    "8",
     "12",
     "22"
   ],
@@ -594,8 +557,8 @@
   "enableFreeCancellation": "0",
   "restRoomSeats": [],
   "applicableAbsCancellationFee": "15",
-  "applicableCancPolicyIndex": 0,
-  "applicableCancPolicyPercentage": "85",
+  "applicableCancPolicyIndex": 2,
+  "applicableCancPolicyPercentage": "50",
   "assuredPartnerInfo": {
     "isEnable": "1",
     "autoselect": "1",
@@ -603,8 +566,8 @@
     "isLoginRequired": "0",
     "addTime": "360",
     "calcOnBaseFare": "1",
-    "amount": "10.5",
-    "strikeoffAmount": "10.5",
+    "amount": "9.5",
+    "strikeoffAmount": "9.5",
     "text": "Assured Benefits at",
     "benefits": [
       {
@@ -890,15 +853,11 @@
   "enableBillingAddr": "0",
   "singleLadySeats": [
     "1L",
-    "2L",
-    "3L",
     "4L",
     "5L",
     "1U",
     "4U",
-    "7U",
-    "10U",
-    "13U"
+    "10U"
   ],
   "maxNumberOfSeatsCatCard": 4,
   "isReturnEnabled": "0",
